@@ -1,0 +1,143 @@
+const typ1 = document.getElementById('typ1');
+const prompt1 = document.getElementById('prompt1');
+const PS2 = document.getElementById('PS2');
+const typ2 = document.getElementById('typ2');
+const prompt2 = document.getElementById('prompt2');
+const PS3 = document.getElementById('PS3');
+const typend = document.getElementById('typend');
+const waiting = 100;
+const faster = 50;
+
+
+const YT = document.getElementById('youtube');
+
+
+function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+function usr(){
+const usrEl = document.getElementById('usr');
+
+var result = bowser.getParser(navigator.userAgent).getResult();
+usrEl.innerHTML = `${result.browser.name} (${result.os.name})`;
+}
+
+async function anim() {
+    typ1.innerHTML = `_`;
+    await sleep(500);
+    typ1.innerHTML = `n_`;
+    await sleep(waiting);
+    typ1.innerHTML = `ne_`;
+    await sleep(waiting);
+    typ1.innerHTML = `neo_`;
+    await sleep(waiting);
+    typ1.innerHTML = `neof_`;
+    await sleep(waiting);
+    typ1.innerHTML = `neofe_`;
+    await sleep(waiting);
+    typ1.innerHTML = `neofet_`;
+    await sleep(waiting);
+    typ1.innerHTML = `neofetc_`;
+    await sleep(waiting);
+    typ1.innerHTML = `neofetch_`;
+    await sleep(waiting);
+    typ1.innerHTML = `neofetch`;
+    prompt1.innerHTML = `<span id="orange">                      <span id="green2">XXXXXX</span>     orangexarot</span>@<span id="orange">website</span>
+<span id="orange">                    <span id="green2">XX++++XXXX</span>   </span>-------------------
+<span id="orange">              XXXX  <span id="green2">XX++XX++XX</span>   </span><span id="orange">OS</span>: CarrotOS
+<span id="orange">            XX++++XX<span id="green2">++XX++++XX</span>   </span><span id="orange">Kernel</span>: Linux
+<span id="orange">          XX++XX++++XX<span id="green2">++XXXX</span>     </span><span id="orange">Uptime</span>: <span id="timer">0m 0s</span>
+<span id="orange">        XX++++++XX++++XX         </span><span id="orange">Shell</span>: Bash
+<span id="orange">      XX++++++++++++++++XX       </span><span id="orange">Terminal</span>: <span id="usr">useragent</span>
+<span id="orange">    XX++++++++++++++++++XX       </span><span id="orange">Terminal Font</span>: Source Code Pro
+<span id="orange">    XX++++XX++++++++++XX         </span>
+<span id="orange">  XX++++++++XX++++++XX           </span><span id="colors"><span id="black">nev</span><span id="red2">er </span><span id="green2c">gon</span><span id="yellow2">na </span><span id="orange2">giv</span><span id="magenta2">e y</span><span id="cyan2">ou </span><span id="white2">up </span></span>
+<span id="orange">  XX++++XX++++XX++XX             </span><span id="colors"><span id="gray">nev</span><span id="red">er </span><span id="green">gon</span><span id="yellow">na </span><span id="orangec">let</span><span id="magenta"> yo</span><span id="cyan">u d</span><span id="white">own</span></span>
+<span id="orange">XX++++++++XX++XXXX               </span>
+<span id="orange">XX++++++++XXXX                   </span>
+<span id="orange">  XXXXXXXX                       </span>`;
+    
+    usr();
+
+    PS2.innerHTML = `[orangexarot@website ~]$ `;
+    typ2.innerHTML = `_`;
+    await sleep(700);
+    typ2.innerHTML = `l_`;
+    await sleep(waiting);
+    typ2.innerHTML = `ls_`;
+    await sleep(waiting);
+    typ2.innerHTML = `ls _`;
+    await sleep(waiting);
+    typ2.innerHTML = `ls -_`;
+    await sleep(waiting);
+    typ2.innerHTML = `ls -R_`;
+    await sleep(waiting);
+    typ2.innerHTML = `ls -R`;
+    
+    prompt2.innerHTML =`.:
+misc profiles
+
+./misc:
+<a target="_blank" href="misc/i.utile.html">utile.utile</a>
+
+./profiles:
+<a target="_blank" href="https://www.instagram.com/orangexarot/">instagram</a> <a target="_blank" href="https://www.reddit.com/user/OrangeXarot">reddit</a> <a target="_blank" href="https://www.tiktok.com/@orangexarot">tiktok</a> <a href="#" id="youtube">youtube</a>`;
+
+    const YT = document.getElementById('youtube');
+
+YT.onclick = async () => {
+    typend.innerHTML = `.`;
+    await sleep(faster);
+    typend.innerHTML = `./`;
+    await sleep(faster);
+    typend.innerHTML = `./p`;
+    await sleep(faster);
+    typend.innerHTML = `./pr`;
+    await sleep(faster);
+    typend.innerHTML = `./pro`;
+    await sleep(faster);
+    typend.innerHTML = `./prof`;
+    await sleep(faster);
+    typend.innerHTML = `./profi`;
+    await sleep(faster);
+    typend.innerHTML = `./profil`;
+    await sleep(faster);
+    typend.innerHTML = `./profile`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/y`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/yo`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/you`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/yout`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/youtu`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/youtub`;
+    await sleep(faster);
+    typend.innerHTML = `./profiles/youtube`;
+    await sleep(faster);
+    window.open("https://www.youtube.com/c/OrangeXarot", "_blank");
+
+
+}
+
+    PS3.innerHTML = `[orangexarot@website ~]$ `;
+    typend.innerHTML = `_`; 
+    
+
+
+}
+
+
+anim();
+
+
+
