@@ -178,7 +178,7 @@ bin misc profiles
 <a href="#" id="utile">utile.utile</a>
 
 ./profiles:
-<a href="#" id="instagram">instagram</a> <a href="#" id="reddit">reddit</a> <a href="#" id="tiktok">tiktok</a> <a href="#" id="youtube">youtube</a>`;
+<a href="#" id="github">github</a> <a href="#" id="instagram">instagram</a> <a href="#" id="reddit">reddit</a> <a href="#" id="tiktok">tiktok</a> <a href="#" id="youtube">youtube</a>`;
 
     PS3.innerHTML = `[orangexarot@website ~]$ `;
     typend.innerHTML = `_`;
@@ -188,6 +188,7 @@ bin misc profiles
     const NF = document.getElementById("neofetch");
     const UF = document.getElementById("uwufetch")
 
+    const GH = document.getElementById("github");
     const IG = document.getElementById("instagram");
     const RD = document.getElementById("reddit");
     const TT = document.getElementById("tiktok");
@@ -484,6 +485,48 @@ bin misc profiles
         await sleep(faster);
 
         window.open("https://www.tiktok.com/@orangexarot", "_blank");
+        preclear();
+    }
+
+    GH.onclick = async () => {
+        typend.innerHTML = `_`;
+        await sleep(faster);
+        typend.innerHTML = `._`;
+        await sleep(faster);
+        typend.innerHTML = `./_`;
+        await sleep(faster);
+        typend.innerHTML = `./p_`;
+        await sleep(faster);
+        typend.innerHTML = `./pr_`;
+        await sleep(faster);
+        typend.innerHTML = `./pro_`;
+        typend.innerHTML = `./prof_`;
+        await sleep(faster);
+        typend.innerHTML = `./profi_`;
+        await sleep(faster);
+        typend.innerHTML = `./profil_`;
+        await sleep(faster);
+        typend.innerHTML = `./profile_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles/_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles/g_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles/gi_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles/git_`;
+        typend.innerHTML = `./profiles/gith_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles/githu_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles/github_`;
+        await sleep(faster);
+        typend.innerHTML = `./profiles/github`;
+        await sleep(faster);
+
+        window.open("https://github.com/OrangeXarot/", "_blank");
         preclear();
     }
 
