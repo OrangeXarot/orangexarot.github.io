@@ -11,90 +11,90 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
         <style>
             *{
-            margin: 0;
-            padding: 0;
+                margin: 0;
+                padding: 0;
             }
             ::selection {
-            color: white;
-            background: #FF4F0099;
+                color: white;
+                background: #FF4F0099;
             }
             body{
-            color: white;
-            background: #10101E;
-            font-family: 'Source Code Pro';
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 16px;
+                color: white;
+                background: #10101E;
+                font-family: 'Source Code Pro';
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
             }
             h5  {
-            margin-top: 50px;
-            text-align: right;
-            padding: 0 5px;
+                margin-top: 50px;
+                text-align: right;
+                padding: 0 5px;
             }
             a:not(#channel)	{
-            color: white;
-            text-align: left;
-            text-decoration: none;
-            line-height: 22px;
-            padding-left: 20px;
-            padding-bottom: 10px;
+                color: white;
+                text-align: left;
+                text-decoration: none;
+                line-height: 22px;
+                padding-left: 20px;
+                padding-bottom: 10px;
             }
             a:hover:not(#channel){
-            color: #10101E;
+                color: #10101E;
             }
             #channel{
-            color: white;
-            text-decoration: none;
+                color: white;
+                text-decoration: none;
             }
             #links{
-            background: #10101E;
-            border: 3px solid #FF4F00;
-            border-radius: 5px;
-            box-shadow: 0 0 30px #FF4F00;
-            margin: 70px auto;
-            width: 240px;
-            text-align: left;
-            -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+                background: #10101E;
+                border: 3px solid #FF4F00;
+                border-radius: 5px;
+                box-shadow: 0 0 30px #FF4F00;
+                margin: 70px auto;
+                width: 240px;
+                text-align: left;
+                -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
             }
             #links:hover{
-            transition: .3s ;
-            background: #FF4F00;
+                transition: .3s ;
+                background: #FF4F00;
             }
             #links:hover h1{
-            transition: .3s ;
-            color: #10101E;
+                transition: .3s ;
+                color: #10101E;
             }
             h1  {
-            color: #FF4F00;
-            text-align: left;
-            text-decoration: none;
-            padding-left: 20px;
-            padding-bottom: 10px;
-            padding-top: 10px;
+                color: #FF4F00;
+                text-align: left;
+                text-decoration: none;
+                padding-left: 20px;
+                padding-bottom: 10px;
+                padding-top: 10px;
             }
             .time{
-            font-size: 60px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+                font-size: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             .time span:not(:last-child){
-            position: relative;
-            margin: 0 6px;
-            font-weight: 600;
-            text-align: center;
-            letter-spacing: 3px;
+                position: relative;
+                margin: 0 6px;
+                font-weight: 600;
+                text-align: center;
+                letter-spacing: 3px;
             }
             .time span:last-child{
-            font-size: 30px;
-            font-weight: 600;
-            text-transform: uppercase;
-            margin-top: 10px;
-            padding: 0 5px;
+                font-size: 30px;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-top: 10px;
+                padding: 0 5px;
             }
             #seconds{
-            color: #FF4F00;
+                color: #FF4F00;
             }
         </style>
     </head>
@@ -119,35 +119,35 @@
         </div>
         <script type="text/javascript">
             function updateClock(){
-                var now = new Date();
-                var hou = now.getHours(),
-                    min = now.getMinutes(),
-                    sec = now.getSeconds(),
-                    pe = "AM";
-                    
-                    if(hou == 0){
-                        hou = 12;
-                    }
-                    if(hou > 12){
-                    hou = hou - 12;
-                    pe = "PM";            
-                    } 
-                    
-                    Number.prototype.pad = function(digits){
-                    for (var n = this.toString(); n.length < digits; n = 0 + n);
-                    return n;
-                    }
-                    
-                    var ids = ["hour", "minutes", "seconds", "period"];
-                    var values = [hou.pad(2), min.pad(2), sec.pad(2), pe];
-                    for(var i = 0; i < ids.length; i++)
-                    document.getElementById(ids[i]).firstChild.nodeValue = values[i];
-            }
-            
+                            var now = new Date();
+                            var hou = now.getHours(),
+                                min = now.getMinutes(),
+                                sec = now.getSeconds(),
+                                pe = "AM";
+
+                            if(hou == 0){
+                                            hou = 12;
+                                        }
+                            if(hou > 12){
+                                            hou = hou - 12;
+                                            pe = "PM";            
+                                        } 
+
+                            Number.prototype.pad = function(digits){
+                                            for (var n = this.toString(); n.length < digits; n = 0 + n);
+                                            return n;
+                                        }
+
+                            var ids = ["hour", "minutes", "seconds", "period"];
+                            var values = [hou.pad(2), min.pad(2), sec.pad(2), pe];
+                            for(var i = 0; i < ids.length; i++)
+                                document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+                        }
+
             function initClock(){
-            updateClock();
-            window.setInterval("updateClock()", 1);
-            }
+                            updateClock();
+                            window.setInterval("updateClock()", 1);
+                        }
         </script> 
     </body>
 </html>

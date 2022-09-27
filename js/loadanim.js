@@ -130,7 +130,7 @@ async function uwufetch() {
     typ1.innerHTML = `uwufetch_`;
     await sleep(waiting);
     typ1.innerHTML = `uwufetch`;
-    
+
     prompt1.innerHTML = `<span id="orange">                      <span id="green2">//////</span>     orangexarot</span>@<span id="orange">website</span>
 <span id="orange">                    <span id="green2">//    ////</span>   </span>-------------------
 <span id="orange">              ////  <span id="green2">//  //  //</span>   </span><span id="orange">OwOS</span>: CawwotOwOS
@@ -193,7 +193,7 @@ bin misc profiles
     const RD = document.getElementById("reddit");
     const TT = document.getElementById("tiktok");
     const YT = document.getElementById("youtube");
-    
+
 
     CL.onclick = async () => {
         typend.innerHTML = `_`;
