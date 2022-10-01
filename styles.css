@@ -2,8 +2,8 @@ body {
     background: #000000;
     color: #FFFFFF;
     font-family: 'Source Code Pro', monospace;
-    line-height: 20px;
-    font-size:16px;
+    line-height: 32px;
+    font-size: 28px;
 }
 
 ::selection {
@@ -13,16 +13,18 @@ body {
 
 h1 {
     color: #FF4F00;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    width: max-content;
 }
 
 p {
-    font-size:16px;
+    font-size: 28px;
     width: max-content;
     white-space: pre;
     margin-bottom: 0;
     margin-top: 2px;
-    line-height: 18px;
+    line-height: 32px;
 }
 
 a,

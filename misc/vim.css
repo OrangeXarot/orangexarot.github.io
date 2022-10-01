@@ -1,0 +1,90 @@
+HTML {
+    height: 100%;
+}
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 34px;
+    font-size: 28px;
+}
+
+::selection {
+    color: #FFF;
+    background: #FF4F00;
+}
+
+h1 {
+    color: #FF4F00;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    width: max-content;
+
+}
+
+a,
+a:link,
+a:visited,
+a:active{
+    color: #FF4F00;
+}
+
+#text {
+    width: 60%; 
+}
+
+#carrot {
+    white-space: pre;
+}
+p {
+    font-size: 28px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    line-height: 32px;
+}
+
+#perc {
+    position: fixed;
+    right: 0;
+}
+
+#end {
+    color: #ffff00;
+}
+
+#back {
+    position: fixed;
+    right: 5%;
+    bottom: 2px;
+}
+
+footer {
+    background: #FFF;
+    color: #000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+}
+
+#textFooter {
+    white-space: pre;
+}
+
+#shh {
+    color: #00000000;
+}
+#orange {
+    color: #FF4F00;
+    font-weight: 800;
+}
+
+#green2 {
+    color: #009942;
+}
+
+#date {
+    color: #00FF6E;
+}

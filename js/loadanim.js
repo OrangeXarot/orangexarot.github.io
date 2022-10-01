@@ -175,7 +175,7 @@ bin misc profiles
 <a href="#" id="clear">clear</a> <a href="#" id="neofetch">neofetch</a> <a href="#" id="uwufetch">uwufetch</a>
 
 ./misc:
-<a href="#" id="utile">utile.utile</a>
+<a href="#" id="bio">biography.txt</a> <a href="#" id="utile">utile.utile</a>
 
 ./profiles:
 <a href="#" id="github">github</a> <a href="#" id="instagram">instagram</a> <a href="#" id="reddit">reddit</a> <a href="#" id="tiktok">tiktok</a> <a href="#" id="youtube">youtube</a>`;
@@ -183,6 +183,7 @@ bin misc profiles
     PS3.innerHTML = `[orangexarot@website ~]$ `;
     typend.innerHTML = `_`;
 
+    const BG = document.getElementById("bio");
     const UU = document.getElementById("utile");
     const CL = document.getElementById("clear");
     const NF = document.getElementById("neofetch");
@@ -500,6 +501,7 @@ bin misc profiles
         typend.innerHTML = `./pr_`;
         await sleep(faster);
         typend.innerHTML = `./pro_`;
+        await sleep(faster);
         typend.innerHTML = `./prof_`;
         await sleep(faster);
         typend.innerHTML = `./profi_`;
@@ -517,6 +519,7 @@ bin misc profiles
         typend.innerHTML = `./profiles/gi_`;
         await sleep(faster);
         typend.innerHTML = `./profiles/git_`;
+        await sleep(faster);
         typend.innerHTML = `./profiles/gith_`;
         await sleep(faster);
         typend.innerHTML = `./profiles/githu_`;
@@ -530,6 +533,59 @@ bin misc profiles
         preclear();
     }
 
+    BG.onclick = async () => {
+        typend.innerHTML = `_`;
+        await sleep(faster);
+        typend.innerHTML = `v_`;
+        await sleep(faster);
+        typend.innerHTML = `vi_`;
+        await sleep(faster);
+        typend.innerHTML = `vim_`;
+        await sleep(faster);
+        typend.innerHTML = `vim _`;
+        await sleep(faster);
+        typend.innerHTML = `vim m_`;
+        await sleep(faster);
+        typend.innerHTML = `vim mi_`;
+        await sleep(faster);
+        typend.innerHTML = `vim mis_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/b_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/bi_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/bio_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biog_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biogr_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biogra_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biograp_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biograph_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biography_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biography._`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biography.t_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biography.tx_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biography.txt_`;
+        await sleep(faster);
+        typend.innerHTML = `vim misc/biography.txt`;
+        await sleep(faster);
+
+    window.location.href = 'misc/biography.html';
+        preclear();
+    }
 }
 
 neofetch();
