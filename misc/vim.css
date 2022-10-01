@@ -31,7 +31,7 @@ a:active{
 }
 
 #text {
-    width: 60%; 
+    width: 80%; 
 }
 
 #carrot {
@@ -55,7 +55,7 @@ p {
 
 #back {
     position: fixed;
-    right: 5%;
+    right: 10%;
     bottom: 2px;
 }
 
