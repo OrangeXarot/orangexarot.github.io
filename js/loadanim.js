@@ -1,3 +1,5 @@
+console.log("btw the errors below here do not exist (;")
+
 const typ1 = document.getElementById("typ1");
 const prompt1 = document.getElementById("prompt1");
 const PS2 = document.getElementById("PS2");

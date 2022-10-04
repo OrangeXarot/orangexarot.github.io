@@ -2,8 +2,8 @@ body {
     background: #000000;
     color: #FFFFFF;
     font-family: 'Source Code Pro', monospace;
-    line-height: 32px;
-    font-size: 28px;
+    line-height:24px;
+    font-size: 20px;
 }
 
 ::selection {
@@ -19,12 +19,12 @@ h1 {
 }
 
 p {
-    font-size: 28px;
+    font-size: 20px;
     width: max-content;
     white-space: pre;
     margin-bottom: 0;
     margin-top: 2px;
-    line-height: 32px;
+    line-height: 24px;
 }
 
 a,
@@ -32,6 +32,12 @@ a:link,
 a:visited,
 a:active{
     color: #FF4F00;
+}
+
+#spins {
+    position: fixed;
+    right: 5%;
+    top: 5%;
 }
 
 #orange {

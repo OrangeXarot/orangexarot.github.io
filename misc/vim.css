@@ -6,8 +6,8 @@ body {
     background: #000000;
     color: #FFFFFF;
     font-family: 'Source Code Pro', monospace;
-    line-height: 34px;
-    font-size: 28px;
+    line-height: 24px;
+    font-size: 20px;
 }
 
 ::selection {
@@ -38,10 +38,10 @@ a:active{
     white-space: pre;
 }
 p {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 0;
     margin-top: 2px;
-    line-height: 32px;
+    line-height: 24px;
 }
 
 #perc {
@@ -65,7 +65,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 34px;
+    height: 28px;
     width: 100%;
 }
 
