@@ -3,12 +3,67 @@ HTML {
 }
 
 body {
-    background: #000000;
+    background: #0c0c0c;
     color: #FFFFFF;
     font-family: 'Source Code Pro', monospace;
-    line-height: 24px;
+    line-height:24px;
     font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+#terminal::-webkit-scrollbar {
+    display: none;
+}
+
+#terminal {
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin: 10px;
+    background: #000;
+    border-radius: 25px;
+    height: 80vh;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid;
+    border-color: #FF4F00;
+}
+
+#dot1, #dot2, #dot3 {
+    background: #FF4F00;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 90px;
+    border-radius: 25px;
+}
+
+#dot1 {
+    background: #FF4F00;
+    right: 30px;
+}
+
+#dot2 {
+    background: #ffff00;
+    right: 60px;
+}
+
+#dot3 {
+    background: #00FF6E;
+    right: 90px;
+}
+
 
 ::selection {
     color: #FFF;
@@ -18,10 +73,11 @@ body {
 h1 {
     color: #FF4F00;
     margin-bottom: 20px;
-    padding-top: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
     width: max-content;
-
 }
+
 
 a,
 a:link,
@@ -44,29 +100,29 @@ p {
     line-height: 24px;
 }
 
+#footer {
+    background: #FFF;
+    color: #000;
+    height: 28px;
+    margin-left: 12px;
+    margin-right: 12px;
+    transform: translateY(-40px);
+    border-radius: 0 0 24px 24px;
+}
+
+
+#back {
+    float: right;
+    transform: translateX(-90px);
+}
+
 #perc {
-    position: fixed;
-    right: 0;
+    float: right;
+
 }
 
 #end {
     color: #ffff00;
-}
-
-#back {
-    position: fixed;
-    right: 10%;
-    bottom: 2px;
-}
-
-footer {
-    background: #FFF;
-    color: #000;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 28px;
-    width: 100%;
 }
 
 #textFooter {

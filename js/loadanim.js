@@ -1,4 +1,4 @@
-console.log("btw the errors below here do not exist (;")
+console.log("btw the errors below here do not exist (;");
 
 const typ1 = document.getElementById("typ1");
 const prompt1 = document.getElementById("prompt1");
@@ -24,7 +24,6 @@ function usr() {
     var result = bowser.getParser(navigator.userAgent).getResult();
     usrEl.innerHTML = `${result.browser.name} (${result.os.name})`;
 }
-
 
 async function preclear() {
     PS4.innerHTML = `[orangexarot@website ~]$ `;
@@ -111,7 +110,6 @@ async function neofetch() {
     files();
 }
 
-
 async function uwufetch() {
     typ1.innerHTML = `_`;
     await sleep(waiting);
@@ -152,9 +150,7 @@ async function uwufetch() {
     files();
 }
 
-
-
-async function files(){
+async function files() {
     PS2.innerHTML = `[orangexarot@website ~]$ `;
     typ2.innerHTML = `_`;
     await sleep(700);
@@ -189,14 +185,13 @@ bin misc profiles
     const UU = document.getElementById("utile");
     const CL = document.getElementById("clear");
     const NF = document.getElementById("neofetch");
-    const UF = document.getElementById("uwufetch")
+    const UF = document.getElementById("uwufetch");
 
     const GH = document.getElementById("github");
     const IG = document.getElementById("instagram");
     const RD = document.getElementById("reddit");
     const TT = document.getElementById("tiktok");
     const YT = document.getElementById("youtube");
-
 
     CL.onclick = async () => {
         typend.innerHTML = `_`;
@@ -215,7 +210,7 @@ bin misc profiles
         await sleep(faster);
 
         clear();
-    }
+    };
 
     NF.onclick = async () => {
         typend.innerHTML = `_`;
@@ -234,8 +229,7 @@ bin misc profiles
         await sleep(faster);
 
         clear();
-    }
-
+    };
 
     UF.onclick = async () => {
         typend.innerHTML = `_`;
@@ -254,9 +248,7 @@ bin misc profiles
         await sleep(faster);
 
         uclear();
-    }
-
-
+    };
 
     YT.onclick = async () => {
         typend.innerHTML = `_`;
@@ -302,8 +294,7 @@ bin misc profiles
 
         window.open("https://www.youtube.com/c/OrangeXarot", "_blank");
         preclear();
-    }
-
+    };
 
     UU.onclick = async () => {
         typend.innerHTML = `_`;
@@ -349,7 +340,7 @@ bin misc profiles
 
         window.open("misc/i.utile.html", "_blank");
         preclear();
-    }
+    };
 
     IG.onclick = async () => {
         typend.innerHTML = `_`;
@@ -399,7 +390,7 @@ bin misc profiles
 
         window.open("https://www.instagram.com/orangexarot/", "_blank");
         preclear();
-    }
+    };
 
     RD.onclick = async () => {
         typend.innerHTML = `_`;
@@ -443,9 +434,7 @@ bin misc profiles
 
         window.open("https://www.reddit.com/user/OrangeXarot", "_blank");
         preclear();
-    }
-
-
+    };
 
     TT.onclick = async () => {
         typend.innerHTML = `_`;
@@ -489,7 +478,7 @@ bin misc profiles
 
         window.open("https://www.tiktok.com/@orangexarot", "_blank");
         preclear();
-    }
+    };
 
     GH.onclick = async () => {
         typend.innerHTML = `_`;
@@ -533,7 +522,7 @@ bin misc profiles
 
         window.open("https://github.com/OrangeXarot/", "_blank");
         preclear();
-    }
+    };
 
     BG.onclick = async () => {
         typend.innerHTML = `_`;
@@ -585,9 +574,9 @@ bin misc profiles
         typend.innerHTML = `vim misc/biography.txt`;
         await sleep(faster);
 
-    window.location.href = 'misc/biography.html';
+        window.location.href = "misc/biography.html";
         preclear();
-    }
+    };
 }
 
 neofetch();

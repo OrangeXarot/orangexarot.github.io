@@ -1,20 +1,75 @@
 body {
-    background: #000000;
-    color: #FFFFFF;
-    font-family: 'Source Code Pro', monospace;
-    line-height:24px;
+    background: #0c0c0c;
+    color: #ffffff;
+    font-family: "Source Code Pro", monospace;
+    line-height: 24px;
     font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#terminal::-webkit-scrollbar {
+    display: none;
+}
+
+#terminal {
+    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin: 10px;
+    background: #000;
+    border-radius: 25px;
+    height: 80vh;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid;
+    border-color: #ff4f00;
+}
+
+#dot1,
+#dot2,
+#dot3 {
+    background: #ff4f00;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 90px;
+    border-radius: 25px;
+}
+
+#dot1 {
+    background: #ff4f00;
+    right: 30px;
+}
+
+#dot2 {
+    background: #ffff00;
+    right: 60px;
+}
+
+#dot3 {
+    background: #00ff6e;
+    right: 90px;
 }
 
 ::selection {
-    color: #FFF;
-    background: #FF4F00;
+    color: #fff;
+    background: #ff4f00;
 }
 
 h1 {
-    color: #FF4F00;
+    color: #ff4f00;
     margin-bottom: 20px;
-    padding-top: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
     width: max-content;
 }
 
@@ -30,25 +85,24 @@ p {
 a,
 a:link,
 a:visited,
-a:active{
-    color: #FF4F00;
+a:active {
+    color: #ff4f00;
 }
 
 #spins {
     position: fixed;
-    right: 5%;
-    top: 5%;
+    right: 30px;
+    top: 130px;
 }
 
 #orange {
-    color: #FF4F00;
+    color: #ff4f00;
     font-weight: 800;
 }
 
 #green2 {
     color: #009942;
 }
-
 
 #colors {
     color: #00000000;
@@ -60,7 +114,7 @@ a:active{
 }
 
 #red2 {
-    background: #730B16;
+    background: #730b16;
 }
 
 #green2c {
@@ -76,7 +130,7 @@ a:active{
 }
 
 #magenta2 {
-    background: #6B0064;
+    background: #6b0064;
 }
 
 #cyan2 {
@@ -92,11 +146,11 @@ a:active{
 }
 
 #red {
-    background: #D91629;
+    background: #d91629;
 }
 
 #green {
-    background: #00FF6E;
+    background: #00ff6e;
 }
 
 #yellow {
@@ -104,22 +158,21 @@ a:active{
 }
 
 #orangec {
-    background: #FF4F00;
+    background: #ff4f00;
 }
 
 #magenta {
-    background: #D100C3;
+    background: #d100c3;
 }
 
 #cyan {
-    background: #4AB1FF;
+    background: #4ab1ff;
 }
 
 #white {
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 #shh {
     color: #00000000;
 }
-
