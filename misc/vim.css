@@ -4,21 +4,19 @@ HTML {
 
 body {
     background: #0c0c0c;
-    color: #FFFFFF;
-    font-family: 'Source Code Pro', monospace;
-    line-height:24px;
+    color: #ffffff;
+    font-family: "Source Code Pro", monospace;
+    line-height: 24px;
     font-size: 20px;
     height: 100vh;
     margin: 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
-
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
-
 
 #terminal::-webkit-scrollbar {
     display: none;
@@ -37,11 +35,13 @@ body::-webkit-scrollbar {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 3px solid;
-    border-color: #FF4F00;
+    border-color: #ff4f00;
 }
 
-#dot1, #dot2, #dot3 {
-    background: #FF4F00;
+#dot1,
+#dot2,
+#dot3 {
+    background: #ff4f00;
     width: 20px;
     height: 20px;
     position: fixed;
@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
 }
 
 #dot1 {
-    background: #FF4F00;
+    background: #ff4f00;
     right: 30px;
 }
 
@@ -60,30 +60,29 @@ body::-webkit-scrollbar {
 }
 
 #dot3 {
-    background: #00FF6E;
+    background: #00ff6e;
     right: 90px;
 }
 
-
 ::selection {
-    color: #FFF;
-    background: #FF4F00;
+    color: #fff;
+    background: #ff4f00;
 }
 
 h1 {
-    color: #FF4F00;
+    color: #ff4f00;
     margin-bottom: 20px;
     padding-top: 25px;
     padding-left: 10px;
     width: max-content;
+    white-space: nowrap;
 }
-
 
 a,
 a:link,
 a:visited,
-a:active{
-    color: #FF4F00;
+a:active {
+    color: #ff4f00;
 }
 
 #text {
@@ -101,7 +100,7 @@ p {
 }
 
 #footer {
-    background: #FFF;
+    background: #fff;
     color: #000;
     height: 28px;
     margin-left: 12px;
@@ -110,7 +109,6 @@ p {
     border-radius: 0 0 24px 24px;
 }
 
-
 #back {
     float: right;
     transform: translateX(-90px);
@@ -118,7 +116,6 @@ p {
 
 #perc {
     float: right;
-
 }
 
 #end {
@@ -133,7 +130,7 @@ p {
     color: #00000000;
 }
 #orange {
-    color: #FF4F00;
+    color: #ff4f00;
     font-weight: 800;
 }
 
@@ -142,5 +139,5 @@ p {
 }
 
 #date {
-    color: #00FF6E;
+    color: #00ff6e;
 }
