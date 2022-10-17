@@ -1,6 +1,5 @@
 let time = 0;
 
-
 setInterval(updateTimer, 1000);
 
 async function easterEgg() {
@@ -43,13 +42,12 @@ async function easterEgg() {
 
         window.open("misc/easteregg.html", "_blank");
         preclear();
-
     }
 }
 
 function updateTimer() {
     easterEgg();
-    let timerEl = document.getElementById('timer');
+    let timerEl = document.getElementById("timer");
     let minutes = Math.floor(time / 60);
     let seconds = time % 60;
     timerEl.innerHTML = `${minutes}m ${seconds}s`;
