@@ -111,10 +111,16 @@ p {
 
 #back {
     float: right;
-    transform: translateX(-90px);
+    transform: translateX(-95px);
+}
+
+#file {
+    float: left;
+    transform: translateX(22px);
 }
 
 #perc {
+    transform: translateX(15px);
     float: right;
 }
 
