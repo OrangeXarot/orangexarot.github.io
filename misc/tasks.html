@@ -11,6 +11,8 @@
                 background-color: #060610;
                 color: #fff;
                 font-family: 'Nunito', sans-serif;
+                font-size: 50px;
+                margin: 30px;
             }
             h1 {
                 color: #FF4F00;
@@ -28,8 +30,10 @@
             }
 
             ul#todo-list input[type="checkbox"] {
-                margin-right: 0.5em;
-                background: #FF4F00;
+                margin-left: 50px;
+                margin-right: 50px;
+                transform: scale(5);
+
             }
 
             .todo-item span.completed {
@@ -42,6 +46,7 @@
                 border: none;
                 color: #FF4F00;
                 cursor: pointer;
+                font-size: 30px;
             }
             .todo-item span.completed {
                 text-decoration: line-through;
@@ -49,13 +54,14 @@
 
             .inputBox {
                 position: relative;
-                width: 250px;
+                width: 70%;
             }
 
             .inputBox input {
                 width: 100%;
-                padding: 10px;
-                border: 1px solid rgba(255, 255, 255, 0.25);
+                height: 100px;
+                padding: 30px;
+                border: 5px solid rgba(255, 255, 255, 0.25);
                 border-radius: 50px 0px 0px 50px;
                 background: #060610;
                 color: #fff;
@@ -65,26 +71,27 @@
                 position: absolute;
                 left: 0;
                 pointer-events: none;
-                padding: 10px;
+                padding: 20px 20px 20px 30px;
                 font-size: 1em;
                 color: rgba(255, 255, 255, 0.25);
                 transition: 0.5s;
                 text-transform: uppercase;
+                border-radius: 50px 0px 0px 50px;
             }
 
             .inputBox input:valid ~ span, .inputBox input:focus ~ span {
                 color: #FF4F00;
-                transform: translateX(10px) translateY(-12px);
+                transform: translateX(50px) translateY(-30px);
                 font-size 0.65em;
-                padding: 0 10px;
+                padding: 0 20px;
                 background: #FF4F00;
                 color: #060610;
                 letter-spacing: 0.2em;
-                border-radius: 5px;
+                border-radius: 10px;
             }
 
             .inputBox input:valid, .inputBox input:focus {
-                border: 1px solid #FF4F00;
+                border: 5px solid #FF4F00;
             }
             .sub {
                 position: absolute;
@@ -109,7 +116,7 @@
     </head>
 
     <body>
-        <h1>Beautiful Tasks, for my Beautiful GF <3</h1>
+        <h1>TASKS, for my GF <3</h1>
         <form id="add-form">
             <div class="inputBox">
                 <input type="text" id="add-input" autocomplete="off" required="required" />
