@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+        </style>
+        <style>
+            body {
+                background-color: #060610;
+                color: #fff;
+                font-family: 'Nunito', sans-serif;
+            }
+            h1 {
+                color: #FF4F00;
+            }
+            ul#todo-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            ul#todo-list li {
+                display: flex;
+                align-items: center;
+                margin: 0.5em 0;
+            }
+
+            ul#todo-list input[type="checkbox"] {
+                margin-right: 0.5em;
+                background: #FF4F00;
+            }
+
+            .todo-item span.completed {
+                text-decoration: line-through;
+            }
+
+            .todo-item button {
+                margin-left: auto;
+                background-color: transparent;
+                border: none;
+                color: #FF4F00;
+                cursor: pointer;
+            }
+            .todo-item span.completed {
+                text-decoration: line-through;
+            }
+
+            .inputBox {
+                position: relative;
+                width: 250px;
+            }
+
+            .inputBox input {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.25);
+                border-radius: 50px 0px 0px 50px;
+                background: #060610;
+                color: #fff;
+                font-size: 1em;
+            }
+            .inputBox span {
+                position: absolute;
+                left: 0;
+                pointer-events: none;
+                padding: 10px;
+                font-size: 1em;
+                color: rgba(255, 255, 255, 0.25);
+                transition: 0.5s;
+                text-transform: uppercase;
+            }
+
+            .inputBox input:valid ~ span, .inputBox input:focus ~ span {
+                color: #FF4F00;
+                transform: translateX(10px) translateY(-12px);
+                font-size 0.65em;
+                padding: 0 10px;
+                background: #FF4F00;
+                color: #060610;
+                letter-spacing: 0.2em;
+                border-radius: 5px;
+            }
+
+            .inputBox input:valid, .inputBox input:focus {
+                border: 1px solid #FF4F00;
+            }
+            .sub {
+                position: absolute;
+                font-size: 1.2em;
+                margin-left: 5px;
+                height: 100%;
+                background: #FF4F00;
+                border: 1px solid #FF4F00;
+                border-radius: 0px 50px 50px 0;
+                color: #060610;
+                transition: 0.2s;
+            }
+
+            .sub:hover {
+                transform: translateX(3px);
+
+            }
+            .sub:active {
+                transform: translateX(-3px);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Beautiful Tasks, for my Beautiful GF <3</h1>
+        <form id="add-form">
+            <div class="inputBox">
+                <input type="text" id="add-input" autocomplete="off" required="required" />
+                <span>Add Tasks</span>
+            <button type="submit" class="sub">+</button>
+            </div>
+        </form>
+
+        <ul id="todo-list"></ul>
+
+        <script>
+            let todos = [];
+
+            function displayTodos() {
+                let list = document.getElementById("todo-list");
+                list.innerHTML = "";
+
+                for (let i = 0; i < todos.length; i++) {
+                    let item = document.createElement("li");
+                    item.classList.add("todo-item");
+                    let checkbox = document.createElement("input");
+                    checkbox.type = "checkbox";
+                    checkbox.checked = todos[i].completed;
+                    checkbox.addEventListener("change", () => {
+                        todos[i].completed = !todos[i].completed;
+                        displayTodos();
+                    });
+                    item.appendChild(checkbox);
+                    let span = document.createElement("span");
+                    span.textContent = todos[i].text;
+                    if (todos[i].completed) {
+                        span.classList.add("completed");
+                    }
+                    item.appendChild(span);
+                    let button = document.createElement("button");
+                    button.textContent = "Delete";
+                    button.addEventListener("click", () => {
+                        deleteTodo(i);
+                    });
+                    item.appendChild(button);
+                    list.appendChild(item);
+                }
+            }
+
+            function addTodo(text) {
+                if (text != "") {
+                    todos.push({ text: text, completed: false });
+                    displayTodos();
+                }
+            }
+
+            function deleteTodo(index) {
+                todos.splice(index, 1);
+                displayTodos();
+            }
+
+            let form = document.getElementById("add-form");
+            let input = document.getElementById("add-input");
+
+            form.addEventListener("submit", (event) => {
+                event.preventDefault();
+                addTodo(input.value);
+                input.value = "";
+            });
+
+            function loadTodos() {
+                let storedTodos = localStorage.getItem("todos");
+                if (storedTodos) {
+                    todos = JSON.parse(storedTodos);
+                }
+                displayTodos();
+            }
+
+            function saveTodos() {
+                localStorage.setItem("todos", JSON.stringify(todos));
+            }
+
+            loadTodos();
+
+            window.addEventListener("beforeunload", saveTodos);
+        </script>
+    </body>
+</html>
