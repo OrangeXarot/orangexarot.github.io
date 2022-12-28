@@ -26,7 +26,12 @@
                 align-items: center;
                 margin: 0.5em 0;
             }
-
+            ul#todo-list input {
+                font-size: 50px;
+                background: rgba(255, 255, 255, 0);
+                color: #FFF;
+                border: none;
+            }
             ul#todo-list input[type="checkbox"] {
                 margin-left: 50px;
                 margin-right: 50px;
@@ -34,8 +39,9 @@
 
             }
 
-            .todo-item span.completed {
+            .todo-item input.completed {
                 text-decoration: line-through;
+                color: rgba(255, 255, 255, 0.25);
             }
 
             .todo-item button {
@@ -93,6 +99,8 @@
             }
             .sub {
                 position: absolute;
+                top: 0;
+                right: -50px;
                 font-size: 1.2em;
                 margin-left: 5px;
                 height: 100%;
@@ -145,10 +153,19 @@
                     item.appendChild(checkbox);
                     let span = document.createElement("span");
                     span.textContent = todos[i].text;
-                    if (todos[i].completed) {
+                                        let input = document.createElement("input");
+                    input.type = "text";
+                    input.value = todos[i].text;
+                    input.addEventListener("change", () => {
+                        todos[i].text = input.value;
+                        displayTodos();
+                    });
+                    item.appendChild(input);
+if (todos[i].completed) {
                         span.classList.add("completed");
+                        input.classList.add("completed");
                     }
-                    item.appendChild(span);
+
                     let button = document.createElement("button");
                     button.textContent = "Delete";
                     button.addEventListener("click", () => {
