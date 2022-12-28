@@ -215,6 +215,8 @@
                 todos = JSON.parse(todoString);
             }
 
+            loadTodos();
+
             window.addEventListener("unload", saveTodos);
 
             window.addEventListener("load", loadTodos);
