@@ -43,7 +43,6 @@
                 text-decoration: line-through;
                 color: rgba(255, 255, 255, 0.25);
             }
-
             .todo-item button {
                 margin-left: auto;
                 background-color: transparent;
@@ -207,7 +206,7 @@ if (todos[i].completed) {
                 document.cookie = name + "=" + value + ";" + expirationString;
             }
 
-            function getCookie(name) {
+           /* function getCookie(name) {
                 let cookies = document.cookie;
                 let cookieArray = cookies.split(";");
                 for (let i = 0; i < cookieArray.length; i++) {
@@ -238,6 +237,32 @@ if (todos[i].completed) {
             window.addEventListener("unload", saveTodos);
 
             window.addEventListener("load", loadTodos);
+            */
+
+            function saveTodos() {
+  let todoString = JSON.stringify(todos);
+  let cookie = `todos=${encodeURIComponent(todoString)}`;
+  Components.classes["@mozilla.org/cookiemanager;1"]
+    .getService(Components.interfaces.nsICookieService)
+    .setCookieString(null, null, cookie, null);
+}
+
+function loadTodos() {
+  let cookie = Components.classes["@mozilla.org/cookiemanager;1"]
+    .getService(Components.interfaces.nsICookieService)
+    .getCookieString(null, null);
+  let todoString = cookie.match(/todos=([^;]*)/)[1];
+  todos = JSON.parse(decodeURIComponent(todoString));
+}
+
+window.addEventListener("load", () => {
+  loadTodos();
+  displayTodos();
+});
+
+window.addEventListener("unload", () => {
+  saveTodos();
+});
         </script>
     </body>
 </html>
