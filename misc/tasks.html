@@ -228,6 +228,9 @@
             function loadTodos() {
                 let todoString = getCookie("todos");
                 todos = JSON.parse(todoString);
+                if (todos == null) {
+                        todos = [];
+                    }
             }
 
             loadTodos();
