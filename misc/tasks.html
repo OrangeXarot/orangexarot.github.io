@@ -5,8 +5,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet" />
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
-        </style>
-        <style>
             body {
                 background-color: #060610;
                 color: #fff;
@@ -121,7 +119,7 @@
             <div class="inputBox">
                 <input type="text" id="add-input" autocomplete="off" required="required" />
                 <span>Add Tasks</span>
-            <button type="submit" class="sub">+</button>
+                <button type="submit" class="sub">+</button>
             </div>
         </form>
 
@@ -163,6 +161,9 @@
 
             function addTodo(text) {
                 if (text != "") {
+                    if (todos == null) {
+                        todos = [];
+                    }
                     todos.push({ text: text, completed: false });
                     displayTodos();
                 }
@@ -182,21 +183,41 @@
                 input.value = "";
             });
 
-            function loadTodos() {
-                let storedTodos = localStorage.getItem("todos");
-                if (storedTodos) {
-                    todos = JSON.parse(storedTodos);
+            function setCookie(name, value) {
+                let expirationDate = new Date();
+                expirationDate.setDate(expirationDate.getDate() + 7);
+                let expirationString = "expires=" + expirationDate.toUTCString();
+                document.cookie = name + "=" + value + ";" + expirationString;
+            }
+
+            function getCookie(name) {
+                let cookies = document.cookie;
+                let cookieArray = cookies.split(";");
+                for (let i = 0; i < cookieArray.length; i++) {
+                    let cookie = cookieArray[i];
+                    let equalsIndex = cookie.indexOf("=");
+                    let cookieName = cookie.substring(0, equalsIndex).trim();
+                    let cookieValue = cookie.substring(equalsIndex + 1).trim();
+                    if (cookieName === name) {
+                        return cookieValue;
+                    }
                 }
-                displayTodos();
+                return null;
             }
 
             function saveTodos() {
-                localStorage.setItem("todos", JSON.stringify(todos));
+                let todoString = JSON.stringify(todos);
+                setCookie("todos", todoString);
             }
 
-            loadTodos();
+            function loadTodos() {
+                let todoString = getCookie("todos");
+                todos = JSON.parse(todoString);
+            }
 
-            window.addEventListener("beforeunload", saveTodos);
+            window.addEventListener("unload", saveTodos);
+
+            window.addEventListener("load", loadTodos);
         </script>
     </body>
 </html>
