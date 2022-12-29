@@ -26,22 +26,24 @@
                 align-items: center;
                 margin: 0.5em 0;
             }
-            ul#todo-list input {
-                font-size: 50px;
+            ul#todo-list input[type="text"] {
+                font-size: 40px;
                 background: rgba(255, 255, 255, 0);
                 color: #FFF;
                 border: none;
+                width: 100%;
+                resize: none;
             }
             ul#todo-list input[type="checkbox"] {
-                margin-left: 50px;
+                margin-left: 45px;
                 margin-right: 50px;
-                transform: scale(5);
+                transform: scale(3);
 
             }
 
             .todo-item input.completed {
                 text-decoration: line-through;
-                color: rgba(255, 255, 255, 0.25);
+                color: #555;
             }
             .todo-item button {
                 margin-left: auto;
@@ -229,14 +231,14 @@
                 let todoString = getCookie("todos");
                 todos = JSON.parse(todoString);
                 if (todos == null) {
-                        todos = [];
-                    }
+                    todos = [];
+                }
             }
 
             loadTodos();
             displayTodos();
 
-                        window.addEventListener("load", () => {
+            window.addEventListener("load", () => {
                 loadTodos();
             });
 
