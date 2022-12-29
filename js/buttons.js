@@ -1,7 +1,7 @@
 const REDUCE = document.getElementById("dot3");
 const TERM = document.getElementById("terminal");
 const PHRASE = document.getElementById("phrase");
-const PHRASES = ["How you doin'?", "Cool site huh?", "So what if you 'rm -rf --no-preserve-root /'?", "Carrot.", "Lorem ipsum dolor sit amet.", "Try typing 'spin' (:", "(:", "q:", "ඞ", "👁️⃤", "Bird is the word.", "d'oh!", "ArchLinux ftw!", "sus.", "while(True) { sleep() }", "So... I like linux huh?"];
+const PHRASES = ["How you doin'?", "Cool site huh?", "So what if you 'rm -rf --no-preserve-root /'?", "Carrot.", "Lorem ipsum dolor sit amet.", "Try typing 'spin' (:", "(:", "q:", "ඞ", "👁️⃤", "Bird is the word.", "d'oh!", "ArchLinux ftw!", "sus.", "while(True) { sleep(); }", "So... I like linux huh?"];
 let size = 80;
 let big = true;
 moving = false;
