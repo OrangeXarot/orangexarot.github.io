@@ -107,7 +107,7 @@
             .clear {
                position: absolute;
                 top: 0;
-                right: 0;
+                right: 70px;
                 font-size: 1.2em;
                 margin-left: 10px;
                 height: 100%;
@@ -125,6 +125,25 @@
 
             }
 
+            .compclear {
+               position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 1.2em;
+                margin-left: 10px;
+                height: 100%;
+                width: 60px;
+                background: #FF0000;
+                border: 1px solid #FF0000;
+                color: #060610;
+                transition: 0.2s;
+                font-family: 'Nunito', sans-serif;
+            }
+
+            .compclear:hover {
+                transform: translateX(-3px);
+
+            }
             .sub {
                 position: absolute;
                 top: 0;
@@ -154,6 +173,8 @@
                 <span>Add Tasks</span>
                 <button type="submit" class="sub">+</button>
                 <button onclick="clearTodo()" class="clear">X</button>
+                <button onclick="clearCompletedTodo()" class="compclear">-</button>
+                <p class="text">
             </div>
         </form>
 
@@ -209,7 +230,6 @@
                         deleteTodo(i);
                     });
 
-
                     item.appendChild(checkbox);
                     item.appendChild(upButton);
                     item.appendChild(downButton);
@@ -245,6 +265,16 @@
 
             function clearTodo() {
                 todos = [];
+                displayTodos();
+            }
+
+            function clearCompletedTodo() {
+                for (let i = 0; i < todos.length; i++) {
+                    if (todos[i].completed) {
+                        todos.splice(i, 1);
+                        i--;
+                    }
+                }
                 displayTodos();
             }
 
