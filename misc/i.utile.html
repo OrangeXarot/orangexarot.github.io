@@ -96,7 +96,7 @@
             }
         </style>
     </head>
-    <body onload="initClock()">
+    <body onload="randomClock()">
         <div class="all">
             <h5>
                 <a id="channel" href="https://www.youtube.com/c/OrangeXarot">OrangeXarot <i class="nf nf-mdi-carrot"></i></a>
@@ -118,6 +118,56 @@
             </div>
         </div>
         <script type="text/javascript">
+            
+            function sleep(ms) {
+                return new Promise((resolve) => setTimeout(resolve, ms));
+            }
+
+            function randomClock() {
+                let i = 0;
+
+                const interval = setInterval(() => {
+
+                    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                    let HOUR = document.getElementById("hour");
+                    let MIN = document.getElementById("minutes");
+                    let SEC = document.getElementById("seconds");
+                    let PE = document.getElementById("period");
+                    let rand = Math.floor(Math.random() * 99);
+                    if(rand < 10)
+                        rand = '0' + rand;
+                    HOUR.innerHTML = rand;
+
+                    rand = Math.floor(Math.random() * 99);
+                    if(rand < 10)
+                        rand = '0' + rand;
+                    MIN.innerHTML = rand;
+
+                    rand = Math.floor(Math.random() * 99);
+                    if(rand < 10)
+                        rand = '0' + rand;
+                    SEC.innerHTML = rand;
+                    
+                    
+                    rand = Math.floor(Math.random() * 26);
+                    rand2 = Math.floor(Math.random() * 26);
+                    PE.innerHTML = letters[rand] + letters[rand2];
+
+
+                    if(i > 10) {
+                        HOUR.innerHTML = 99;
+                        MIN.innerHTML = 99;
+                        SEC.innerHTML = 99; 
+                        PE.innerHTML = "??";
+                        initClock();
+                        clearInterval(interval);
+                    }
+                    i++;
+                }, 100);
+
+            }
+
+
             function updateClock() {
                 var now = new Date();
                 var hou = now.getHours(),
@@ -138,13 +188,47 @@
                     return n;
                 };
 
+ 
                 var ids = ["hour", "minutes", "seconds", "period"];
                 var values = [hou.pad(2), min.pad(2), sec.pad(2), pe];
-                for (var i = 0; i < ids.length; i++) document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+
+                for (var i = 0; i < ids.length; i++) {
+                        document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+                }
             }
 
-            function initClock() {
-                updateClock();
+            async function initClock() {
+                var now = new Date();
+                var hou = now.getHours(),
+                    min = now.getMinutes(),
+                    sec = now.getSeconds(),
+                    pe = "AM";
+
+                if (hou == 0) {
+                    hou = 12;
+                }
+                if (hou > 12) {
+                    hou = hou - 12;
+                    pe = "PM";
+                }
+
+                Number.prototype.pad = function (digits) {
+                    for (var n = this.toString(); n.length < digits; n = 0 + n);
+                    return n;
+                };
+
+
+                var ids = ["hour", "minutes", "seconds", "period"];
+                var values = [hou.pad(2), min.pad(2), sec.pad(2), pe];
+
+                    await sleep(150);
+                for (var i = 0; i < ids.length; i++) {
+                    await sleep(150);
+                    for(var j = 0; j <= i; j++) {
+                        document.getElementById(ids[j]).firstChild.nodeValue = values[j];
+                    }
+                }
+
                 window.setInterval("updateClock()", 1);
             }
         </script>

@@ -190,6 +190,7 @@
                 for (let i = 0; i < todos.length; i++) {
                     let item = document.createElement("li");
                     item.classList.add("todo-item");
+
                     let checkbox = document.createElement("input");
                     checkbox.type = "checkbox";
                     checkbox.checked = todos[i].completed;
@@ -200,6 +201,7 @@
 
                     let span = document.createElement("span");
                     span.textContent = todos[i].text;
+
                     let input = document.createElement("input");
                     input.type = "text";
                     input.value = todos[i].text;
@@ -213,6 +215,7 @@
                     upButton.addEventListener("click", () => {
                         moveTodo(i, i - 1);
                     });
+
                     let downButton = document.createElement("button");
                     downButton.textContent = "▼";
                     downButton.addEventListener("click", () => {
@@ -235,6 +238,7 @@
                     item.appendChild(downButton);
                     item.appendChild(input);
                     item.appendChild(button);
+
                     list.appendChild(item);
                 }
             }
