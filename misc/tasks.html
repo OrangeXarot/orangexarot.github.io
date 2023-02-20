@@ -196,6 +196,7 @@
                     checkbox.checked = todos[i].completed;
                     checkbox.addEventListener("change", () => {
                         todos[i].completed = !todos[i].completed;
+                        saveTodos();
                         displayTodos();
                     });
 
