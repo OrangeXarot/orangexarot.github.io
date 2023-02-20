@@ -30,7 +30,6 @@
             ul#todo-list input[type="text"] {
                 font-size: 40px;
                 background: rgba(255, 255, 255, 0);
-                color: #FFF;
                 border: none;
                 width: 100%;
                 resize: none;
@@ -46,10 +45,20 @@
                 margin-right: 10px;
             }
 
+            .todo-item input {
+                color: #FFF;
+            }
+
             .todo-item input.completed {
                 text-decoration: line-through;
-                color: #555;
+                color: #333;
             }
+
+
+            .todo-item input.dashed {
+                color: #FF4F00;
+            }
+
             .todo-item button {
                 margin-left: auto;
                 background-color: transparent;
@@ -226,6 +235,11 @@
                     if (todos[i].completed) {
                         span.classList.add("completed");
                         input.classList.add("completed");
+                    }
+
+                    if (todos[i].text.includes('-')) {
+                        console.log(i +" -")
+                        input.classList.add("dashed");
                     }
 
                     let button = document.createElement("button");
