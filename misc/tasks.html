@@ -249,6 +249,7 @@
                 }
                 let item = todos.splice(fromIndex, 1)[0];
                 todos.splice(toIndex, 0, item);
+                saveTodos();
                 displayTodos();
             }
 
@@ -258,17 +259,20 @@
                         todos = [];
                     }
                     todos.push({ text: text, completed: false });
+                    saveTodos();
                     displayTodos();
                 }
             }
 
             function deleteTodo(index) {
                 todos.splice(index, 1);
+                saveTodos();
                 displayTodos();
             }
 
             function clearTodo() {
                 todos = [];
+                saveTodos();
                 displayTodos();
             }
 
@@ -279,6 +283,7 @@
                         i--;
                     }
                 }
+                saveTodos();
                 displayTodos();
             }
 
