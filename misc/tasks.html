@@ -114,7 +114,7 @@
             }
 
             .clear {
-               position: absolute;
+                position: absolute;
                 top: 0;
                 right: 70px;
                 font-size: 1.2em;
@@ -172,10 +172,68 @@
                 transform: translateX(-3px);
 
             }
+
+            .category {
+                position: absolute;
+                top: 20px;
+                right: 100px;
+                font-size: 1.2em;
+                height: 80px;
+                transition: 0.2s;
+                font-family: 'Nunito', sans-serif;
+                color: white;
+            }
+            
+            .prevCat {
+                position: absolute;
+                top: 5px;
+                left: -80px;
+                font-size: 1em;
+                margin-left: 10px;
+                height: 115%;
+                width: 60px;
+                background: #FF0000;
+                border: 1px solid #FF0000;
+                border-radius: 50px 0px 0px 50px;
+                color: #060610;
+                font-family: 'Nunito', sans-serif;
+
+            }
+            .nextCat {
+                position: absolute;
+                right: -70px;
+                top: 5px;
+                font-size: 1em;
+                margin-left: 10px;
+                height: 115%;
+                width: 60px;
+                background: #FF0000;
+                border: 1px solid #FF0000;
+                border-radius: 0px 50px 50px 0px;
+                color: #060610;
+                font-family: 'Nunito', sans-serif;
+
+            }
+
+            #word {
+                margin-top: 0;
+                height: 100px;
+                width: 200px;
+                border: 5px solid rgba(255, 255, 255, 0.25);
+                background: #060610;
+                color: #fff;
+                font-size: 1em;
+            }
+
         </style>
     </head>
     <body>
         <h1>TASKS, for my GF <3</h1>
+        <div class="category">
+            <button onlick="prevCat()" class="prevCat"><</button>
+            <input type="text" id="word" autocomplete="off"></input>
+            <button onlick="nextCat()" class="nextCat">></button>
+        </div>
         <form id="add-form">
             <div class="inputBox">
                 <input type="text" id="add-input" autocomplete="off" required="required" />
