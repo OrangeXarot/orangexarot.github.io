@@ -175,7 +175,7 @@
 
             .category {
                 position: absolute;
-                top: 20px;
+                bottom: 40px;
                 right: 100px;
                 font-size: 1.2em;
                 height: 80px;
@@ -192,8 +192,8 @@
                 margin-left: 10px;
                 height: 115%;
                 width: 60px;
-                background: #FF0000;
-                border: 1px solid #FF0000;
+                background: #FF4F00;
+                border: 1px solid #FF4F00;
                 border-radius: 50px 0px 0px 50px;
                 color: #060610;
                 font-family: 'Nunito', sans-serif;
@@ -207,9 +207,25 @@
                 margin-left: 10px;
                 height: 115%;
                 width: 60px;
-                background: #FF0000;
-                border: 1px solid #FF0000;
+                background: #FF4F00;
+                border: 1px solid #FF4F00;
                 border-radius: 0px 50px 50px 0px;
+                color: #060610;
+                font-family: 'Nunito', sans-serif;
+
+            }
+
+            .changeCat {
+                position: absolute;
+                right: 20px;
+                top: 5px;
+                font-size: 0.7em;
+                height: 70%;
+                margin-top: 20px;
+                width: 60px;
+                background: #FF4F00;
+                border: 1px solid #FF4F00;
+                border-radius: 50px;
                 color: #060610;
                 font-family: 'Nunito', sans-serif;
 
@@ -218,7 +234,7 @@
             #word {
                 margin-top: 0;
                 height: 100px;
-                width: 200px;
+                width: 400px;
                 border: 5px solid rgba(255, 255, 255, 0.25);
                 background: #060610;
                 color: #fff;
@@ -230,9 +246,10 @@
     <body>
         <h1>TASKS, for my GF <3</h1>
         <div class="category">
-            <button onlick="prevCat()" class="prevCat"><</button>
+            <button onclick="prevCat()" class="prevCat"><</button>
             <input type="text" id="word" autocomplete="off"></input>
-            <button onlick="nextCat()" class="nextCat">></button>
+            <button onclick="changeCat()" class="changeCat">=</button>
+            <button onclick="nextCat()" class="nextCat">></button>
         </div>
         <form id="add-form">
             <div class="inputBox">
@@ -248,33 +265,36 @@
         <ul id="todo-list"></ul>
 
         <script>
-            let todos = [];
+            let todos = [["home"],[""],[""],[""],[""],[""],[""],[""],[""],[""]];
+            let idx = 0;
+                let category = document.getElementById("word");
+                category.value = todos[idx][0];
 
             function displayTodos() {
                 let list = document.getElementById("todo-list");
                 list.innerHTML = "";
 
-                for (let i = 0; i < todos.length; i++) {
+                for (let i = 1; i < todos[idx].length; i++) {
                     let item = document.createElement("li");
                     item.classList.add("todo-item");
 
                     let checkbox = document.createElement("input");
                     checkbox.type = "checkbox";
-                    checkbox.checked = todos[i].completed;
+                    checkbox.checked = todos[idx][i].completed;
                     checkbox.addEventListener("change", () => {
-                        todos[i].completed = !todos[i].completed;
+                        todos[idx][i].completed = !todos[idx][i].completed;
                         saveTodos();
                         displayTodos();
                     });
 
                     let span = document.createElement("span");
-                    span.textContent = todos[i].text;
+                    span.textContent = todos[idx][i].text;
 
                     let input = document.createElement("input");
                     input.type = "text";
-                    input.value = todos[i].text;
+                    input.value = todos[idx][i].text;
                     input.addEventListener("change", () => {
-                        todos[i].text = input.value;
+                        todos[idx][i].text = input.value;
                         displayTodos();
                     });
 
@@ -290,12 +310,12 @@
                         moveTodo(i, i + 1);
                     });
 
-                    if (todos[i].completed) {
+                    if (todos[idx][i].completed) {
                         span.classList.add("completed");
                         input.classList.add("completed");
                     }
 
-                    if (todos[i].text.includes('-')) {
+                    if (todos[idx][i].text.includes('-')) {
                         console.log(i +" -")
                         input.classList.add("dashed");
                     }
@@ -317,11 +337,11 @@
             }
 
             function moveTodo(fromIndex, toIndex) {
-                if (fromIndex < 0 || fromIndex >= todos.length || toIndex < 0 || toIndex >= todos.length) {
+                if (fromIndex < 0 || fromIndex >= todos[idx].length || toIndex < 0 || toIndex >= todos[idx].length) {
                     return;
                 }
                 let item = todos.splice(fromIndex, 1)[0];
-                todos.splice(toIndex, 0, item);
+                todos[idx].splice(toIndex, 0, item);
                 saveTodos();
                 displayTodos();
             }
@@ -329,34 +349,54 @@
             function addTodo(text) {
                 if (text != "") {
                     if (todos == null) {
-                        todos = [];
+                        todos = [["home"],[""],[""],[""],[""],[""],[""],[""],[""],[""]];
                     }
-                    todos.push({ text: text, completed: false });
+                    todos[idx].push({ text: text, completed: false });
                     saveTodos();
                     displayTodos();
                 }
             }
 
             function deleteTodo(index) {
-                todos.splice(index, 1);
+                todos[idx].splice(index, 1);
                 saveTodos();
                 displayTodos();
             }
 
             function clearTodo() {
-                todos = [];
+                todos = [["home"],[""],[""],[""],[""],[""],[""],[""],[""],[""]];
+                idx = 0;
                 saveTodos();
                 displayTodos();
             }
 
             function clearCompletedTodo() {
-                for (let i = 0; i < todos.length; i++) {
-                    if (todos[i].completed) {
-                        todos.splice(i, 1);
+                for (let i = 0; i < todos[idx].length; i++) {
+                    if (todos[idx][i].completed) {
+                        todos[idx].splice(i, 1);
                         i--;
                     }
                 }
                 saveTodos();
+                displayTodos();
+            }
+
+            function nextCat() {
+                idx = (idx+1)%10;
+
+                category.value = todos[idx][0];
+                displayTodos();
+            }
+
+            function prevCat() {
+                idx = (idx-1)%10;
+               
+                category.value = todos[idx][0];
+                displayTodos();
+            }
+
+            function changeCat() {
+                todos[idx][0] = category.value;
                 displayTodos();
             }
 
@@ -400,7 +440,7 @@
                 let todoString = getCookie("todos");
                 todos = JSON.parse(todoString);
                 if (todos == null) {
-                    todos = [];
+                    todos = [[],[],[],[],[],[],[],[],[],[]];
                 }
             }
 
