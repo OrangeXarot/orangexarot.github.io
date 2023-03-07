@@ -340,7 +340,7 @@
                 if (fromIndex < 0 || fromIndex >= todos[idx].length || toIndex < 0 || toIndex >= todos[idx].length) {
                     return;
                 }
-                let item = todos.splice(fromIndex, 1)[0];
+                let item = todos[idx].splice(fromIndex, 1)[0];
                 todos[idx].splice(toIndex, 0, item);
                 saveTodos();
                 displayTodos();
