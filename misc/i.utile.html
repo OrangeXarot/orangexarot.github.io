@@ -8,10 +8,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet" />
         <style>
-            * {
-                margin: 0;
-                padding: 0;
-            }
+* {
+    margin: 0;
+    padding: 0;
+}
             ::selection {
                 color: white;
                 background: #ff4f0099;
@@ -69,7 +69,7 @@
                 text-decoration: none;
                 padding-left: 20px;
                 padding-bottom: 10px;
-                padding-top: 10px;
+                padding-top: 0px;
             }
             .time {
                 font-size: 60px;
@@ -94,12 +94,39 @@
             #seconds {
                 color: #ff4f00;
             }
+
+
+            .del {
+                text-align: right;
+                visibility: hidden;
+            }
+
+            .search {
+                color: white; 
+                font-size: 20px; 
+                line-height: 20px;
+            }
+
+            @keyframes cursor-blink {
+                0% {
+                    visibility: hidden;
+                }
+            }
+
+            .search:after {
+                content: "";
+                width: 2px;
+                height: 16px;
+                background: white;
+                display: inline-block;
+                animation: cursor-blink 1.0s steps(2) infinite;
+            }
         </style>
     </head>
     <body onload="randomClock()">
         <div class="all">
             <h5>
-                <a id="channel" href="https://www.youtube.com/c/OrangeXarot">OrangeXarot <i class="nf nf-mdi-carrot"></i></a>
+                <a id="channel" href="../index.html">OrangeXarot <i class="nf nf-mdi-carrot"></i></a>
             </h5>
             <br />
             <div class="time">
@@ -107,18 +134,89 @@
                 <span id="seconds">00</span>
                 <span id="period">AM</span>
             </div>
-            <div id="links">
-                <h1><u>LINKS</u></h1>
-                <a target="_blank" href="https://www.youtube.com/"><i class="nf nf-fa-youtube_play"></i> YouTube</a><br />
-                <a target="_blank" href="https://drive.google.com/"><i class="nf nf-mdi-google_drive"></i> Drive</a><br />
-                <a target="_blank" href="https://mail.google.com/"><i class="nf nf-mdi-gmail"></i> Gmail</a><br /><br />
-                <a target="_blank" href="https://wiki.archlinux.org/"><i class="nf nf-linux-archlinux"></i> ArchWiki</a><br />
-                <a target="_blank" href="https://github.com/"><i class="nf nf-mdi-github_circle"></i> GitHub</a><br />
-                <a target="_blank" href="https://orangexarot.github.io/"><i class="nf nf-mdi-web"></i> My Site</a><br /><br />
+            <div onclick="searchFun()" id="links">
+                <div class="del">
+                    <i onclick="clearSearch()" class="nf nf-md-delete_forever" style="cursor: pointer;"></i>
+                </div>
+                <h1 id="ltitle"><u>LINKS</u></h1>                
+                <div class="hlinks">
+                    <a target="_blank" href="https://www.youtube.com/"><i class="nf nf-fa-youtube_play"></i> YouTube</a><br />
+                    <a target="_blank" href="https://drive.google.com/"><i class="nf nf-mdi-google_drive"></i> Drive</a><br />
+                    <a target="_blank" href="https://mail.google.com/"><i class="nf nf-mdi-gmail"></i> Gmail</a><br /><br />
+                    <a target="_blank" href="https://wiki.archlinux.org/"><i class="nf nf-linux-archlinux"></i> ArchWiki</a><br />
+                    <a target="_blank" href="https://github.com/"><i class="nf nf-mdi-github_circle"></i> GitHub</a><br />
+                    <a target="_blank" href="https://orangexarot.github.io/"><i class="nf nf-mdi-web"></i> My Site</a><br /><br />
+                </div>
             </div>
         </div>
         <script type="text/javascript">
-            
+            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            let searching = [];
+
+            function clearSearch() {
+                searching = [];
+                loadStatus();
+            }
+
+            function searchFun() {
+                let sEngine = "https://you.com/search?q=";
+
+
+                if(searching.length > 0) {
+                    search = searching.join("");
+                    search = sEngine + search.split(' ').join('+');
+                    window.open(search, "_blank");
+
+                    searching = [];
+                    loadStatus();
+                }
+            }
+
+            function loadStatus() {
+                const title = document.getElementById("ltitle");
+                const links = document.querySelector('.hlinks');
+                const del = document.querySelector('.del');
+                const linksbox = document.getElementById('links');
+
+                if(searching.length >= 1) {
+                    links.style.transition = "0s";
+                    linksbox.style.transition = "0.7s";
+                    links.style.opacity = 0;
+                    links.style.visibility = "hidden";
+                    del.style.visibility = "visible";
+                    linksbox.style.height = "200px";
+                    linksbox.style.width = "400px";
+                    linksbox.style.cursor = "pointer";
+
+                    title.innerHTML = "<u>SEARCH</u><br /><span class='search'><br /><i class=\"nf nf-fa-search\"></i> "+ searching.join("") +"</span>";
+
+                } else {
+                    links.style.transition = "0.7s";
+                    linksbox.style.transition = "0.7s";
+                    links.style.opacity = 1;
+                    links.style.visibility = "visible";
+                    linksbox.style.height = "auto";
+                    linksbox.style.width = "240px";
+                    linksbox.style.cursor = "";
+                    del.style.visibility = "hidden";
+                    title.innerHTML = "<u>LINKS</u>";
+                }
+
+            }
+
+            window.addEventListener("keydown", e => {
+
+                if (e.key == "Enter") {
+                    searchFun();
+                } else if(e.key == "Backspace") {
+                    searching.pop();
+                } else if(letters.includes(e.key.toUpperCase()) || e.key == " ") {
+                    searching.push(e.key);
+                }
+                loadStatus();
+
+            });
+
             function sleep(ms) {
                 return new Promise((resolve) => setTimeout(resolve, ms));
             }
@@ -128,7 +226,6 @@
 
                 const interval = setInterval(() => {
 
-                    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
                     let HOUR = document.getElementById("hour");
                     let MIN = document.getElementById("minutes");
                     let SEC = document.getElementById("seconds");
@@ -147,8 +244,8 @@
                     if(rand < 10)
                         rand = '0' + rand;
                     SEC.innerHTML = rand;
-                    
-                    
+
+
                     rand = Math.floor(Math.random() * 26);
                     rand2 = Math.floor(Math.random() * 26);
                     PE.innerHTML = letters[rand] + letters[rand2];
@@ -188,12 +285,12 @@
                     return n;
                 };
 
- 
+
                 var ids = ["hour", "minutes", "seconds", "period"];
                 var values = [hou.pad(2), min.pad(2), sec.pad(2), pe];
 
                 for (var i = 0; i < ids.length; i++) {
-                        document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+                    document.getElementById(ids[i]).firstChild.nodeValue = values[i];
                 }
             }
 
@@ -221,7 +318,7 @@
                 var ids = ["hour", "minutes", "seconds", "period"];
                 var values = [hou.pad(2), min.pad(2), sec.pad(2), pe];
 
-                    await sleep(150);
+                await sleep(150);
                 for (var i = 0; i < ids.length; i++) {
                     await sleep(150);
                     for(var j = 0; j <= i; j++) {
@@ -231,6 +328,8 @@
 
                 window.setInterval("updateClock()", 1);
             }
+
+
         </script>
     </body>
 </html>
