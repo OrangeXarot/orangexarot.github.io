@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" href="src/ico.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../styles.css" />
+        <style>
+            h1 {
+                padding-top: 0px;
+            }
+
+            body {
+                overflow: hidden;
+            }
+
+            input {
+                background-color: #000;
+                color: #fff;
+                font-size: 20px;
+                border: 0;
+            }
+
+            #firstWord {
+                color: #d100c3;
+            }
+
+            #secondWord {
+                color: #4ab1ff;
+            }
+            @keyframes pulse {
+                0% {
+                    transform: scale(0.95);
+                    color: rgba(255, 79, 0, 0);
+                }
+
+                70% {
+                    transform: scale(1);
+                    color: rgba(255, 79, 0, 1);
+                }
+
+                100% {
+                    transform: scale(0.95);
+                    color: rgba(255, 79, 0, 0);
+                }
+            }
+            a {
+                animation: pulse 1s infinite;
+                cursor: pointer;
+            }
+
+            #dot3 {
+                cursor: default;
+            }
+
+            #fusion1 {
+                background-color: #d100c3;
+                background-image: linear-gradient(90deg, #d100c3, #4ab1ff);
+                background-size: 100%;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+                overflow: hidden;
+            }
+
+            @keyframes typing {
+                from {
+                    width: 0;
+                }
+                to {
+                    width: 100%;
+                }
+            }
+
+            #fusion2 {
+                background-color: #d100c3;
+                background-image: linear-gradient(-90deg, #d100c3, #4ab1ff);
+                background-size: 100%;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+            }
+            #doned {
+                color: #00ff6e;
+            }
+        </style>
+        <title>Word Fuser</title>
+    </head>
+    <body>
+        <h1>Welcome to OrangeXarot's Website<span id="shh"> ඞ</span></h1>
+        <div id="terminal">
+            <div id="dot1"></div>
+            <div id="dot2"></div>
+            <div id="dot3"></div>
+            <br />
+            <p id="PS1">
+                [orangexarot@website ~]$ ./wordFuser<span id="typ1"></span>
+            </p>
+            <label for="firstWord">First word:</label>
+            <input type="text" id="firstWord" autocomplete="off" />
+            <br />
+            <label for="secondWord">Second word:</label>
+            <input type="text" id="secondWord" autocomplete="off" />
+            <br />
+            <br />
+            <a onclick="calculate()" id="cont">Click here to continue...</a>
+            <p id="loading"></p>
+            <p id="fusion1"></p>
+            <p id="fusion2"></p>
+        </div>
+    </body>
+    <script>
+        async function calculate() {
+            let firstWord = document.getElementById("firstWord").value;
+            let secondWord = document.getElementById("secondWord").value;
+
+            document.getElementById("cont").remove();
+            if (firstWord == "" || secondWord == "") return 0;
+            let loading = document.getElementById("loading");
+            // [=====100%=====]
+            let log = "Retrieve word's lenghts\n";
+            loading.innerHTML = `[      0%      ]\n` + log;
+            await sleep(500);
+
+            let length1 = firstWord.length;
+            let length2 = secondWord.length;
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\n`;
+            loading.innerHTML = `[==    17%     ]\n` + log;
+            await sleep(300);
+
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts\n`;
+            loading.innerHTML = `[==    17%     ]\n` + log;
+            await sleep(500);
+            let sqrt1 = Math.floor(Math.sqrt(length1));
+            let sqrt2 = Math.floor(Math.sqrt(length1));
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\n`;
+            loading.innerHTML = `[===== 33%     ]\n` + log;
+            await sleep(300);
+
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared\n`;
+            loading.innerHTML = `[===== 33%     ]\n` + log;
+            await sleep(500);
+            let sqrtnt1 = sqrt1 * sqrt1;
+            let sqrtnt2 = sqrt2 * sqrt2;
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\n`;
+            loading.innerHTML = `[======50%     ]\n` + log;
+            await sleep(300);
+
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\nCalculating difference\n`;
+            loading.innerHTML = `[======50%     ]\n` + log;
+            await sleep(500);
+            let add1 = length1 - sqrtnt1;
+            let add2 = length2 - sqrtnt2;
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\nCalculating difference: <span id="doned">DONE</span> (${add1}, ${add2})\n`;
+            loading.innerHTML = `[======66%     ]\n` + log;
+            await sleep(300);
+
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\nCalculating difference: <span id="doned">DONE</span> (${add1}, ${add2})\nCalculating cutter length\n`;
+            loading.innerHTML = `[======66%     ]\n` + log;
+            await sleep(500);
+            let cut1 = sqrt1 + add1;
+            let cut2 = sqrt2 + add2;
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\nCalculating difference: <span id="doned">DONE</span> (${add1}, ${add2})\nCalculating cutter length: <span id="doned">DONE</span> (${cut1}, ${cut2})\n`;
+            loading.innerHTML = `[======83%==   ]\n` + log;
+            await sleep(300);
+
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\nCalculating difference: <span id="doned">DONE</span> (${add1}, ${add2})\nCalculating cutter length: <span id="doned">DONE</span> (${cut1}, ${cut2})\nDoing final fusion\n`;
+            loading.innerHTML = `[======83%==   ]\n` + log;
+            await sleep(500);
+            let newWord1 = firstWord.substring(0, cut1);
+            let newWord2 = secondWord.substring(length2 - cut2, length2);
+
+            let fuse1 = newWord1 + newWord2;
+
+
+            let newWord3 = secondWord.substring(0, cut2);
+            let newWord4 = firstWord.substring(length1 - cut1, length1);
+
+            let fuse2 = newWord3 + newWord4;
+
+
+            log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\nCalculating difference: <span id="doned">DONE</span> (${add1}, ${add2})\nCalculating cutter length: <span id="doned">DONE</span> (${cut1}, ${cut2})\nDoing final fusion: <span id="doned">DONE</span>\n`;
+            loading.innerHTML = `[=====100%=====]\n` + log + `\n`;
+            let fs1 = "";
+            for (let i = 0; i < fuse1.length; i++) {
+                fs1 += fuse1.charAt(i);
+                document.getElementById("fusion1").innerHTML = fs1;
+                await sleep(100);
+            }
+
+            let fs2 = "";
+            for (let i = 0; i < fuse2.length; i++) {
+                fs2 += fuse2.charAt(i);
+                document.getElementById("fusion2").innerHTML = fs2;
+                await sleep(100);
+            }
+        }
+
+        function sleep(ms) {
+            return new Promise((resolve) => setTimeout(resolve, ms));
+        }
+    </script>
+</html>
