@@ -99,9 +99,7 @@
             <div id="dot2"></div>
             <div id="dot3"></div>
             <br />
-            <p id="PS1">
-                [orangexarot@website ~]$ ./wordFuser<span id="typ1"></span>
-            </p>
+            <p id="PS1">[orangexarot@website ~]$ ./wordFuser<span id="typ1"></span></p>
             <label for="firstWord">First word:</label>
             <input type="text" id="firstWord" autocomplete="off" />
             <br />
@@ -178,12 +176,10 @@
 
             let fuse1 = newWord1 + newWord2;
 
-
             let newWord3 = secondWord.substring(0, cut2);
             let newWord4 = firstWord.substring(length1 - cut1, length1);
 
             let fuse2 = newWord3 + newWord4;
-
 
             log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\nPowering the squared: <span id="doned">DONE</span> (${sqrtnt1}, ${sqrtnt2})\nCalculating difference: <span id="doned">DONE</span> (${add1}, ${add2})\nCalculating cutter length: <span id="doned">DONE</span> (${cut1}, ${cut2})\nDoing final fusion: <span id="doned">DONE</span>\n`;
             loading.innerHTML = `[=====100%=====]\n` + log + `\n`;
