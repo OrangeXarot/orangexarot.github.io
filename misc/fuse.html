@@ -111,6 +111,8 @@
             <p id="loading"></p>
             <p id="fusion1"></p>
             <p id="fusion2"></p>
+            <br />
+            <a onclick="location.reload()" id="rel"></a>
         </div>
     </body>
     <script>
@@ -118,8 +120,8 @@
             let firstWord = document.getElementById("firstWord").value;
             let secondWord = document.getElementById("secondWord").value;
 
-            document.getElementById("cont").remove();
             if (firstWord == "" || secondWord == "") return 0;
+            document.getElementById("cont").remove();
             let loading = document.getElementById("loading");
             // [=====100%=====]
             let log = "Retrieve word's lenghts\n";
@@ -136,7 +138,7 @@
             loading.innerHTML = `[==    17%     ]\n` + log;
             await sleep(500);
             let sqrt1 = Math.floor(Math.sqrt(length1));
-            let sqrt2 = Math.floor(Math.sqrt(length1));
+            let sqrt2 = Math.floor(Math.sqrt(length2));
             log = `Retrieve word's lenghts: <span id="doned">DONE</span> (${length1}, ${length2})\nSquaring word's lenghts: <span id="doned">DONE</span> (${sqrt1}, ${sqrt2})\n`;
             loading.innerHTML = `[===== 33%     ]\n` + log;
             await sleep(300);
@@ -196,7 +198,12 @@
                 document.getElementById("fusion2").innerHTML = fs2;
                 await sleep(100);
             }
+
+        
+            document.querySelector("#rel").innerHTML = "Click here to redo...";
+
         }
+        
 
         function sleep(ms) {
             return new Promise((resolve) => setTimeout(resolve, ms));
