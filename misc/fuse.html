@@ -120,10 +120,9 @@
             let firstWord = document.getElementById("firstWord").value;
             let secondWord = document.getElementById("secondWord").value;
 
-            
             if (firstWord == "" || secondWord == "") return 0;
-document.getElementById("cont").remove();
             document.getElementById("cont").remove();
+
             let loading = document.getElementById("loading");
             // [=====100%=====]
             let log = "Retrieve word's lenghts\n";
@@ -201,11 +200,8 @@ document.getElementById("cont").remove();
                 await sleep(100);
             }
 
-        
             document.querySelector("#rel").innerHTML = "Click here to redo...";
-
         }
-        
 
         function sleep(ms) {
             return new Promise((resolve) => setTimeout(resolve, ms));
