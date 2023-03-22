@@ -173,7 +173,7 @@ bin misc profiles
 <a href="#PS3" id="clear">clear</a> <a href="#PS3" id="neofetch">neofetch</a> <a href="#PS3" id="uwufetch">uwufetch</a>
 
 ./misc:
-<a href="#PS3" id="bio">biography.txt</a> <a href="#" id="utile">utile.utile</a>
+<a href="#PS3" id="bio">biography.txt</a> <a href="#PS3" id="utile">utile.utile</a> <a href="#PS3" id="word">wordfuser</a>
 
 ./profiles:
 <a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="reddit">reddit</a> <a href="#PS3" id="tiktok">tiktok</a> <a href="#PS3" id="youtube">youtube</a>`;
@@ -183,6 +183,7 @@ bin misc profiles
 
     const BG = document.getElementById("bio");
     const UU = document.getElementById("utile");
+    const WF = document.getElementById("word");
     const CL = document.getElementById("clear");
     const NF = document.getElementById("neofetch");
     const UF = document.getElementById("uwufetch");
@@ -341,6 +342,48 @@ bin misc profiles
         window.open("misc/i.utile.html", "_blank");
         preclear();
     };
+
+    WF.onclick = async () => {
+        typend.innerHTML = `_`;
+        await sleep(faster);
+        typend.innerHTML = `._`;
+        await sleep(faster);
+        typend.innerHTML = `./_`;
+        await sleep(faster);
+        typend.innerHTML = `./m_`;
+        await sleep(faster);
+        typend.innerHTML = `./mi_`;
+        await sleep(faster);
+        typend.innerHTML = `./mis_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/w_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wo_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wor_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/word_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wordf_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wordfu_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wordfus_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wordfuse_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wordfuser_`;
+        await sleep(faster);
+        typend.innerHTML = `./misc/wordfuser`;
+        await sleep(faster);
+
+        window.open("misc/fuse.html", "_blank");
+        preclear();
+    }
 
     IG.onclick = async () => {
         typend.innerHTML = `_`;
