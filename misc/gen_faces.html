@@ -51,7 +51,7 @@
                 all.innerHTML += `<input type="text" value="x_x" class="face${i}" readonly/><button onclick="copy(${i})">copy</button>`;
                 if (i % 4 == 0) all.innerHTML += `<br />`;
             }
-            all.innerHTML += `<button class="gen" onclick="generate()">generate</button><input type="checkbox" id="oxfy" name="oxfy" onclick="oxfy()"><label for="oxfy">OXfy</label>`;
+            all.innerHTML += `<br /><button class="gen" onclick="generate()">generate</button><input type="checkbox" id="oxfy" name="oxfy" onclick="oxfy()"><label for="oxfy">OXfy</label>`;
         }
 
         function oxfy() {
