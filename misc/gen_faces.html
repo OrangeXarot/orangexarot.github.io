@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: "Roboto", sans-serif;
+                font-size: 30px;
+            }
+            .faces {
+                margin: 20px;
+            }
+            input[type="text"] {
+                width: 70px;
+                font-size: 30px;
+                border: none;
+                outline: none;
+                margin-right: 10px;
+            }
+            input[type="checkbox"] {
+                width: 30px;
+                height: 30px;
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+            .faces button {
+                margin-right: 20px;
+            }
+            button {
+                text-transform: uppercase;
+                padding: 5px 10px;
+            }
+        </style>
+    </head>
+    <body onload="prepare()">
+        <div class="faces"></div>
+    </body>
+    <script>
+        function prepare() {
+            let all = document.querySelector(".faces");
+            for (let i = 1; i <= 50; i++) {
+                all.innerHTML += `<input type="text" value="x_x" class="face${i}" readonly/><button onclick="copy(${i})">copy</button>`;
+                if (i % 10 == 0) all.innerHTML += `<br />`;
+            }
+            all.innerHTML += `<button class="gen" onclick="generate()">generate</button><input type="checkbox" id="oxfy" name="oxfy" onclick="oxfy()"><label for="oxfy">OXfy</label>`;
+        }
+
+        function oxfy() {
+            if (document.querySelector(`#oxfy`).checked) {
+                for (let i = 1; i <= 50; i++) {
+                    let tag = document.querySelector(`.face${i}`);
+                    let char = getChar();
+                    tag.value = "_" + tag.value.charAt(2);
+                }
+            } else {
+                for (let i = 1; i <= 50; i++) {
+                    let tag = document.querySelector(`.face${i}`);
+                    let char = getChar();
+                    tag.value = tag.value.charAt(1) + "_" + tag.value.charAt(1);
+                }
+            }
+        }
+
+        function getChar() {
+            let num = Math.floor(Math.random() * 149186);
+            return String.fromCharCode(num);
+        }
+
+        function generate() {
+            for (let i = 1; i <= 50; i++) {
+                let tag = document.querySelector(`.face${i}`);
+                let char = getChar();
+                if (document.querySelector(`#oxfy`).checked) {
+                    tag.value = "_" + char;
+                } else {
+                    tag.value = char + "_" + char;
+                }
+            }
+        }
+
+        function copy(i) {
+            var copyText = document.querySelector(`.face${i}`);
+
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+
+            navigator.clipboard.writeText(copyText.value);
+        }
+    </script>
+</html>
