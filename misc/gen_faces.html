@@ -58,13 +58,11 @@
             if (document.querySelector(`#oxfy`).checked) {
                 for (let i = 1; i <= 52; i++) {
                     let tag = document.querySelector(`.face${i}`);
-                    let char = getChar();
                     tag.value = "_" + tag.value.charAt(2);
                 }
             } else {
                 for (let i = 1; i <= 52; i++) {
                     let tag = document.querySelector(`.face${i}`);
-                    let char = getChar();
                     tag.value = tag.value.charAt(1) + "_" + tag.value.charAt(1);
                 }
             }
