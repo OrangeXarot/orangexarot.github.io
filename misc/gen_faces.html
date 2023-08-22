@@ -51,7 +51,7 @@
                 all.innerHTML += `<input type="text" value="x_x" class="face${i}" readonly/><button onclick="copy(${i})">copy</button>`;
                 if (i % 4 == 0) all.innerHTML += `<br />`;
             }
-            all.innerHTML += `<br /><button class="gen" onclick="generate()">generate</button><input type="checkbox" id="oxfy" name="oxfy" onclick="oxfy()"><label for="oxfy">OXfy</label>`;
+            all.innerHTML += `<br /><button class="gen" onclick="generate()">generate</button><input type="checkbox" id="oxfy" name="oxfy" onclick="oxfy()"><label for="oxfy">OXfy</label><input type="checkbox" id="tbfy" name="tbfy" onclick="tbfy()"><label for="tbfy">TableFlip</label>`;
         }
 
         function oxfy() {
@@ -79,9 +79,13 @@
                 let char = getChar();
                 if (document.querySelector(`#oxfy`).checked) {
                     tag.value = "_" + char;
+                }else if(document.querySelector(`#tbfy`).checked) {
+                    tag.value = "(┛"+ char + getChar() + char +")┛︵ ┻━┻";
                 } else {
                     tag.value = char + "_" + char;
                 }
+                tag.style.width = tag.value.length*20 + "px";
+                console.log(tag.value.length*40);
             }
         }
 
