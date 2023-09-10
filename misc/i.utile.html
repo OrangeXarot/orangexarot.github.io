@@ -14,7 +14,7 @@
 }
             ::selection {
                 color: white;
-                background: #ff4f0099;
+                background: #ff4f00;
             }
             body {
                 color: white;
@@ -50,6 +50,7 @@
                 border: 3px solid #ff4f00;
                 border-radius: 5px;
                 box-shadow: 0 0 30px #ff4f00;
+                animation: infinite ease-in-out 2s shadow;
                 margin: 70px auto;
                 width: 240px;
                 text-align: left;
@@ -90,9 +91,13 @@
                 text-transform: uppercase;
                 margin-top: 10px;
                 padding: 0 5px;
+
             }
             #seconds {
                 color: #ff4f00;
+
+                text-shadow: 0 0 10px #ff4f00;
+                animation: infinite ease-in-out 2s text-shadow;
             }
 
 
@@ -110,6 +115,34 @@
             @keyframes cursor-blink {
                 0% {
                     visibility: hidden;
+                }
+            }
+
+            @keyframes shadow {
+                0% {
+                    box-shadow: 0 0 30px #ff4f00;
+                }
+
+                50% {
+                    box-shadow: 0 0 60px #ff4f00;
+                }
+
+                100% {
+                    box-shadow: 0 0 30px #ff4f00;
+                }
+            }
+
+            @keyframes text-shadow {
+                0% {
+                    text-shadow: 0 0 10px #ff4f00;
+                }
+
+                50% {
+                    text-shadow: 0 0 20px #ff4f00;
+                }
+
+                100% {
+                    text-shadow: 0 0 10px #ff4f00;
                 }
             }
 
@@ -140,9 +173,10 @@
                 </div>
                 <h1 id="ltitle"><u>LINKS</u></h1>                
                 <div class="hlinks">
-                    <a target="_blank" href="https://www.youtube.com/"><i class="nf nf-fa-youtube_play"></i> YouTube</a><br />
-                    <a target="_blank" href="https://drive.google.com/"><i class="nf nf-dev-google_drive"></i> Drive</a><br />
-                    <a target="_blank" href="https://mail.google.com/"><i class="nf nf-md-gmail"></i> Gmail</a><br /><br />
+                    <a target="_blank" href="https://vid.puffyan.us/"><i class="nf nf-fa-youtube_play"></i> YouTube</a><br />
+                    <a target="_blank" href="https://drive.proton.me/"><i class="nf nf-md-folder"></i> Drive</a><br />
+                    <a target="_blank" href="https://mail.proton.me/"><i class="nf nf-md-mailbox_open"></i> Mail</a><br />
+                    <a target="_blank" href="https://fmhy-search.streamlit.app/"><i class="nf nf-fa-play_circle"></i> FMHY</a><br /><br />
                     <a target="_blank" href="https://wiki.archlinux.org/"><i class="nf nf-linux-archlinux"></i> ArchWiki</a><br />
                     <a target="_blank" href="https://github.com/"><i class="nf nf-fa-github"></i> GitHub</a><br />
                     <a target="_blank" href="https://orangexarot.github.io/"><i class="nf nf-cod-globe"></i> My Site</a><br /><br />
@@ -150,7 +184,7 @@
             </div>
         </div>
         <script type="text/javascript">
-            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
             let searching = [];
 
             function clearSearch() {
