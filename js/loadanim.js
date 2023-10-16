@@ -176,7 +176,7 @@ bin misc profiles
 <a href="#PS3" id="bio">biography.txt</a> <a href="#PS3" id="utile">utile.utile</a> <a href="#PS3" id="word">wordfuser</a>
 
 ./profiles:
-<a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="reddit">reddit</a> <a href="#PS3" id="tiktok">tiktok</a> <a href="#PS3" id="youtube">youtube</a>`;
+<a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="reddit">reddit</a> <a href="#PS3" id="youtube">youtube</a>`;
 
     PS3.innerHTML = `[orangexarot@website ~]$ `;
     typend.innerHTML = `_`;
