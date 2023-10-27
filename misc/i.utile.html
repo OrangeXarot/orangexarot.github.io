@@ -176,6 +176,7 @@
                     <a target="_blank" href="https://vid.puffyan.us/"><i class="nf nf-fa-youtube_play"></i> YouTube</a><br />
                     <a target="_blank" href="https://drive.proton.me/"><i class="nf nf-md-folder"></i> Drive</a><br />
                     <a target="_blank" href="https://mail.proton.me/"><i class="nf nf-md-mailbox_open"></i> Mail</a><br />
+                    <a href="#"><i class="nf nf-fa-play_circle" onclick="showxkcd()"></i> xkcd</a><br />
                     <a target="_blank" href="https://fmhy-search.streamlit.app/"><i class="nf nf-fa-play_circle"></i> FMHY</a><br /><br />
                     <a target="_blank" href="https://wiki.archlinux.org/"><i class="nf nf-linux-archlinux"></i> ArchWiki</a><br />
                     <a target="_blank" href="https://github.com/"><i class="nf nf-fa-github"></i> GitHub</a><br />
@@ -183,6 +184,7 @@
                 </div>
             </div>
         </div>
+        <img id="xkcd">
         <script type="text/javascript">
             const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
             let searching = [];
@@ -361,6 +363,8 @@
                 }
 
                 window.setInterval("updateClock()", 1);
+
+                
             }
 
 
