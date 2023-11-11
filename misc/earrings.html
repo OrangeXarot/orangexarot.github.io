@@ -65,18 +65,30 @@
         "You mean the world to me.",
         "My heart is yours.",
         "You have my love, always.",
-        "There's nothing I cherish more than you.",
-        "You're the one I adore.",
+        "There's nothing I love more than you.",
+        "You're the one I love.",
         "You're the love of my life.",
         "With every beat of my heart, I love you.",
+        "Forever yours.",
+        "Infinite love, just for you."
       ];
       function randomEarring() {
-        let random = Math.floor(Math.random() * (8 - 1)) + 1;
-        document.getElementById(
+        let random = Math.floor(Math.random() * (10)) + 1;
+        if(random < 10) {
+          document.getElementById(
           "earring"
         ).innerHTML = `<img src="earrings/0${random}.jpg"><h2>${
           loves[random - 1]
         }</h2>`;
+        } else {
+          document.getElementById(
+          "earring"
+        ).innerHTML = `<img src="earrings/${random}.jpg"><h2>${
+          loves[random - 1]
+        }</h2>`;
+        }
+        
+        console.log(random);
       }
     </script>
     <div id="caching">
