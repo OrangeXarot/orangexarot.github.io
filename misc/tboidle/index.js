@@ -79,7 +79,10 @@ function handleKeyPress(event) {
 
 function getRandomIndex() {
   const today = new Date();
-  const seed = today.toISOString().slice(0, 10);
+  const seed =
+    today.getFullYear().toString() +
+    today.getMonth().toString() +
+    today.getDate().toString();
   const randomIndex = parseInt(seed.replace(/\D/g, ""), 10) % items.length;
   return randomIndex;
 
