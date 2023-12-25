@@ -1,0 +1,252 @@
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: Font Souls;
+        src: url(src/Font_soulsV2_Body-Regular.ttf);
+        /* https://github.com/AssisrMatheus/font-souls */
+      }
+
+      * {
+        font-family: Font Souls;
+      }
+
+      img {
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+      }
+
+      body {
+        font-family: Font Souls;
+        text-align: center;
+        background: url("src/backdrop.webp") no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 60vw;
+        max-width: 100px;
+        min-width: 320px;
+        left: 50%;
+        margin: auto;
+      }
+      
+      #title {
+        width: 100%;
+        margin-top: 125px;
+        margin-bottom: 30px;
+      }
+
+      #guesses {
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto;
+        margin: 100px 0 0 0;
+      }
+
+      .entire {
+        display: flex;
+        justify-content: center;
+        overflow-y: hidden;
+      }
+
+      @media only screen and (max-width: 670px) {
+        .entire {
+          justify-content: flex-start;
+        }
+      }
+
+      @keyframes fadeInUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      .lilicons {
+        height: 100%;
+      }
+
+      .lil:nth-child(1) {
+        animation-delay: 0.2s;
+      }
+
+      .lil:nth-child(2) {
+        animation-delay: 0.4s;
+      }
+
+      .lil:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+
+      .lil:nth-child(4) {
+        animation-delay: 0.8s;
+      }
+
+      .lil:nth-child(5) {
+        animation-delay: 1s;
+      }
+
+      .lil:nth-child(6) {
+        animation-delay: 1.2s;
+      }
+
+      .lil {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 1s forwards;
+        display: inline-block;
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0);
+        background-image: url("src/box.webp");
+        background-size: cover;
+      }
+
+      #old {
+        height: 1000px;
+        overflow-y: auto;
+        transition: height 1s ease 1.5s;
+      }
+
+      #old .lil {
+        transform: translateY(0);
+        opacity: 1;
+        animation: none;
+        display: inline-block;
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+        background-color: rgba(20, 160, 20, 0);
+        background-image: url("src/box.webp");
+        background-size: cover;
+      }
+      .innertext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 70px;
+      }
+
+      .correct {
+        color: green;
+      }
+
+      .wrong {
+        color: red;
+      }
+
+      .semi {
+        color: orange;
+      }
+
+      .higher {
+        color: red;
+      }
+
+      .lower {
+        color: red;
+      }
+
+      .selected {
+        cursor: default;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .selected:hover {
+        color: #666;
+      }
+
+      #guess {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        font-size: 30px;
+        width: 400px;
+        height: 190px;
+        text-align: center;
+        background-image: url("src/input.webp");
+        background-size: cover;
+      }
+
+      #guess:focus {
+        outline: none;
+      }
+
+      .firstinsert {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #firstsub {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        transition:
+          width 0.5s ease,
+          transform 0.5s ease;
+      }
+
+      #firstsub:hover {
+        transform: scale(1.1);
+      }
+
+      #firstsub:hover {
+        text-decoration: underline;
+      }
+
+      #tooltip {
+        visibility: hidden;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        left: 50%;
+        transform: translateX(-65%);
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        z-index: 1;
+      }
+
+      #stats {
+        opacity: 0;
+        transition: opacity 1s ease 3s;
+        font-size: 30px;
+      }
+
+      #countdown {
+        font-size: 30px;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        transform: rotate(13deg);
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1" />
+    <title>Index</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="src/title.webp" alt="TBOIDLE" id="title" />
+    </div>
+    <div id="countdown"></div>
+    <div id="game"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

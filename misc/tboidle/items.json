@@ -1,0 +1,6448 @@
+{
+  "items": [
+    {
+      "title": "The Sad Onion",
+      "id": 1,
+      "pickup": "Tears up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The Inner Eye",
+      "id": 2,
+      "pickup": "Triple shot",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Spoon Bender",
+      "id": 3,
+      "pickup": "Homing shots",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Cricket's Head",
+      "id": 4,
+      "pickup": "DMG up",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "My Reflection",
+      "id": 5,
+      "pickup": "Boomerang tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Number One",
+      "id": 6,
+      "pickup": "Tears up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Blood of the Martyr",
+      "id": 7,
+      "pickup": "DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Brother Bobby",
+      "id": 8,
+      "pickup": "Friends 'till the end",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Skatole",
+      "id": 9,
+      "pickup": "Fly love",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Arcade shell game"
+    },
+    {
+      "title": "Halo of Flies",
+      "id": 10,
+      "pickup": "Projectile protection",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "1UP",
+      "id": 11,
+      "pickup": "Extra life",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Magic Mushroom",
+      "id": 12,
+      "pickup": "All stats up!",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Mushrooms"
+    },
+    {
+      "title": "The Virus",
+      "id": 13,
+      "pickup": "Poison touch",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Demon Beggar, Lust Miniboss"
+    },
+    {
+      "title": "Roid Rage",
+      "id": 14,
+      "pickup": "Speed and range up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Boss Room, Demon Beggar"
+    },
+    {
+      "title": "&lt;3",
+      "id": 15,
+      "pickup": "HP up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Gluttony Miniboss"
+    },
+    {
+      "title": "Raw Liver",
+      "id": 16,
+      "pickup": "HP up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Skeleton Key",
+      "id": 17,
+      "pickup": "99 keys",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "A Dollar",
+      "id": 18,
+      "pickup": "$$$",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Arcade machine"
+    },
+    {
+      "title": "Boom!",
+      "id": 19,
+      "pickup": "10 bombs",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Transcendence",
+      "id": 20,
+      "pickup": "We all float down here...",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "The Compass",
+      "id": 21,
+      "pickup": "The end is near",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Beggar"
+    },
+    {
+      "title": "Lunch",
+      "id": 22,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Challenge Room, Beggar"
+    },
+    {
+      "title": "Dinner",
+      "id": 23,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Beggar, Challenge Room"
+    },
+    {
+      "title": "Dessert",
+      "id": 24,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Beggar, Challenge Room"
+    },
+    {
+      "title": "Breakfast",
+      "id": 25,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Challenge Room, Beggar"
+    },
+    {
+      "title": "Rotten Meat",
+      "id": 26,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Beggar, Challenge Room"
+    },
+    {
+      "title": "Wooden Spoon",
+      "id": 27,
+      "pickup": "Speed up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "The Belt",
+      "id": 28,
+      "pickup": "Speed up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Mom's Underwear",
+      "id": 29,
+      "pickup": "Range Up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Challenge Room, Gold/Stone Chest, Mom's Chest"
+    },
+    {
+      "title": "Mom's Heels",
+      "id": 30,
+      "pickup": "Range up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Mom's Lipstick",
+      "id": 31,
+      "pickup": "Range up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Wire Coat Hanger",
+      "id": 32,
+      "pickup": "Tears up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "The Bible",
+      "id": 33,
+      "pickup": "Temporary flight",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Library, Angel Room"
+    },
+    {
+      "title": "The Book of Belial",
+      "id": 34,
+      "pickup": "Temporary DMG up",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Library, Devil Room"
+    },
+    {
+      "title": "The Necronomicon",
+      "id": 35,
+      "pickup": "Mass room damage",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Library, Secret Room, Devil Room"
+    },
+    {
+      "title": "The Poop",
+      "id": 36,
+      "pickup": "Plop!",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mr. Boom",
+      "id": 37,
+      "pickup": "Reusable bomb buddy",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Wrath Miniboss, Bomb Beggar"
+    },
+    {
+      "title": "Tammy's Head",
+      "id": 38,
+      "pickup": "Reusable tear burst",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Gold Chest"
+    },
+    {
+      "title": "Mom's Bra",
+      "id": 39,
+      "pickup": "Mass fear",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Kamikaze",
+      "id": 40,
+      "pickup": "Become the bomb!",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mom's Pad",
+      "id": 41,
+      "pickup": "Gross...",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Bob's Rotten Head",
+      "id": 42,
+      "pickup": "Reusable ranged bomb",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Sloth Miniboss"
+    },
+    {
+      "title": "Teleport",
+      "id": 44,
+      "pickup": "Teleport!",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Yum Heart",
+      "id": 45,
+      "pickup": "Reusable regeneration",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Super Lust Miniboss"
+    },
+    {
+      "title": "Lucky Foot",
+      "id": 46,
+      "pickup": "Luck up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Beggar"
+    },
+    {
+      "title": "Doctor's Remote",
+      "id": 47,
+      "pickup": "Reusable air strike",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Cupid's Arrow",
+      "id": 48,
+      "pickup": "Piercing shots",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Shoop Da Whoop!",
+      "id": 49,
+      "pickup": "BLLLARRRRGGG!",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Envy Miniboss, Super Envy Miniboss"
+    },
+    {
+      "title": "Steven",
+      "id": 50,
+      "pickup": "DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Steven Boss"
+    },
+    {
+      "title": "Pentagram",
+      "id": 51,
+      "pickup": "DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Curse Room, Devil Room, Demon Beggar, Crane Game"
+    },
+    {
+      "title": "Dr. Fetus",
+      "id": 52,
+      "pickup": "???",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Magneto",
+      "id": 53,
+      "pickup": "Item snatcher",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Treasure Map",
+      "id": 54,
+      "pickup": "Full visible map",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Beggar"
+    },
+    {
+      "title": "Mom's Eye",
+      "id": 55,
+      "pickup": "Eye in the back of your head",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Lemon Mishap",
+      "id": 56,
+      "pickup": "Oops...",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Distant Admiration",
+      "id": 57,
+      "pickup": "Attack fly",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Book of Shadows",
+      "id": 58,
+      "pickup": "Temporary invincibility",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library"
+    },
+    {
+      "title": "The Ladder",
+      "id": 60,
+      "pickup": "Building bridges",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Charm of the Vampire",
+      "id": 62,
+      "pickup": "Kills heal",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The Battery",
+      "id": 63,
+      "pickup": "Stores energy",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Steam Sale",
+      "id": 64,
+      "pickup": "50% off",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Greed Miniboss, Shopkeeper"
+    },
+    {
+      "title": "Anarchist Cookbook",
+      "id": 65,
+      "pickup": "Summon bombs",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library, Pride Miniboss"
+    },
+    {
+      "title": "The Hourglass",
+      "id": 66,
+      "pickup": "Temporary enemy slowdown",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Sister Maggy",
+      "id": 67,
+      "pickup": "Friends 'till the end",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Technology",
+      "id": 68,
+      "pickup": "Laser tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Chocolate Milk",
+      "id": 69,
+      "pickup": "Charge shots",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Growth Hormones",
+      "id": 70,
+      "pickup": "DMG up + speed up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Demon Beggar"
+    },
+    {
+      "title": "Mini Mush",
+      "id": 71,
+      "pickup": "Speed + range up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Rosary",
+      "id": 72,
+      "pickup": "Faith up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Cube of Meat",
+      "id": 73,
+      "pickup": "Gotta meat em all",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Horsemen boss"
+    },
+    {
+      "title": "A Quarter",
+      "id": 74,
+      "pickup": "+25 coins",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Gold Chest, Super Greed Miniboss"
+    },
+    {
+      "title": "PhD",
+      "id": 75,
+      "pickup": "Better pills",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Shop"
+    },
+    {
+      "title": "X-Ray Vision",
+      "id": 76,
+      "pickup": "I've seen everything",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "My Little Unicorn",
+      "id": 77,
+      "pickup": "Temporary badass",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Book of Revelations",
+      "id": 78,
+      "pickup": "Reusable soul protection",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library"
+    },
+    {
+      "title": "The Mark",
+      "id": 79,
+      "pickup": "DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Curse Room, Devil Room, Demon Beggar"
+    },
+    {
+      "title": "The Pact",
+      "id": 80,
+      "pickup": "DMG + tears up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Demon Beggar"
+    },
+    {
+      "title": "Dead Cat",
+      "id": 81,
+      "pickup": "9 lives",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Red Chest, Super Pride Miniboss"
+    },
+    {
+      "title": "Lord of the Pit",
+      "id": 82,
+      "pickup": "Demon wings",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "The Nail",
+      "id": 83,
+      "pickup": "Temporary demon form",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "We Need To Go Deeper",
+      "id": 84,
+      "pickup": "Reusable level skip",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Secret Room, Devil Room"
+    },
+    {
+      "title": "Deck of Cards",
+      "id": 85,
+      "pickup": "Reusable card generator",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Shop"
+    },
+    {
+      "title": "Monstro's Tooth",
+      "id": 86,
+      "pickup": "Summon monstro",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Loki's Horns",
+      "id": 87,
+      "pickup": "Cross tears",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Demon Beggar"
+    },
+    {
+      "title": "Little Chubby",
+      "id": 88,
+      "pickup": "Attack buddy",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Spider Bite",
+      "id": 89,
+      "pickup": "Slow effect",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The Small Rock",
+      "id": 90,
+      "pickup": "DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Tinted rock"
+    },
+    {
+      "title": "Spelunker Hat",
+      "id": 91,
+      "pickup": "See-through doors",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Super Bandage",
+      "id": 92,
+      "pickup": "+2 hearts",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Boss Room"
+    },
+    {
+      "title": "The Gamekid",
+      "id": 93,
+      "pickup": "Temporary Man-Pac",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Sack of Pennies",
+      "id": 94,
+      "pickup": "Gives money",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Robo-Baby",
+      "id": 95,
+      "pickup": "Friends till the bzzzttt",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Little C.H.A.D",
+      "id": 96,
+      "pickup": "Gives kisses",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, C.H.A.D. Boss"
+    },
+    {
+      "title": "The Book of Sin",
+      "id": 97,
+      "pickup": "Reusable item generator",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library, Devil Room"
+    },
+    {
+      "title": "The Relic",
+      "id": 98,
+      "pickup": "Soul generator",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Little Gish",
+      "id": 99,
+      "pickup": "Sticky friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Gish Boss"
+    },
+    {
+      "title": "Little Steven",
+      "id": 100,
+      "pickup": "Psychic friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Steven Boss"
+    },
+    {
+      "title": "The Halo",
+      "id": 101,
+      "pickup": "All stats up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Mom's Bottle of Pills",
+      "id": 102,
+      "pickup": "Reusable pill generator",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Shop, Challenge Room, Beggar, Demon Beggar, Mom's Chest"
+    },
+    {
+      "title": "The Common Cold",
+      "id": 103,
+      "pickup": "Poison damage",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The Parasite",
+      "id": 104,
+      "pickup": "Split shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The D6",
+      "id": 105,
+      "pickup": "Reroll your destiny",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mr. Mega",
+      "id": 106,
+      "pickup": "Blast damage",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar, Super Wrath Miniboss"
+    },
+    {
+      "title": "Pinking Shears",
+      "id": 107,
+      "pickup": "Cut and run",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The Wafer",
+      "id": 108,
+      "pickup": "Damage resistance",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Money = Power",
+      "id": 109,
+      "pickup": "$$$ = DMG",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Mom's Contacts",
+      "id": 110,
+      "pickup": "Freeze effect",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "The Bean",
+      "id": 111,
+      "pickup": "Toot on command",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Beggar"
+    },
+    {
+      "title": "Guardian Angel",
+      "id": 112,
+      "pickup": "Extra protection",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Demon Baby",
+      "id": 113,
+      "pickup": "Auto-turret friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Mom's Knife",
+      "id": 114,
+      "pickup": "Stab stab stab",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Ouija Board",
+      "id": 115,
+      "pickup": "Spectral tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "9 Volt",
+      "id": 116,
+      "pickup": "Quicker charge",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Dead Bird",
+      "id": 117,
+      "pickup": "Protective buddy",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Brimstone",
+      "id": 118,
+      "pickup": "Blood laser barrage",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Blood Bag",
+      "id": 119,
+      "pickup": "HP up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Blood Donation machine"
+    },
+    {
+      "title": "Odd Mushroom (Thin)",
+      "id": 120,
+      "pickup": "Fire rate up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Odd Mushroom (Large)",
+      "id": 121,
+      "pickup": "DMG up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Whore of Babylon",
+      "id": 122,
+      "pickup": "Curse up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Monster Manual",
+      "id": 123,
+      "pickup": "Temporary buddy generator",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Devil Room, Library"
+    },
+    {
+      "title": "Dead Sea Scrolls",
+      "id": 124,
+      "pickup": "It's a mystery",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Bobby - Bomb",
+      "id": 125,
+      "pickup": "Friends till the end",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Razor Blade",
+      "id": 126,
+      "pickup": "Feel my pain",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Curse Room, Demon Beggar"
+    },
+    {
+      "title": "Forget Me Now",
+      "id": 127,
+      "pickup": "I don't remember...",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Secret Room, Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Forever Alone",
+      "id": 128,
+      "pickup": "Attack fly",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Bucket of Lard",
+      "id": 129,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Super Gluttony Miniboss"
+    },
+    {
+      "title": "A Pony",
+      "id": 130,
+      "pickup": "Flight + dash attack",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Headless horseman"
+    },
+    {
+      "title": "Bomb Bag",
+      "id": 131,
+      "pickup": "Gives bombs",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "A Lump of Coal",
+      "id": 132,
+      "pickup": "My Xmas present",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Krampus"
+    },
+    {
+      "title": "Guppy's Paw",
+      "id": 133,
+      "pickup": "Soul converter",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Red Chest"
+    },
+    {
+      "title": "Guppy's Tail",
+      "id": 134,
+      "pickup": "Cursed?",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Red Chest"
+    },
+    {
+      "title": "IV Bag",
+      "id": 135,
+      "pickup": "Portable blood bank",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Blood donation machine"
+    },
+    {
+      "title": "Best Friend",
+      "id": 136,
+      "pickup": "Friends 'till the end",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Remote Detonator",
+      "id": 137,
+      "pickup": "Remote bomb detonation",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Shop, Bomb Beggar"
+    },
+    {
+      "title": "Stigmata",
+      "id": 138,
+      "pickup": "DMG + HP up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mom's Purse",
+      "id": 139,
+      "pickup": "More trinket room",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Mom's Chest"
+    },
+    {
+      "title": "Bob's Curse",
+      "id": 140,
+      "pickup": "Poison bombs",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Super Sloth Miniboss, Bomb Beggar"
+    },
+    {
+      "title": "Pageant Boy",
+      "id": 141,
+      "pickup": "Ultimate grand supreme",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Scapular",
+      "id": 142,
+      "pickup": "You have been blessed",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Speed Ball",
+      "id": 143,
+      "pickup": "Speed + shot speed up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Boss Room, Demon Beggar"
+    },
+    {
+      "title": "Bum Friend",
+      "id": 144,
+      "pickup": "He's Greedy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Guppy's Head",
+      "id": 145,
+      "pickup": "Reusable fly hive",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Red Chest, Gold/Stone Chest"
+    },
+    {
+      "title": "Prayer Card",
+      "id": 146,
+      "pickup": "Reusable eternity",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Notched Axe",
+      "id": 147,
+      "pickup": "Rocks didn't stand a chance",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Crane Game"
+    },
+    {
+      "title": "Infestation",
+      "id": 148,
+      "pickup": "Fly revenge",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Ipecac",
+      "id": 149,
+      "pickup": "Explosive shots",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Tough Love",
+      "id": 150,
+      "pickup": "Tooth shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The Mulligan",
+      "id": 151,
+      "pickup": "They grow inside",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Technology 2",
+      "id": 152,
+      "pickup": "Laser",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mutant Spider",
+      "id": 153,
+      "pickup": "Quad Shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Chemical Peel",
+      "id": 154,
+      "pickup": "DMG up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "The Peeper",
+      "id": 155,
+      "pickup": "Plop!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Habit",
+      "id": 156,
+      "pickup": "Item martyr",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Angel Room"
+    },
+    {
+      "title": "Bloody Lust",
+      "id": 157,
+      "pickup": "RAGE!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Crystal Ball",
+      "id": 158,
+      "pickup": "I see my future",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Fortune machine"
+    },
+    {
+      "title": "Spirit of the Night",
+      "id": 159,
+      "pickup": "Scary",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Crack The Sky",
+      "id": 160,
+      "pickup": "Holy white death",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Ankh",
+      "id": 161,
+      "pickup": "Eternal life?",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Celtic Cross",
+      "id": 162,
+      "pickup": "You feel blessed",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Ghost Baby",
+      "id": 163,
+      "pickup": "Spectral buddy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "The Candle",
+      "id": 164,
+      "pickup": "Reusable flame",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Cat-O-Nine-Tails",
+      "id": 165,
+      "pickup": "Shot speed up + DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "D20",
+      "id": 166,
+      "pickup": "Reroll the basics",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Harlequin Baby",
+      "id": 167,
+      "pickup": "Double shot buddy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Epic Fetus",
+      "id": 168,
+      "pickup": "On-demand air strike",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Polyphemus",
+      "id": 169,
+      "pickup": "Mega tears",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Daddy Longlegs",
+      "id": 170,
+      "pickup": "Daddy's love",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Spider Butt",
+      "id": 171,
+      "pickup": "Mass enemy slowdown + damage",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Sacrificial Dagger",
+      "id": 172,
+      "pickup": "My fate protects me",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Mitre",
+      "id": 173,
+      "pickup": "You feel blessed",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Rainbow Baby",
+      "id": 174,
+      "pickup": "Random buddy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Dad's Key",
+      "id": 175,
+      "pickup": "Opens all doors...",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Stem Cells",
+      "id": 176,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Boss Room"
+    },
+    {
+      "title": "Portable Slot",
+      "id": 177,
+      "pickup": "Gamble 24/7",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Beggar"
+    },
+    {
+      "title": "Holy Water",
+      "id": 178,
+      "pickup": "Splash!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Fate",
+      "id": 179,
+      "pickup": "Flight eternal",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Gold Chest"
+    },
+    {
+      "title": "The Black Bean",
+      "id": 180,
+      "pickup": "Toot on touch",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Beggar"
+    },
+    {
+      "title": "White Pony",
+      "id": 181,
+      "pickup": "Flight + holy death",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Conquest boss"
+    },
+    {
+      "title": "Sacred Heart",
+      "id": 182,
+      "pickup": "Homing shots + DMG up",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Toothpicks",
+      "id": 183,
+      "pickup": "Tears + shot speed up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Holy Grail",
+      "id": 184,
+      "pickup": "Flight + HP up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Dead Dove",
+      "id": 185,
+      "pickup": "Flight + spectral tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Blood Rights",
+      "id": 186,
+      "pickup": "Mass enemy damage at a cost",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Guppy's Hairball",
+      "id": 187,
+      "pickup": "Swing it",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Abel",
+      "id": 188,
+      "pickup": "Mirrored buddy",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "SMB Super Fan",
+      "id": 189,
+      "pickup": "All stats up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Pyro",
+      "id": 190,
+      "pickup": "99 bombs",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room, Bomb Beggar"
+    },
+    {
+      "title": "3 Dollar Bill",
+      "id": 191,
+      "pickup": "Rainbow tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Telepathy for Dummies",
+      "id": 192,
+      "pickup": "Temporary psychic shot",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library"
+    },
+    {
+      "title": "MEAT!",
+      "id": 193,
+      "pickup": "DMG + HP up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Magic 8 Ball",
+      "id": 194,
+      "pickup": "Shot speed up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Mom's Coin Purse",
+      "id": 195,
+      "pickup": "What's all this...?",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Boss Room, Challenge Room, Beggar, Demon Beggar, Mom's Chest"
+    },
+    {
+      "title": "Squeezy",
+      "id": 196,
+      "pickup": "Tears up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Jesus Juice",
+      "id": 197,
+      "pickup": "Damage + range up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Angel Room"
+    },
+    {
+      "title": "Box",
+      "id": 198,
+      "pickup": "Stuff",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Challenge Room"
+    },
+    {
+      "title": "Mom's Key",
+      "id": 199,
+      "pickup": "Better chest loot +2 keys",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Challenge Room, Key Beggar, Mom's Chest"
+    },
+    {
+      "title": "Mom's Eyeshadow",
+      "id": 200,
+      "pickup": "Charm tears",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Iron Bar",
+      "id": 201,
+      "pickup": "Concussive tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Midas Touch",
+      "id": 202,
+      "pickup": "Golden touch",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Humbleing Bundle",
+      "id": 203,
+      "pickup": "1+1free 4evar!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Fanny pack",
+      "id": 204,
+      "pickup": "Filled with goodies",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Beggar"
+    },
+    {
+      "title": "Sharp Plug",
+      "id": 205,
+      "pickup": "Charge with blood",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "The Guillotine",
+      "id": 206,
+      "pickup": "An out-of-body experience",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Ball of Bandages",
+      "id": 207,
+      "pickup": "Gotta lick em all",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Horsemen boss"
+    },
+    {
+      "title": "Champion Belt",
+      "id": 208,
+      "pickup": "DMG + Challenge up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Butt Bombs",
+      "id": 209,
+      "pickup": "Toxic blast +5 bombs",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Gnawed Leaf",
+      "id": 210,
+      "pickup": "Unbreakable",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Spiderbaby",
+      "id": 211,
+      "pickup": "Spider revenge",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Guppy's Collar",
+      "id": 212,
+      "pickup": "Eternal life?",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Red Chest"
+    },
+    {
+      "title": "Lost Contact",
+      "id": 213,
+      "pickup": "Shielded tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Anemic",
+      "id": 214,
+      "pickup": "Toxic blood",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Goat Head",
+      "id": 215,
+      "pickup": "He accepts your offering",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "Ceremonial Robes",
+      "id": 216,
+      "pickup": "Sin up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Demon Beggar"
+    },
+    {
+      "title": "Mom's Wig",
+      "id": 217,
+      "pickup": "You feel itchy",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Placenta",
+      "id": 218,
+      "pickup": "HP up + regen",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Old Bandage",
+      "id": 219,
+      "pickup": "HP up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Sad Bombs",
+      "id": 220,
+      "pickup": "Tear blast +5 bombs",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Rubber Cement",
+      "id": 221,
+      "pickup": "Bouncing tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Anti-Gravity",
+      "id": 222,
+      "pickup": "Antigravity tears + tears up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Pyromaniac",
+      "id": 223,
+      "pickup": "Hurts so good +5 bombs",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Cricket's Body",
+      "id": 224,
+      "pickup": "Splash damage + tears up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Gimpy",
+      "id": 225,
+      "pickup": "Sweet suffering",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room, Curse Room, Demon Beggar"
+    },
+    {
+      "title": "Black Lotus",
+      "id": 226,
+      "pickup": "HP up x3",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Piggy Bank",
+      "id": 227,
+      "pickup": "My life savings",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Shop"
+    },
+    {
+      "title": "Mom's Perfume",
+      "id": 228,
+      "pickup": "Fear shot",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Challenge Room, Mom's Chest"
+    },
+    {
+      "title": "Monstro's Lung",
+      "id": 229,
+      "pickup": "Charged attack",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Abaddon",
+      "id": 230,
+      "pickup": "Evil up + DMG up + fear shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Ball of Tar",
+      "id": 231,
+      "pickup": "Sticky feet...",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Stop Watch",
+      "id": 232,
+      "pickup": "Let's slow this down a bit",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Tiny Planet",
+      "id": 233,
+      "pickup": "Orbiting tears + range up",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Infestation 2",
+      "id": 234,
+      "pickup": "Infestation shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "E. Coli",
+      "id": 236,
+      "pickup": "Turdy Touch",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Death's Touch",
+      "id": 237,
+      "pickup": "Penetrative shots + DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Key Piece #1",
+      "id": 238,
+      "pickup": "???",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel statue"
+    },
+    {
+      "title": "Key Piece #2",
+      "id": 239,
+      "pickup": "???",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel statue"
+    },
+    {
+      "title": "Experimental Treatment",
+      "id": 240,
+      "pickup": "Some stats up, some stats down",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Boss Room, Demon Beggar"
+    },
+    {
+      "title": "Contract From Below",
+      "id": 241,
+      "pickup": "Wealth, but at what cost?",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Demon Beggar"
+    },
+    {
+      "title": "Infamy",
+      "id": 242,
+      "pickup": "Damage reduction",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Trinity Shield",
+      "id": 243,
+      "pickup": "You feel guarded",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Tech.5",
+      "id": 244,
+      "pickup": "It's still being tested",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "20/20",
+      "id": 245,
+      "pickup": "Double shot",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Blue Map",
+      "id": 246,
+      "pickup": "Secrets",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Beggar, Key Beggar"
+    },
+    {
+      "title": "BFFS!",
+      "id": 247,
+      "pickup": "Your friends rule!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Key Beggar"
+    },
+    {
+      "title": "Hive Mind",
+      "id": 248,
+      "pickup": "Giant spiders and flies",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "There's Options",
+      "id": 249,
+      "pickup": "More options",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Bogo Bombs",
+      "id": 250,
+      "pickup": "1+1 bombs",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Starter Deck",
+      "id": 251,
+      "pickup": "Extra card room",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Little Baggy",
+      "id": 252,
+      "pickup": "Extra pill room",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Magic Scab",
+      "id": 253,
+      "pickup": "HP + luck up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Blood Clot",
+      "id": 254,
+      "pickup": "DMG + range up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Screw",
+      "id": 255,
+      "pickup": "Tears + shot speed up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Hot Bombs",
+      "id": 256,
+      "pickup": "Burning blast +5 bombs",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Fire Mind",
+      "id": 257,
+      "pickup": "Flaming tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Missing No",
+      "id": 258,
+      "pickup": "Syntax error",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Dark Matter",
+      "id": 259,
+      "pickup": "Fear shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Black Candle",
+      "id": 260,
+      "pickup": "Curse of immunity + evil up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Curse Room"
+    },
+    {
+      "title": "Proptosis",
+      "id": 261,
+      "pickup": "Short range mega tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Missing Page 2",
+      "id": 262,
+      "pickup": "Evil up + your enemies will pay",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar, Secret Room"
+    },
+    {
+      "title": "Smart Fly",
+      "id": 264,
+      "pickup": "Revenge fly",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Dry Baby",
+      "id": 265,
+      "pickup": "Immortal friend",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Juicy Sack",
+      "id": 266,
+      "pickup": "Sticky babies",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Robo-Baby 2.0",
+      "id": 267,
+      "pickup": "We worked out all the kinks",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Rotten Baby",
+      "id": 268,
+      "pickup": "Infested friend",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Headless Baby",
+      "id": 269,
+      "pickup": "Bloody friend",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Leech",
+      "id": 270,
+      "pickup": "Blood sucker",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mystery Sack",
+      "id": 271,
+      "pickup": "?",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Beggar, Secret Room"
+    },
+    {
+      "title": "BBF",
+      "id": 272,
+      "pickup": "Big beautiful fly",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Bob's Brain",
+      "id": 273,
+      "pickup": "Explosive thoughts",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Rotten Beggar"
+    },
+    {
+      "title": "Best Bud",
+      "id": 274,
+      "pickup": "Sworn protector",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Lil Brimstone",
+      "id": 275,
+      "pickup": "Evil friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Isaac's Heart",
+      "id": 276,
+      "pickup": "Protect it",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lil Haunt",
+      "id": 277,
+      "pickup": "Fear him",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Dark Bum",
+      "id": 278,
+      "pickup": "He wants to take your life",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Big Fan",
+      "id": 279,
+      "pickup": "Fat protector",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Sissy Long Legs",
+      "id": 280,
+      "pickup": "She loves you",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Punching Bag",
+      "id": 281,
+      "pickup": "Scape goat",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "How To Jump",
+      "id": 282,
+      "pickup": "It's time you learned how",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library"
+    },
+    {
+      "title": "D100",
+      "id": 283,
+      "pickup": "REEROLLLLL!",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "D4",
+      "id": 284,
+      "pickup": "Reroll into something else",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "D10",
+      "id": 285,
+      "pickup": "Rerolls enemies",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Blank Card",
+      "id": 286,
+      "pickup": "Card Mimic",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Secret Room"
+    },
+    {
+      "title": "Book of Secrets",
+      "id": 287,
+      "pickup": "??????",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library, Secret Room"
+    },
+    {
+      "title": "Box of Spiders",
+      "id": 288,
+      "pickup": "It's a box of spiders",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Red Candle",
+      "id": 289,
+      "pickup": "Flame on",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "The Jar",
+      "id": 290,
+      "pickup": "Save your life",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "FLUSH!",
+      "id": 291,
+      "pickup": "...",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Satanic Bible",
+      "id": 292,
+      "pickup": "Reusable evil... but at what cost?",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library, Devil Room"
+    },
+    {
+      "title": "Head of Krampus",
+      "id": 293,
+      "pickup": "Krampus rage",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Krampus"
+    },
+    {
+      "title": "Butter Bean",
+      "id": 294,
+      "pickup": "Reusable knockback",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Beggar"
+    },
+    {
+      "title": "Magic Fingers",
+      "id": 295,
+      "pickup": "Pay to play",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Shop"
+    },
+    {
+      "title": "Converter",
+      "id": 296,
+      "pickup": "Convert your soul",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Pandora's Box",
+      "id": 297,
+      "pickup": "? ?",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Red Chest"
+    },
+    {
+      "title": "Unicorn Stump",
+      "id": 298,
+      "pickup": "You feel stumped",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Taurus",
+      "id": 299,
+      "pickup": "Speed down + rage is building",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Aries",
+      "id": 300,
+      "pickup": "Ramming speed",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Cancer",
+      "id": 301,
+      "pickup": "HP up + you feel protected",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Leo",
+      "id": 302,
+      "pickup": "Stompy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Virgo",
+      "id": 303,
+      "pickup": "You feel refreshed and protected",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Libra",
+      "id": 304,
+      "pickup": "You feel balanced",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Scorpio",
+      "id": 305,
+      "pickup": "Poison tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Sagittarius",
+      "id": 306,
+      "pickup": "Penetrative shot + speed up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Capricorn",
+      "id": 307,
+      "pickup": "All stats up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Aquarius",
+      "id": 308,
+      "pickup": "A trail of tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Pisces",
+      "id": 309,
+      "pickup": "Tears up + knockback shot",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Eve's Mascara",
+      "id": 310,
+      "pickup": "Shot speed down + DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Judas' Shadow",
+      "id": 311,
+      "pickup": "Sweet revenge",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Maggy's Bow",
+      "id": 312,
+      "pickup": "HP up + you feel healthy",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Holy Mantle",
+      "id": 313,
+      "pickup": "Holy shield",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Thunder Thighs",
+      "id": 314,
+      "pickup": "HP + speed down + you feel strong",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Strange Attractor",
+      "id": 315,
+      "pickup": "Magnetic tears",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Cursed Eye",
+      "id": 316,
+      "pickup": "Cursed charged shot",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Mysterious Liquid",
+      "id": 317,
+      "pickup": "Toxic splash damage",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Gemini",
+      "id": 318,
+      "pickup": "Conjoined friend",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Cain's Other Eye",
+      "id": 319,
+      "pickup": "Near sighted friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "???'s Only Friend",
+      "id": 320,
+      "pickup": "Controlled friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Samson's Chains",
+      "id": 321,
+      "pickup": "The ol' ball and chain",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Mongo Baby",
+      "id": 322,
+      "pickup": "Mongo friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Isaac's Tears",
+      "id": 323,
+      "pickup": "Collected tears",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Undefined",
+      "id": 324,
+      "pickup": "Undefined",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Scissors",
+      "id": 325,
+      "pickup": "Lose your head",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Breath of Life",
+      "id": 326,
+      "pickup": "Invincibility at a cost",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "The Polaroid",
+      "id": 327,
+      "pickup": "Fate chosen",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Mom's foot boss"
+    },
+    {
+      "title": "The Negative",
+      "id": 328,
+      "pickup": "Fate chosen",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Mom's foot boss"
+    },
+    {
+      "title": "The Ludovico Technique",
+      "id": 329,
+      "pickup": "Controlled tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Soy Milk",
+      "id": 330,
+      "pickup": "DMG down + tears way up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Godhead",
+      "id": 331,
+      "pickup": "God tears",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Lazarus' Rags",
+      "id": 332,
+      "pickup": "Eternal life?",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "The Mind",
+      "id": 333,
+      "pickup": "I know all",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "The Body",
+      "id": 334,
+      "pickup": "I feel all",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "The Soul",
+      "id": 335,
+      "pickup": "I am all",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Dead Onion",
+      "id": 336,
+      "pickup": "Toxic aura tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Broken Watch",
+      "id": 337,
+      "pickup": "I think its broken",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Boomerang",
+      "id": 338,
+      "pickup": "It will never leave you",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Safety Pin",
+      "id": 339,
+      "pickup": "Evil up + range + shot speed",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Caffeine Pill",
+      "id": 340,
+      "pickup": "Speed up + size down",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Torn Photo",
+      "id": 341,
+      "pickup": "Tears + shot speed up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Blue Cap",
+      "id": 342,
+      "pickup": "HP + tears + shot speed down",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Latch Key",
+      "id": 343,
+      "pickup": "Luck up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest, Key Beggar"
+    },
+    {
+      "title": "Match Book",
+      "id": 344,
+      "pickup": "Evil up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Synthoil",
+      "id": 345,
+      "pickup": "DMG up + range",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "A Snack",
+      "id": 346,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Diplopia",
+      "id": 347,
+      "pickup": "Double item vision",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Placebo",
+      "id": 348,
+      "pickup": "Pill mimic",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Shop"
+    },
+    {
+      "title": "Wooden Nickel",
+      "id": 349,
+      "pickup": "Flip a coin",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Item Room"
+    },
+    {
+      "title": "Toxic Shock",
+      "id": 350,
+      "pickup": "Mass poison",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mega Bean",
+      "id": 351,
+      "pickup": "Giga fart!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Glass Cannon",
+      "id": 352,
+      "pickup": "Be gentle...",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Bomber Boy",
+      "id": 353,
+      "pickup": "Explosive blast!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Crack Jacks",
+      "id": 354,
+      "pickup": "Don't swallow the prize!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Mom's Pearls",
+      "id": 355,
+      "pickup": "Range + luck up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest, Mom's Chest"
+    },
+    {
+      "title": "Car Battery",
+      "id": 356,
+      "pickup": "Double charge!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Shop"
+    },
+    {
+      "title": "Box of Friends",
+      "id": 357,
+      "pickup": "Double your friends",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Item Room"
+    },
+    {
+      "title": "The Wiz",
+      "id": 358,
+      "pickup": "Double wiz shot!",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "8 Inch Nails",
+      "id": 359,
+      "pickup": "Stick it to 'em!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Incubus",
+      "id": 360,
+      "pickup": "Dark friend",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Fate's Reward",
+      "id": 361,
+      "pickup": "Your fate beside you",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lil Chest",
+      "id": 362,
+      "pickup": "What's in the box?",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Beggar"
+    },
+    {
+      "title": "Sworn Protector",
+      "id": 363,
+      "pickup": "Protective friend",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Friend Zone",
+      "id": 364,
+      "pickup": "Friendly fly",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Key Beggar"
+    },
+    {
+      "title": "Lost Fly",
+      "id": 365,
+      "pickup": "Lost protector",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Key Beggar"
+    },
+    {
+      "title": "Scatter Bombs",
+      "id": 366,
+      "pickup": "We put bombs in your bombs!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Sticky Bombs",
+      "id": 367,
+      "pickup": "Egg sack bombs!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Bomb Beggar, Bomb Beggar"
+    },
+    {
+      "title": "Epiphora",
+      "id": 368,
+      "pickup": "Intensifying tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Continuum",
+      "id": 369,
+      "pickup": "Transcendent tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Mr. Dolly",
+      "id": 370,
+      "pickup": "Range + tears up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Curse of The Tower",
+      "id": 371,
+      "pickup": "You feel cursed...",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Red Chest, Curse Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Charged Baby",
+      "id": 372,
+      "pickup": "Bbbzzzzzt!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Shop"
+    },
+    {
+      "title": "Dead Eye",
+      "id": 373,
+      "pickup": "Accuracy brings power!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Holy Light!",
+      "id": 374,
+      "pickup": "Holy shot!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Angel Room"
+    },
+    {
+      "title": "Host Hat",
+      "id": 375,
+      "pickup": "Nice hat!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Restock",
+      "id": 376,
+      "pickup": "Never ending stores!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Beggar"
+    },
+    {
+      "title": "Bursting Sack",
+      "id": 377,
+      "pickup": "Spider love",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "No. 2",
+      "id": 378,
+      "pickup": "Uh oh...",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Pupula Duplex",
+      "id": 379,
+      "pickup": "Wide shot",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Pay To Play",
+      "id": 380,
+      "pickup": "Money talks",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Item Room, Greed Mode Shop"
+    },
+    {
+      "title": "Eden's Blessing",
+      "id": 381,
+      "pickup": "Your future shines brighter",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Friendly Ball",
+      "id": 382,
+      "pickup": "Gotta fetch 'em all!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Tear Detonator",
+      "id": 383,
+      "pickup": "Remote tear detonation",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Item Room"
+    },
+    {
+      "title": "Lil Gurdy",
+      "id": 384,
+      "pickup": "A gurd of your own!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Bumbo",
+      "id": 385,
+      "pickup": "Bumbo want coin!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Beggar"
+    },
+    {
+      "title": "D12",
+      "id": 386,
+      "pickup": "Rerolls rocks",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Shop"
+    },
+    {
+      "title": "Censer",
+      "id": 387,
+      "pickup": "Peace be with you",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Key Bum",
+      "id": 388,
+      "pickup": "He wants your keys!",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room, Key Beggar"
+    },
+    {
+      "title": "Rune Bag",
+      "id": 389,
+      "pickup": "Rune generator",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Seraphim",
+      "id": 390,
+      "pickup": "Sworn friend",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Betrayal",
+      "id": 391,
+      "pickup": "Turn your enemy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Devil Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Zodiac",
+      "id": 392,
+      "pickup": "The heavens will change you",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Serpent's Kiss",
+      "id": 393,
+      "pickup": "The kiss of death",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Marked",
+      "id": 394,
+      "pickup": "Directed tears",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Tech X",
+      "id": 395,
+      "pickup": "Laser ring tears",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Ventricle Razor",
+      "id": 396,
+      "pickup": "Short cutter",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Tractor Beam",
+      "id": 397,
+      "pickup": "Controlled tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "God's Flesh",
+      "id": 398,
+      "pickup": "Shrink shot!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Maw of The Void",
+      "id": 399,
+      "pickup": "Consume thy enemy!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Spear of Destiny",
+      "id": 400,
+      "pickup": "Your destiny",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Explosivo",
+      "id": 401,
+      "pickup": "Sticky bomb shot!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Chaos",
+      "id": 402,
+      "pickup": "!!!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Secret Room"
+    },
+    {
+      "title": "Spider Mod",
+      "id": 403,
+      "pickup": "Mod buddy!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Shop"
+    },
+    {
+      "title": "Farting Baby",
+      "id": 404,
+      "pickup": "He farts!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "GB Bug",
+      "id": 405,
+      "pickup": "Game breaking bug, right away!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room, Greed Mode Shop"
+    },
+    {
+      "title": "D8",
+      "id": 406,
+      "pickup": "Reroll stats",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Shop"
+    },
+    {
+      "title": "Purity",
+      "id": 407,
+      "pickup": "Aura stat boost",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room, Greed Mode Item Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Athame",
+      "id": 408,
+      "pickup": "Call to the void",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Empty Vessel",
+      "id": 409,
+      "pickup": "I reward an empty vessel",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Evil Eye",
+      "id": 410,
+      "pickup": "Eye shot!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Lusty Blood",
+      "id": 411,
+      "pickup": "Their blood brings rage!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Cambion Conception",
+      "id": 412,
+      "pickup": "Feed them hate",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Immaculate Conception",
+      "id": 413,
+      "pickup": "Feed them love",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "More Options",
+      "id": 414,
+      "pickup": "There are even more options!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Crown of Light",
+      "id": 415,
+      "pickup": "The untainted gain power",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Deep Pockets",
+      "id": 416,
+      "pickup": "More stuff to carry!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Item Room, Greed Mode Shop"
+    },
+    {
+      "title": "Succubus",
+      "id": 417,
+      "pickup": "Damage booster",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Fruit Cake",
+      "id": 418,
+      "pickup": "Rainbow effects!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Teleport 2.0",
+      "id": 419,
+      "pickup": "I-teleport!",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Black Powder",
+      "id": 420,
+      "pickup": "Spin the black circle!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Kidney Bean",
+      "id": 421,
+      "pickup": "Love toots!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Glowing Hour Glass",
+      "id": 422,
+      "pickup": "Turn back time",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Shop, Greed Mode Item Room"
+    },
+    {
+      "title": "Circle of Protection",
+      "id": 423,
+      "pickup": "Protect me from myself",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Sack Head",
+      "id": 424,
+      "pickup": "More sacks!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Secret Room"
+    },
+    {
+      "title": "Night Light",
+      "id": 425,
+      "pickup": "Scared of the dark?",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Item Room"
+    },
+    {
+      "title": "Obsessed Fan",
+      "id": 426,
+      "pickup": "Follows my every move...",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Mine Crafter",
+      "id": 427,
+      "pickup": "Booom!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "PJs",
+      "id": 428,
+      "pickup": "You feel cozy",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Head of the Keeper",
+      "id": 429,
+      "pickup": "Penny tears!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Dead shopkeeper"
+    },
+    {
+      "title": "Papa Fly",
+      "id": 430,
+      "pickup": "Turret follower",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Multidimensional Baby",
+      "id": 431,
+      "pickup": "ydduB Buddy",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room, Devil Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Glitter Bombs",
+      "id": 432,
+      "pickup": "Prize bombs!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar"
+    },
+    {
+      "title": "My Shadow",
+      "id": 433,
+      "pickup": "Me! And my shaaaadow!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Jar of Flies",
+      "id": 434,
+      "pickup": "Gotta catch 'em all?",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Item Room, Greed Mode Shop"
+    },
+    {
+      "title": "Lil Loki",
+      "id": 435,
+      "pickup": "4-way buddy!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Milk!",
+      "id": 436,
+      "pickup": "Dont cry over it...",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "D7",
+      "id": 437,
+      "pickup": "Reroll rewards!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Binky",
+      "id": 438,
+      "pickup": "Memories...",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Mom's Box",
+      "id": 439,
+      "pickup": "What's inside?",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Greed Mode Shop, Mom's Chest"
+    },
+    {
+      "title": "Kidney Stone",
+      "id": 440,
+      "pickup": "Matt's kidney stone",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Mega Blast",
+      "id": 441,
+      "pickup": "Laser breath",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room, Greed Mode Devil Room"
+    },
+    {
+      "title": "Dark Prince's Crown",
+      "id": 442,
+      "pickup": "Loss is power",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "Apple!",
+      "id": 443,
+      "pickup": "Trick or treat?",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lead Pencil",
+      "id": 444,
+      "pickup": "Hes a bleeder!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Gold/Stone Chest"
+    },
+    {
+      "title": "Dog Tooth",
+      "id": 445,
+      "pickup": "Bark at the moon!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Dead Tooth",
+      "id": 446,
+      "pickup": "Halitosis",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Linger Bean",
+      "id": 447,
+      "pickup": "Crying makes me toot",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Beggar"
+    },
+    {
+      "title": "Shard of Glass",
+      "id": 448,
+      "pickup": "Blood and guts!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Metal Plate",
+      "id": 449,
+      "pickup": "It itches...",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Eye of Greed",
+      "id": 450,
+      "pickup": "Gold tears!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Tarot Cloth",
+      "id": 451,
+      "pickup": "I see the future",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Curse Room"
+    },
+    {
+      "title": "Varicose Veins",
+      "id": 452,
+      "pickup": "I'm leaking...",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Compound Fracture",
+      "id": 453,
+      "pickup": "Bone tears!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Polydactyly",
+      "id": 454,
+      "pickup": "Hold me!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Dad's Lost Coin",
+      "id": 455,
+      "pickup": "I remember this...",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Beggar, Gold/Stone Chest"
+    },
+    {
+      "title": "Midnight Snack",
+      "id": 456,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Beggar, Gold/Stone Chest"
+    },
+    {
+      "title": "Cone Head",
+      "id": 457,
+      "pickup": "Hard headed!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Belly Button",
+      "id": 458,
+      "pickup": "Whats in there?",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Sinus Infection",
+      "id": 459,
+      "pickup": "Booger tears!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Glaucoma",
+      "id": 460,
+      "pickup": "Blind tears!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Parasitoid",
+      "id": 461,
+      "pickup": "Egg tears!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Eye of Belial",
+      "id": 462,
+      "pickup": "Possessed tears!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Sulfuric Acid",
+      "id": 463,
+      "pickup": "Acid tears!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Glyph of Balance",
+      "id": 464,
+      "pickup": "A gift from above",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Analog Stick",
+      "id": 465,
+      "pickup": "360 tears!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Contagion",
+      "id": 466,
+      "pickup": "Outbreak!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Finger!",
+      "id": 467,
+      "pickup": "Watch where you point that!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Shade",
+      "id": 468,
+      "pickup": "It follows",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "Depression",
+      "id": 469,
+      "pickup": ":(",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Hushy",
+      "id": 470,
+      "pickup": "Lil hush!",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lil Monstro",
+      "id": 471,
+      "pickup": "Ain't he cute?",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "King Baby",
+      "id": 472,
+      "pickup": "Lord of the dead!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Big Chubby",
+      "id": 473,
+      "pickup": "Chub chub",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Plan C",
+      "id": 475,
+      "pickup": "My last resort",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Devil Room, Curse Room, Red Chest, Demon Beggar"
+    },
+    {
+      "title": "D1",
+      "id": 476,
+      "pickup": "What will it be?",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Void",
+      "id": 477,
+      "pickup": "Consume",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room, Angel Room"
+    },
+    {
+      "title": "Pause",
+      "id": 478,
+      "pickup": "Stop!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Smelter",
+      "id": 479,
+      "pickup": "Trinket melter!",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Compost",
+      "id": 480,
+      "pickup": "Gain more friends!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Dataminer",
+      "id": 481,
+      "pickup": "109",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Clicker",
+      "id": 482,
+      "pickup": "Change",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "MaMa Mega!",
+      "id": 483,
+      "pickup": "BOOOOOOOOOM!",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Bomb Beggar"
+    },
+    {
+      "title": "Wait What?",
+      "id": 484,
+      "pickup": "I can't believe it's not butter bean!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Crooked Penny",
+      "id": 485,
+      "pickup": "50/50",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Shop, Beggar"
+    },
+    {
+      "title": "Dull Razor",
+      "id": 486,
+      "pickup": "I feel numb...",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Potato Peeler",
+      "id": 487,
+      "pickup": "A pound of flesh...",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Demon Beggar"
+    },
+    {
+      "title": "Metronome",
+      "id": 488,
+      "pickup": "Waggles a finger",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "D Infinity",
+      "id": 489,
+      "pickup": "Reroll forever",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Eden's Soul",
+      "id": 490,
+      "pickup": "...",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Acid Baby",
+      "id": 491,
+      "pickup": "Pills pills pills!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "YO LISTEN!",
+      "id": 492,
+      "pickup": "Yo listen!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Adrenaline",
+      "id": 493,
+      "pickup": "Panic - power",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Demon Beggar"
+    },
+    {
+      "title": "Jacob's Ladder",
+      "id": 494,
+      "pickup": "Electric tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Ghost Pepper",
+      "id": 495,
+      "pickup": "Flame tears",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Euthanasia",
+      "id": 496,
+      "pickup": "Needle shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Curse Room, Demon Beggar"
+    },
+    {
+      "title": "Camo Undies",
+      "id": 497,
+      "pickup": "Camo kid",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Duality",
+      "id": 498,
+      "pickup": "You feel very balanced",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Angel Room"
+    },
+    {
+      "title": "Eucharist",
+      "id": 499,
+      "pickup": "Peace be with you",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Sack of Sacks",
+      "id": 500,
+      "pickup": "Gives Sacks!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Greed's Gullet",
+      "id": 501,
+      "pickup": "Money = Health!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Large Zit",
+      "id": 502,
+      "pickup": "Creep shots",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Little Horn",
+      "id": 503,
+      "pickup": "Big brother is watching",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Demon Beggar"
+    },
+    {
+      "title": "Brown Nugget",
+      "id": 504,
+      "pickup": "Friendly Fly",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Poke Go",
+      "id": 505,
+      "pickup": "Gotta catch em...",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "BackStabber",
+      "id": 506,
+      "pickup": "Watch your back!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Sharp Straw",
+      "id": 507,
+      "pickup": "More blood!",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Mom's Razor",
+      "id": 508,
+      "pickup": "It's sharp!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Mom's Chest"
+    },
+    {
+      "title": "Bloodshot Eye",
+      "id": 509,
+      "pickup": "Bloody friend",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Delirious",
+      "id": 510,
+      "pickup": "Unleash the power!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Angry Fly",
+      "id": 511,
+      "pickup": "He's violent",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Black Hole",
+      "id": 512,
+      "pickup": "Nothing can escape",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Bozo",
+      "id": 513,
+      "pickup": "Party time!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Broken Modem",
+      "id": 514,
+      "pickup": "LAG!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Mystery Gift",
+      "id": 515,
+      "pickup": "Wrapped up nice for you!",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Sprinkler",
+      "id": 516,
+      "pickup": "Sprinkles.",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Fast Bombs",
+      "id": 517,
+      "pickup": "Faster Bomb Drops!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Buddy in a Box",
+      "id": 518,
+      "pickup": "What could it be?!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Lil Delirium",
+      "id": 519,
+      "pickup": "He's Delirious",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Devil Room"
+    },
+    {
+      "title": "Jumper Cables",
+      "id": 520,
+      "pickup": "Bloody recharge!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Greed Mode Item Room, Shop"
+    },
+    {
+      "title": "Coupon",
+      "id": 521,
+      "pickup": "Allow 6 weeks for delivery",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item room, Shop, Beggar"
+    },
+    {
+      "title": "Telekinesis",
+      "id": 522,
+      "pickup": "The power of mind!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Moving Box",
+      "id": 523,
+      "pickup": "Pack and unpack",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Technology Zero",
+      "id": 524,
+      "pickup": "Static tears!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Leprosy",
+      "id": 525,
+      "pickup": "You're tearing me apart!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "7 Seals",
+      "id": 526,
+      "pickup": "Lil Harbingers!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Angel Room"
+    },
+    {
+      "title": "Mr. ME!",
+      "id": 527,
+      "pickup": "Caaan Do!",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Key Beggar"
+    },
+    {
+      "title": "Angelic Prism",
+      "id": 528,
+      "pickup": "Eclipsed by the moon",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Pop!",
+      "id": 529,
+      "pickup": "Eyeball tears!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Death's List",
+      "id": 530,
+      "pickup": "Just hope you're not next",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Haemolacria",
+      "id": 531,
+      "pickup": "I'm seeing red...",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lachryphagy",
+      "id": 532,
+      "pickup": "Feed them!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Trisagion",
+      "id": 533,
+      "pickup": "Smite thy enemy",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Schoolbag",
+      "id": 534,
+      "pickup": "Extra active item room",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Gold/Stone Chest"
+    },
+    {
+      "title": "Blanket",
+      "id": 535,
+      "pickup": "You feel safe",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Sacrificial Altar",
+      "id": 536,
+      "pickup": "He demands a sacrifice",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "Lil Spewer",
+      "id": 537,
+      "pickup": "Puking buddy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Marbles",
+      "id": 538,
+      "pickup": "Choking hazard",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Mystery Egg",
+      "id": 539,
+      "pickup": "Sacrificial insemination",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Flat Stone",
+      "id": 540,
+      "pickup": "Skipping tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Marrow",
+      "id": 541,
+      "pickup": "HP up?",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Slipped Rib",
+      "id": 542,
+      "pickup": "Projectile shield",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Hallowed Ground",
+      "id": 543,
+      "pickup": "Portable sanctuary",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Angel Room"
+    },
+    {
+      "title": "Pointy Rib",
+      "id": 544,
+      "pickup": "Stabbing time",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Book of the Dead",
+      "id": 545,
+      "pickup": "Rise from the grave",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Library, Devil Room"
+    },
+    {
+      "title": "Dad's Ring",
+      "id": 546,
+      "pickup": "Father's blessing",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Divorce Papers",
+      "id": 547,
+      "pickup": "Tears up + you feel empty",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Jaw Bone",
+      "id": 548,
+      "pickup": "Fetch",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode item Room"
+    },
+    {
+      "title": "Brittle Bones",
+      "id": 549,
+      "pickup": "Everything hurts",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Broken Shovel",
+      "id": 550,
+      "pickup": "It feels cursed",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Secret Room, Crane Game"
+    },
+    {
+      "title": "Mucormycosis",
+      "id": 553,
+      "pickup": "Spore shot",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "2Spooky",
+      "id": 554,
+      "pickup": "4me",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Golden Razor",
+      "id": 555,
+      "pickup": "Pain from gain",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Sulfur",
+      "id": 556,
+      "pickup": "Temporary demon form",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Fortune Cookie",
+      "id": 557,
+      "pickup": "Reusable fortunes",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Eye Sore",
+      "id": 558,
+      "pickup": "More eyes",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "120 Volt",
+      "id": 559,
+      "pickup": "Zap!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "It Hurts",
+      "id": 560,
+      "pickup": "No it doesn't...",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Almond Milk",
+      "id": 561,
+      "pickup": "DMG down + tears up + you feel nutty",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Rock Bottom",
+      "id": 562,
+      "pickup": "It's only up from there",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Nancy Bombs",
+      "id": 563,
+      "pickup": "Random blast +5 bombs",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "A Bar of Soap",
+      "id": 564,
+      "pickup": "Tears + shot speed up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Blood Puppy",
+      "id": 565,
+      "pickup": "What a cute little thing!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Red Chest, Curse Room"
+    },
+    {
+      "title": "Dream Catcher",
+      "id": 566,
+      "pickup": "Sweet dreams",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Paschal Candle",
+      "id": 567,
+      "pickup": "Keep the flame burning",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Divine Intervention",
+      "id": 568,
+      "pickup": "Double tap shield",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Blood Oath",
+      "id": 569,
+      "pickup": "Bleed me dry",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "Playdough Cookie",
+      "id": 570,
+      "pickup": "Tasty rainbow",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Orphan Socks",
+      "id": 571,
+      "pickup": "Speed up + your feet feel stronger",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Eye of the Occult",
+      "id": 572,
+      "pickup": "DMG up + range up + controlled tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Immaculate Heart",
+      "id": 573,
+      "pickup": "Halo of tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Monstrance",
+      "id": 574,
+      "pickup": "Purifying light",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "The Intruder",
+      "id": 575,
+      "pickup": "Invasive friend",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Dirty Mind",
+      "id": 576,
+      "pickup": "Filthy friends",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Damocles",
+      "id": 577,
+      "pickup": "A king's fortune... but at what cost?",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Free Lemonade",
+      "id": 578,
+      "pickup": "Party time!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Spirit Sword",
+      "id": 579,
+      "pickup": "Divine blade",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Red Key",
+      "id": 580,
+      "pickup": "Explore the other side",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Secret Room, Red Chest, Curse Room, Key Beggar, Mom's Chest"
+    },
+    {
+      "title": "Psy Fly",
+      "id": 581,
+      "pickup": "Flamboyant protector",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Wavy Cap",
+      "id": 582,
+      "pickup": "Tears up. A mind changing experience!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Rocket in a Jar",
+      "id": 583,
+      "pickup": "Rocket propulsion +5 bombs",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Book of Virtues",
+      "id": 584,
+      "pickup": "Spiritual companionship",
+      "quality": 3,
+      "type": "Active/Passive Item",
+      "recharge": null,
+      "pool": "Angel Room, Library"
+    },
+    {
+      "title": "Alabaster Box",
+      "id": 585,
+      "pickup": "A sacred offering",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "The Stairway",
+      "id": 586,
+      "pickup": "Stairway to heaven",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Sol",
+      "id": 588,
+      "pickup": "Radiant victory",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Luna",
+      "id": 589,
+      "pickup": "More secrets",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Mercurius",
+      "id": 590,
+      "pickup": "Speed up + you feel elusive",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Venus",
+      "id": 591,
+      "pickup": "HP up + you feel pretty",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Terra",
+      "id": 592,
+      "pickup": "Born to rock",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Mars",
+      "id": 593,
+      "pickup": "Double tap dash",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Jupiter",
+      "id": 594,
+      "pickup": "You're a gas giant!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Saturnus",
+      "id": 595,
+      "pickup": "Ring of tears",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Uranus",
+      "id": 596,
+      "pickup": "Ice tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Neptunus",
+      "id": 597,
+      "pickup": "Open the floodgates",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Pluto",
+      "id": 598,
+      "pickup": "Size down",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Planetarium"
+    },
+    {
+      "title": "Voodoo Head",
+      "id": 599,
+      "pickup": "Extra curse rooms",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Crane Game"
+    },
+    {
+      "title": "Eye Drops",
+      "id": 600,
+      "pickup": "Tears up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Act of Contrition",
+      "id": 601,
+      "pickup": "Tears up, you feel forgiven",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Member Card",
+      "id": 602,
+      "pickup": "Exclusive access!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Battery Pack",
+      "id": 603,
+      "pickup": "Instant energy!",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Battery Beggar"
+    },
+    {
+      "title": "Mom's Bracelet",
+      "id": 604,
+      "pickup": "Mother's strength",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Crane Game, Mom's Chest"
+    },
+    {
+      "title": "The Scooper",
+      "id": 605,
+      "pickup": "Plop!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Ocular Rift",
+      "id": 606,
+      "pickup": "Stare into the abyss",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Boiled Baby",
+      "id": 607,
+      "pickup": "Messy friend",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Freezer Baby",
+      "id": 608,
+      "pickup": "Iced iced baby",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Eternal D6",
+      "id": 609,
+      "pickup": "???",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Secret Room, Crane Game"
+    },
+    {
+      "title": "Bird Cage",
+      "id": 610,
+      "pickup": "Fat buddy",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Larynx",
+      "id": 611,
+      "pickup": "Hear my pain",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Lost Soul",
+      "id": 612,
+      "pickup": "Protect him",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Blood Bombs",
+      "id": 614,
+      "pickup": "Bloody blast + HP up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lil Dumpy",
+      "id": 615,
+      "pickup": "Puffy buddy",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Bird's Eye",
+      "id": 616,
+      "pickup": "It burns",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lodestone",
+      "id": 617,
+      "pickup": "Magnetizing tears",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Crane Game"
+    },
+    {
+      "title": "Rotten Tomato",
+      "id": 618,
+      "pickup": "Delicious!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Rotten Beggar"
+    },
+    {
+      "title": "Birthright",
+      "id": 619,
+      "pickup": "???",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Birthright (Tainted)",
+      "id": 619,
+      "pickup": "???",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Red Stew",
+      "id": 621,
+      "pickup": "Full HP + temporary DMG up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Ultra Secret Room"
+    },
+    {
+      "title": "Genesis",
+      "id": 622,
+      "pickup": "In the beginning",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Angel Room, Greed Mode Angel Room"
+    },
+    {
+      "title": "Sharp Key",
+      "id": 623,
+      "pickup": "Open your enemies",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Booster Pack",
+      "id": 624,
+      "pickup": "Collect them all!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Shop"
+    },
+    {
+      "title": "Mega Mush",
+      "id": 625,
+      "pickup": "I'm a big boy now!",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Knife Piece 1",
+      "id": 626,
+      "pickup": "???",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "see above)"
+    },
+    {
+      "title": "Knife Piece 2",
+      "id": 627,
+      "pickup": "???",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "see above)"
+    },
+    {
+      "title": "Death Certificate",
+      "id": 628,
+      "pickup": "Where am I?",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Bot Fly",
+      "id": 629,
+      "pickup": "Defense drone",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar, Crane Game"
+    },
+    {
+      "title": "Meat Cleaver",
+      "id": 631,
+      "pickup": "Slice but no dice",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Evil Charm",
+      "id": 632,
+      "pickup": "Luck up + you feel protected",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Dogma",
+      "id": 633,
+      "pickup": "Ascended",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "None"
+    },
+    {
+      "title": "Purgatory",
+      "id": 634,
+      "pickup": "Help from beyond",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Angel Room"
+    },
+    {
+      "title": "Stitches",
+      "id": 635,
+      "pickup": "Bait and switch",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "R Key",
+      "id": 636,
+      "pickup": "Time to start over",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Knockout Drops",
+      "id": 637,
+      "pickup": "They pack a punch!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Eraser",
+      "id": 638,
+      "pickup": "Erase thy enemy",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Crane Game"
+    },
+    {
+      "title": "Yuck Heart",
+      "id": 639,
+      "pickup": "Gross!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Rotten Beggar"
+    },
+    {
+      "title": "Urn of Souls",
+      "id": 640,
+      "pickup": "Unleash their sorrow",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Akeldama",
+      "id": 641,
+      "pickup": "Spill your guts",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Magic Skin",
+      "id": 642,
+      "pickup": "All your desires fulfilled",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Red Chest, Curse Room"
+    },
+    {
+      "title": "Revelation",
+      "id": 643,
+      "pickup": "Awaken your faith",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Consolation Prize",
+      "id": 644,
+      "pickup": "+1 to lowest stat",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Golden Chest, Crane Game"
+    },
+    {
+      "title": "Tinytoma",
+      "id": 645,
+      "pickup": "Itching for revenge",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Brimstone Bombs",
+      "id": 646,
+      "pickup": "Demon blast +5 bombs",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Bomb Beggar, Greed Mode Devil Room"
+    },
+    {
+      "title": "4.5 Volt",
+      "id": 647,
+      "pickup": "Beat the juice out of them!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Battery Beggar"
+    },
+    {
+      "title": "Fruity Plum",
+      "id": 649,
+      "pickup": "Bouncy friend",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Plum Flute",
+      "id": 650,
+      "pickup": "Play time!",
+      "quality": 1,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Star of Bethlehem",
+      "id": 651,
+      "pickup": "Follow the light",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Cube Baby",
+      "id": 652,
+      "pickup": "Kick it!",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Vade Retro",
+      "id": 653,
+      "pickup": "Begone!",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "False PHD",
+      "id": 654,
+      "pickup": "Worse pills + evil up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Spin to Win",
+      "id": 655,
+      "pickup": "Let it rip!",
+      "quality": 1,
+      "type": "Active & Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Vasculitis",
+      "id": 657,
+      "pickup": "Clogged enemies",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Giant Cell",
+      "id": 658,
+      "pickup": "Micro friends",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Tropicamide",
+      "id": 659,
+      "pickup": "Tear size + range up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Card Reading",
+      "id": 660,
+      "pickup": "A link to your future",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Quints",
+      "id": 661,
+      "pickup": "They lurk inside",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Greed Mode Item Room"
+    },
+    {
+      "title": "Tooth and Nail",
+      "id": 663,
+      "pickup": "You feel prickly",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Binge Eater",
+      "id": 664,
+      "pickup": "All you can eat",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Guppy's Eye",
+      "id": 665,
+      "pickup": "An eye for secrets",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room, Red Chest"
+    },
+    {
+      "title": "Strawman",
+      "id": 667,
+      "pickup": "A helping hand",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Dad's Note",
+      "id": 668,
+      "pickup": "...",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": ""
+    },
+    {
+      "title": "Sausage",
+      "id": 669,
+      "pickup": "All stats up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Options?",
+      "id": 670,
+      "pickup": "There might be options",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop"
+    },
+    {
+      "title": "Candy Heart",
+      "id": 671,
+      "pickup": "Power of love",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "A Pound of Flesh",
+      "id": 672,
+      "pickup": "Blood money",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Demon Beggar"
+    },
+    {
+      "title": "Redemption",
+      "id": 673,
+      "pickup": "Deliver me from evil",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "None"
+    },
+    {
+      "title": "Spirit Shackles",
+      "id": 674,
+      "pickup": "Unfinished business",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Cracked Orb",
+      "id": 675,
+      "pickup": "Shards of knowledge",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Empty Heart",
+      "id": 676,
+      "pickup": "It multiplies",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Demon Beggar"
+    },
+    {
+      "title": "Astral Projection",
+      "id": 677,
+      "pickup": "The true out-of-body experience!",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "C Section",
+      "id": 678,
+      "pickup": "Fetus shots",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Ultra Secret Room"
+    },
+    {
+      "title": "Lil Abaddon",
+      "id": 679,
+      "pickup": "Abyssal friend",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Montezuma's Revenge",
+      "id": 680,
+      "pickup": "Oh no...",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Lil Portal",
+      "id": 681,
+      "pickup": "It hungers",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Worm Friend",
+      "id": 682,
+      "pickup": "Clingy buddy",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Bone Spurs",
+      "id": 683,
+      "pickup": "Break your enemies",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Hungry Soul",
+      "id": 684,
+      "pickup": "Out for blood",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Jar of Wisps",
+      "id": 685,
+      "pickup": "Your faith grows",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Soul Locket",
+      "id": 686,
+      "pickup": "Power of faith",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Friend Finder",
+      "id": 687,
+      "pickup": "Best friends forever!",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Crane Game"
+    },
+    {
+      "title": "Inner Child",
+      "id": 688,
+      "pickup": "Let him free",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Glitched Crown",
+      "id": 689,
+      "pickup": "?????",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Belly Jelly",
+      "id": 690,
+      "pickup": "Bounce away!",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Sacred Orb",
+      "id": 691,
+      "pickup": "Destined for greatness",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room, Secret Room"
+    },
+    {
+      "title": "Sanguine Bond",
+      "id": 692,
+      "pickup": "He awaits your offering",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "The Swarm",
+      "id": 693,
+      "pickup": "Infest",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Key Beggar"
+    },
+    {
+      "title": "Heartbreak",
+      "id": 694,
+      "pickup": "Eternal sorrow",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "Bloody Gust",
+      "id": 695,
+      "pickup": "May your rage bring haste",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Salvation",
+      "id": 696,
+      "pickup": "Divine protection",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Angel Room"
+    },
+    {
+      "title": "Vanishing Twin",
+      "id": 697,
+      "pickup": "He wants revenge",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room, Curse Room"
+    },
+    {
+      "title": "Twisted Pair",
+      "id": 698,
+      "pickup": "Double trouble!",
+      "quality": 4,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Azazel's Rage",
+      "id": 699,
+      "pickup": "Ancient power",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Echo Chamber",
+      "id": 700,
+      "pickup": "I can see see the future future future",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Isaac's Tomb",
+      "id": 701,
+      "pickup": "Buried memories",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Vengeful Spirit",
+      "id": 702,
+      "pickup": "Hot blooded",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Devil Room, Curse Room"
+    },
+    {
+      "title": "Esau Jr",
+      "id": 703,
+      "pickup": "Lost brother",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Berserk!",
+      "id": 704,
+      "pickup": "Rip and tear",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Dark Arts",
+      "id": 705,
+      "pickup": "One with the shadows",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Abyss",
+      "id": 706,
+      "pickup": "Come forth from the depths",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room"
+    },
+    {
+      "title": "Supper",
+      "id": 707,
+      "pickup": "HP up",
+      "quality": 1,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Stapler",
+      "id": 708,
+      "pickup": "DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Suplex!",
+      "id": 709,
+      "pickup": "Angel breaker",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Crane Game"
+    },
+    {
+      "title": "Bag of Crafting",
+      "id": 710,
+      "pickup": "Make your destiny",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Flip",
+      "id": 711,
+      "pickup": "Life and death",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Curse Room, Secret Room, Shop"
+    },
+    {
+      "title": "Lemegeton",
+      "id": 712,
+      "pickup": "Item summoner",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Devil Room, Library"
+    },
+    {
+      "title": "Sumptorium",
+      "id": 713,
+      "pickup": "Return",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Recall",
+      "id": 714,
+      "pickup": "Come back",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "None"
+    },
+    {
+      "title": "Hold",
+      "id": 715,
+      "pickup": "Saved for later",
+      "quality": 0,
+      "type": "Active",
+      "recharge": null,
+      "pool": "None"
+    },
+    {
+      "title": "Keeper's Sack",
+      "id": 716,
+      "pickup": "Spending power",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Secret Room"
+    },
+    {
+      "title": "Keeper's Kin",
+      "id": 717,
+      "pickup": "Under a rock",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Secret Room"
+    },
+    {
+      "title": "Keeper's Box",
+      "id": 719,
+      "pickup": "Portable shop",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Shop, Secret Room, Wooden Chest"
+    },
+    {
+      "title": "Everything Jar",
+      "id": 720,
+      "pickup": "Anything is possible",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Crane Game"
+    },
+    {
+      "title": "TMTRAINER",
+      "id": 721,
+      "pickup": "Isaac and his mother lived alone in a small house on a hill",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Secret Room"
+    },
+    {
+      "title": "Anima Sola",
+      "id": 722,
+      "pickup": "Repent",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Spindown Dice",
+      "id": 723,
+      "pickup": "-1",
+      "quality": 4,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Secret Room, Crane Game"
+    },
+    {
+      "title": "Hypercoagulation",
+      "id": 724,
+      "pickup": "Thick blooded",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "IBS",
+      "id": 725,
+      "pickup": "Your stomach rumbles",
+      "quality": 0,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Hemoptysis",
+      "id": 726,
+      "pickup": "Double tap sneeze",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Ghost Bombs",
+      "id": 727,
+      "pickup": "Spooky blast +5 bombs",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Item Room, Bomb Beggar"
+    },
+    {
+      "title": "Gello",
+      "id": 728,
+      "pickup": "Demonic gestation",
+      "quality": 3,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room, Devil Room"
+    },
+    {
+      "title": "Decap Attack",
+      "id": 729,
+      "pickup": "Chuck away!",
+      "quality": 2,
+      "type": "Active",
+      "recharge": null,
+      "pool": "Item Room"
+    },
+    {
+      "title": "Glass Eye",
+      "id": 730,
+      "pickup": "DMG + luck up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room, Crane Game, Golden Chest"
+    },
+    {
+      "title": "Stye",
+      "id": 731,
+      "pickup": "DMG + range up",
+      "quality": 2,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Boss Room"
+    },
+    {
+      "title": "Mom's Ring",
+      "id": 732,
+      "pickup": "DMG up",
+      "quality": 3,
+      "type": "Passive",
+      "recharge": null,
+      "pool": "Shop, Golden Chest, Mom's Chest, Old Chest"
+    }
+  ]
+}
