@@ -51,33 +51,43 @@
         visibility: hidden;
       }
 
-    </style>
+      </style>
   </head>
-  <body>
+  <body onload="randomEarring()">
     <h1>♡ Made with love by Your OrangeXarot ♡</h1>
     <div id="earring"></div>
+    <!--
     <div id="button">
       <button onclick="randomEarring()">GENERATE</button>
     </div>
+    -->
     <script>
-      let loves = [
-        "I love you.",
-        "You mean the world to me.",
-        "My heart is yours.",
-        "You have my love, always.",
-        "There's nothing I love more than you.",
-        "You're the one I love.",
-        "You're the love of my life.",
-        "With every beat of my heart, I love you.",
-        "Forever yours.",
-        "Infinite love, just for you.",
-        "My love for you knows no boundaries.",
-        "You are my everything.",
-        "I love you so much.",
-        "You make me happy."
-      ];
+    let loves = [
+      "I love you.",
+      "You mean the world to me.",
+      "My heart is yours.",
+      "You have my love, always.",
+      "There's nothing I love more than you.",
+      "You're the one I love.",
+      "You're the love of my life.",
+      "With every beat of my heart, I love you.",
+      "Forever yours.",
+      "Infinite love, just for you.",
+      "My love for you knows no boundaries.",
+      "You are my everything.",
+      "I love you so much.",
+      "You make me happy."
+    ];
+
+      function getRandomNumber() {
+        const today = new Date();
+        const seed = today.toISOString().slice(0, 10); // Using the date as a seed
+        const randomNumber = parseInt(seed.replace(/\D/g, ''), 10) % 14 + 1;
+        return randomNumber;
+      }
+
       function randomEarring() {
-        let random = Math.floor(Math.random() * (14)) + 1;
+        let random = getRandomNumber();
         if(random < 10) {
           document.getElementById(
           "earring"
