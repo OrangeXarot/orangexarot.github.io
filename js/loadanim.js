@@ -227,7 +227,7 @@ bin misc profiles
   TD.onclick = async () => {
     await type(typend, `./misc/tboidle`, faster, faster);
 
-    window.open("misc/tboidle/index.html", "_blank");
+    window.open("misc/tboidle", "_blank");
     preclear();
   };
 }
