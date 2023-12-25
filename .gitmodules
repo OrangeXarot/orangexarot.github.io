@@ -1,0 +1,3 @@
+[submodule "misc/tboidle"]
+	path = misc/tboidle
+	url = git@github.com:OrangeXarot/tboidle.git
