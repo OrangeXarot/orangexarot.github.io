@@ -15,83 +15,67 @@ const faster = 50;
 const YT = document.getElementById("youtube");
 
 function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function usr() {
-    const usrEl = document.getElementById("usr");
+  const usrEl = document.getElementById("usr");
 
-    var result = bowser.getParser(navigator.userAgent).getResult();
-    usrEl.innerHTML = `${result.browser.name} (${result.os.name})`;
+  var result = bowser.getParser(navigator.userAgent).getResult();
+  usrEl.innerHTML = `${result.browser.name} (${result.os.name})`;
+}
+
+async function type(location, text, delay1, delay2) {
+  location.innerHTML = "_";
+  await sleep(delay1);
+
+  for (var i = 0; i <= text.length; i++) {
+    location.innerHTML = text.substring(0, i) + "_";
+    await sleep(delay2);
+  }
+
+  location.innerHTML = text;
+  await sleep(delay2);
 }
 
 async function preclear() {
-    PS4.innerHTML = `[orangexarot@website ~]$ `;
-    typ4.innerHTML = `_`;
-    await sleep(faster);
-    typ4.innerHTML = `c_`;
-    await sleep(faster);
-    typ4.innerHTML = `cl_`;
-    await sleep(faster);
-    typ4.innerHTML = `cle_`;
-    await sleep(faster);
-    typ4.innerHTML = `clea_`;
-    await sleep(faster);
-    typ4.innerHTML = `clear_`;
-    await sleep(faster);
-    typ4.innerHTML = `clear`;
-    await sleep(faster);
+  PS4.innerHTML = `[orangexarot@website ~]$ `;
 
-    clear();
+  await type(typ4, `clear`, faster, faster);
+
+  clear();
 }
 
 function clear() {
-    typ1.innerHTML = ``;
-    prompt1.innerHTML = ``;
-    PS2.innerHTML = ``;
-    typ2.innerHTML = ``;
-    prompt2.innerHTML = ``;
-    PS3.innerHTML = ``;
-    typend.innerHTML = ``;
-    PS4.innerHTML = ``;
-    typ4.innerHTML = ``;
-    neofetch();
+  typ1.innerHTML = ``;
+  prompt1.innerHTML = ``;
+  PS2.innerHTML = ``;
+  typ2.innerHTML = ``;
+  prompt2.innerHTML = ``;
+  PS3.innerHTML = ``;
+  typend.innerHTML = ``;
+  PS4.innerHTML = ``;
+  typ4.innerHTML = ``;
+  neofetch();
 }
 
 function uclear() {
-    typ1.innerHTML = ``;
-    prompt1.innerHTML = ``;
-    PS2.innerHTML = ``;
-    typ2.innerHTML = ``;
-    prompt2.innerHTML = ``;
-    PS3.innerHTML = ``;
-    typend.innerHTML = ``;
-    PS4.innerHTML = ``;
-    typ4.innerHTML = ``;
-    uwufetch();
+  typ1.innerHTML = ``;
+  prompt1.innerHTML = ``;
+  PS2.innerHTML = ``;
+  typ2.innerHTML = ``;
+  prompt2.innerHTML = ``;
+  PS3.innerHTML = ``;
+  typend.innerHTML = ``;
+  PS4.innerHTML = ``;
+  typ4.innerHTML = ``;
+  uwufetch();
 }
 
 async function neofetch() {
-    typ1.innerHTML = `_`;
-    await sleep(500);
-    typ1.innerHTML = `n_`;
-    await sleep(waiting);
-    typ1.innerHTML = `ne_`;
-    await sleep(waiting);
-    typ1.innerHTML = `neo_`;
-    await sleep(waiting);
-    typ1.innerHTML = `neof_`;
-    await sleep(waiting);
-    typ1.innerHTML = `neofe_`;
-    await sleep(waiting);
-    typ1.innerHTML = `neofet_`;
-    await sleep(waiting);
-    typ1.innerHTML = `neofetc_`;
-    await sleep(waiting);
-    typ1.innerHTML = `neofetch_`;
-    await sleep(waiting);
-    typ1.innerHTML = `neofetch`;
-    prompt1.innerHTML = `<span id="orange">                      <span id="green2">//////</span>     orangexarot</span>@<span id="orange">website</span>
+  await type(typ1, `neofetch`, 500, waiting);
+
+  prompt1.innerHTML = `<span id="orange">                      <span id="green2">//////</span>     orangexarot</span>@<span id="orange">website</span>
 <span id="orange">                    <span id="green2">//    ////</span>   </span>-------------------
 <span id="orange">              ////  <span id="green2">//  //  //</span>   </span><span id="orange">OS</span>: CarrotOS
 <span id="orange">            //    //<span id="green2">  //    //</span>   </span><span id="orange">Kernel</span>: Linux
@@ -106,32 +90,14 @@ async function neofetch() {
 <span id="orange">//        ////                   </span>
 <span id="orange">  ////////                       </span>`;
 
-    usr();
-    files();
+  usr();
+  files();
 }
 
 async function uwufetch() {
-    typ1.innerHTML = `_`;
-    await sleep(waiting);
-    typ1.innerHTML = `u_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uw_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uwu_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uwuf_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uwufe_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uwufet_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uwufetc_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uwufetch_`;
-    await sleep(waiting);
-    typ1.innerHTML = `uwufetch`;
+  await type(typ1, `uwufetch`, 500, waiting);
 
-    prompt1.innerHTML = `<span id="orange">                      <span id="green2">//////</span>     orangexarot</span>@<span id="orange">website</span>
+  prompt1.innerHTML = `<span id="orange">                      <span id="green2">//////</span>     orangexarot</span>@<span id="orange">website</span>
 <span id="orange">                    <span id="green2">//    ////</span>   </span>-------------------
 <span id="orange">              ////  <span id="green2">//  //  //</span>   </span><span id="orange">OwOS</span>: CawwotOwOS
 <span id="orange">            //    //<span id="green2">  //    //</span>   </span><span id="orange">Kewnel</span>: Linuwu
@@ -146,27 +112,16 @@ async function uwufetch() {
 <span id="orange">//        ////                   </span>
 <span id="orange">  ////////                       </span>`;
 
-    usr();
-    files();
+  usr();
+  files();
 }
 
 async function files() {
-    PS2.innerHTML = `[orangexarot@website ~]$ `;
-    typ2.innerHTML = `_`;
-    await sleep(700);
-    typ2.innerHTML = `l_`;
-    await sleep(waiting);
-    typ2.innerHTML = `ls_`;
-    await sleep(waiting);
-    typ2.innerHTML = `ls _`;
-    await sleep(waiting);
-    typ2.innerHTML = `ls -_`;
-    await sleep(waiting);
-    typ2.innerHTML = `ls -R_`;
-    await sleep(waiting);
-    typ2.innerHTML = `ls -R`;
+  PS2.innerHTML = `[orangexarot@website ~]$ `;
 
-    prompt2.innerHTML = `.:
+  await type(typ2, `ls -R`, 700, waiting);
+
+  prompt2.innerHTML = `.:
 bin misc profiles
 
 ./bin:
@@ -178,448 +133,95 @@ bin misc profiles
 ./profiles:
 <a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="reddit">reddit</a> <a href="#PS3" id="youtube">youtube</a>`;
 
-    PS3.innerHTML = `[orangexarot@website ~]$ `;
-    typend.innerHTML = `_`;
+  PS3.innerHTML = `[orangexarot@website ~]$ `;
+  typend.innerHTML = `_`;
 
-    const BG = document.getElementById("bio");
-    const UU = document.getElementById("utile");
-    const WF = document.getElementById("word");
-    const CL = document.getElementById("clear");
-    const NF = document.getElementById("neofetch");
-    const UF = document.getElementById("uwufetch");
+  const BG = document.getElementById("bio");
+  const UU = document.getElementById("utile");
+  const WF = document.getElementById("word");
+  const CL = document.getElementById("clear");
+  const NF = document.getElementById("neofetch");
+  const UF = document.getElementById("uwufetch");
 
-    const GH = document.getElementById("github");
-    const IG = document.getElementById("instagram");
-    const RD = document.getElementById("reddit");
-    const TT = document.getElementById("tiktok");
-    const YT = document.getElementById("youtube");
+  const GH = document.getElementById("github");
+  const IG = document.getElementById("instagram");
+  const RD = document.getElementById("reddit");
+  const TT = document.getElementById("tiktok");
+  const YT = document.getElementById("youtube");
 
-    CL.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `c_`;
-        await sleep(faster);
-        typend.innerHTML = `cl_`;
-        await sleep(faster);
-        typend.innerHTML = `cle_`;
-        await sleep(faster);
-        typend.innerHTML = `clea_`;
-        await sleep(faster);
-        typend.innerHTML = `clear_`;
-        await sleep(faster);
-        typend.innerHTML = `clear`;
-        await sleep(faster);
+  CL.onclick = async () => {
+    await type(typend, `clear`, faster, faster);
 
-        clear();
-    };
+    clear();
+  };
 
-    NF.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `c_`;
-        await sleep(faster);
-        typend.innerHTML = `cl_`;
-        await sleep(faster);
-        typend.innerHTML = `cle_`;
-        await sleep(faster);
-        typend.innerHTML = `clea_`;
-        await sleep(faster);
-        typend.innerHTML = `clear_`;
-        await sleep(faster);
-        typend.innerHTML = `clear`;
-        await sleep(faster);
+  NF.onclick = async () => {
+    await type(typend, `clear`, faster, faster);
 
-        clear();
-    };
+    clear();
+  };
 
-    UF.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `c_`;
-        await sleep(faster);
-        typend.innerHTML = `cl_`;
-        await sleep(faster);
-        typend.innerHTML = `cle_`;
-        await sleep(faster);
-        typend.innerHTML = `clea_`;
-        await sleep(faster);
-        typend.innerHTML = `clear_`;
-        await sleep(faster);
-        typend.innerHTML = `clear`;
-        await sleep(faster);
+  UF.onclick = async () => {
+    await type(typend, `clear`, faster, faster);
 
-        uclear();
-    };
+    uclear();
+  };
 
-    YT.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `._`;
-        await sleep(faster);
-        typend.innerHTML = `./_`;
-        await sleep(faster);
-        typend.innerHTML = `./p_`;
-        await sleep(faster);
-        typend.innerHTML = `./pr_`;
-        await sleep(faster);
-        typend.innerHTML = `./pro_`;
-        await sleep(faster);
-        typend.innerHTML = `./prof_`;
-        await sleep(faster);
-        typend.innerHTML = `./profi_`;
-        await sleep(faster);
-        typend.innerHTML = `./profil_`;
-        await sleep(faster);
-        typend.innerHTML = `./profile_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/y_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/yo_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/you_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/yout_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/youtu_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/youtub_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/youtube_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/youtube`;
-        await sleep(faster);
+  YT.onclick = async () => {
+    await type(typend, `./profiles/youtube`, faster, faster);
 
-        window.open("https://www.youtube.com/c/OrangeXarot", "_blank");
-        preclear();
-    };
+    window.open("https://www.youtube.com/c/OrangeXarot", "_blank");
+    preclear();
+  };
 
-    UU.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `._`;
-        await sleep(faster);
-        typend.innerHTML = `./_`;
-        await sleep(faster);
-        typend.innerHTML = `./m_`;
-        await sleep(faster);
-        typend.innerHTML = `./mi_`;
-        await sleep(faster);
-        typend.innerHTML = `./mis_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/u_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/ut_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/uti_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/util_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile._`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile.u_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile.ut_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile.uti_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile.util_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile.utile_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/utile.utile`;
-        await sleep(faster);
+  UU.onclick = async () => {
+    await type(typend, `./misc/utile.utile`, faster, faster);
 
-        window.open("misc/i.utile.html", "_blank");
-        preclear();
-    };
+    window.open("misc/i.utile.html", "_blank");
+    preclear();
+  };
 
-    WF.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `._`;
-        await sleep(faster);
-        typend.innerHTML = `./_`;
-        await sleep(faster);
-        typend.innerHTML = `./m_`;
-        await sleep(faster);
-        typend.innerHTML = `./mi_`;
-        await sleep(faster);
-        typend.innerHTML = `./mis_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/w_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wo_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wor_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/word_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wordf_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wordfu_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wordfus_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wordfuse_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wordfuser_`;
-        await sleep(faster);
-        typend.innerHTML = `./misc/wordfuser`;
-        await sleep(faster);
+  WF.onclick = async () => {
+    await type(typend, `./misc/wordfuser`, faster, faster);
 
-        window.open("misc/fuse.html", "_blank");
-        preclear();
-    }
+    window.open("misc/fuse.html", "_blank");
+    preclear();
+  };
 
-    IG.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `._`;
-        await sleep(faster);
-        typend.innerHTML = `./_`;
-        await sleep(faster);
-        typend.innerHTML = `./p_`;
-        await sleep(faster);
-        typend.innerHTML = `./pr_`;
-        await sleep(faster);
-        typend.innerHTML = `./pro_`;
-        await sleep(faster);
-        typend.innerHTML = `./prof_`;
-        await sleep(faster);
-        typend.innerHTML = `./profi_`;
-        await sleep(faster);
-        typend.innerHTML = `./profil_`;
-        await sleep(faster);
-        typend.innerHTML = `./profile_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/i_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/in_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/ins_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/inst_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/insta_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/instag_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/instagr_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/instagra_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/instagram_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/instagram`;
-        await sleep(faster);
+  IG.onclick = async () => {
+    await type(typend, `./profiles/instagram`, faster, faster);
 
-        window.open("https://www.instagram.com/orangexarot/", "_blank");
-        preclear();
-    };
+    window.open("https://www.instagram.com/orangexarot/", "_blank");
+    preclear();
+  };
 
-    RD.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `._`;
-        await sleep(faster);
-        typend.innerHTML = `./_`;
-        await sleep(faster);
-        typend.innerHTML = `./p_`;
-        await sleep(faster);
-        typend.innerHTML = `./pr_`;
-        await sleep(faster);
-        typend.innerHTML = `./pro_`;
-        await sleep(faster);
-        typend.innerHTML = `./prof_`;
-        await sleep(faster);
-        typend.innerHTML = `./profi_`;
-        await sleep(faster);
-        typend.innerHTML = `./profil_`;
-        await sleep(faster);
-        typend.innerHTML = `./profile_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/r_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/re_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/red_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/redd_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/reddi_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/reddit_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/reddit`;
-        await sleep(faster);
+  RD.onclick = async () => {
+    await type(typend, `./profiles/reddit`, faster, faster);
 
-        window.open("https://www.reddit.com/user/OrangeXarot", "_blank");
-        preclear();
-    };
+    window.open("https://www.reddit.com/user/OrangeXarot", "_blank");
+    preclear();
+  };
 
-    TT.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `._`;
-        await sleep(faster);
-        typend.innerHTML = `./_`;
-        await sleep(faster);
-        typend.innerHTML = `./p_`;
-        await sleep(faster);
-        typend.innerHTML = `./pr_`;
-        await sleep(faster);
-        typend.innerHTML = `./pro_`;
-        await sleep(faster);
-        typend.innerHTML = `./prof_`;
-        await sleep(faster);
-        typend.innerHTML = `./profi_`;
-        await sleep(faster);
-        typend.innerHTML = `./profil_`;
-        await sleep(faster);
-        typend.innerHTML = `./profile_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/t_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/ti_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/tik_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/tikt_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/tikto_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/tiktok_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/tiktok`;
-        await sleep(faster);
+  TT.onclick = async () => {
+    await type(typend, `./profiles/tiktok`, faster, faster);
 
-        window.open("https://www.tiktok.com/@orangexarot", "_blank");
-        preclear();
-    };
+    window.open("https://www.tiktok.com/@orangexarot", "_blank");
+    preclear();
+  };
 
-    GH.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `._`;
-        await sleep(faster);
-        typend.innerHTML = `./_`;
-        await sleep(faster);
-        typend.innerHTML = `./p_`;
-        await sleep(faster);
-        typend.innerHTML = `./pr_`;
-        await sleep(faster);
-        typend.innerHTML = `./pro_`;
-        await sleep(faster);
-        typend.innerHTML = `./prof_`;
-        await sleep(faster);
-        typend.innerHTML = `./profi_`;
-        await sleep(faster);
-        typend.innerHTML = `./profil_`;
-        await sleep(faster);
-        typend.innerHTML = `./profile_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/g_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/gi_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/git_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/gith_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/githu_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/github_`;
-        await sleep(faster);
-        typend.innerHTML = `./profiles/github`;
-        await sleep(faster);
+  GH.onclick = async () => {
+    await type(typend, `./profiles/github`, faster, faster);
 
-        window.open("https://github.com/OrangeXarot/", "_blank");
-        preclear();
-    };
+    window.open("https://github.com/OrangeXarot/", "_blank");
+    preclear();
+  };
 
-    BG.onclick = async () => {
-        typend.innerHTML = `_`;
-        await sleep(faster);
-        typend.innerHTML = `v_`;
-        await sleep(faster);
-        typend.innerHTML = `vi_`;
-        await sleep(faster);
-        typend.innerHTML = `vim_`;
-        await sleep(faster);
-        typend.innerHTML = `vim _`;
-        await sleep(faster);
-        typend.innerHTML = `vim m_`;
-        await sleep(faster);
-        typend.innerHTML = `vim mi_`;
-        await sleep(faster);
-        typend.innerHTML = `vim mis_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/b_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/bi_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/bio_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biog_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biogr_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biogra_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biograp_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biograph_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biography_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biography._`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biography.t_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biography.tx_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biography.txt_`;
-        await sleep(faster);
-        typend.innerHTML = `vim misc/biography.txt`;
-        await sleep(faster);
+  BG.onclick = async () => {
+    await type(typend, `vim misc/biography.txt`, faster, faster);
 
-        window.location.href = "misc/biography.html";
-        preclear();
-    };
+    window.location.href = "misc/biography.html";
+    preclear();
+  };
 }
 
 neofetch();
