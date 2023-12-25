@@ -128,7 +128,7 @@ bin misc profiles
 <a href="#PS3" id="clear">clear</a> <a href="#PS3" id="neofetch">neofetch</a> <a href="#PS3" id="uwufetch">uwufetch</a>
 
 ./misc:
-<a href="#PS3" id="bio">biography.txt</a> <a href="#PS3" id="utile">utile.utile</a> <a href="#PS3" id="word">wordfuser</a>
+<a href="#PS3" id="bio">biography.txt</a> <a href="#PS3" id="tboidle">tboidle</a> <a href="#PS3" id="utile">utile.utile</a> <a href="#PS3" id="word">wordfuser</a>
 
 ./profiles:
 <a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="reddit">reddit</a> <a href="#PS3" id="youtube">youtube</a>`;
@@ -138,6 +138,7 @@ bin misc profiles
 
   const BG = document.getElementById("bio");
   const UU = document.getElementById("utile");
+  const TD = document.getElementById("tboidle");
   const WF = document.getElementById("word");
   const CL = document.getElementById("clear");
   const NF = document.getElementById("neofetch");
@@ -202,12 +203,12 @@ bin misc profiles
     preclear();
   };
 
-  TT.onclick = async () => {
+  /*TT.onclick = async () => {
     await type(typend, `./profiles/tiktok`, faster, faster);
 
     window.open("https://www.tiktok.com/@orangexarot", "_blank");
     preclear();
-  };
+  };*/
 
   GH.onclick = async () => {
     await type(typend, `./profiles/github`, faster, faster);
@@ -220,6 +221,13 @@ bin misc profiles
     await type(typend, `vim misc/biography.txt`, faster, faster);
 
     window.location.href = "misc/biography.html";
+    preclear();
+  };
+
+  TD.onclick = async () => {
+    await type(typend, `./misc/tboidle`, faster, faster);
+
+    window.open("misc/tboidle/index.html", "_blank");
     preclear();
   };
 }
