@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gen Faces</title>
+    <link rel="stylesheet" href="styles.css"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+<body onload="prepare()">
+<div class="title">
+        <div class="aaa">
+            <div class="toptext">Genfaces <span class="blinky">x_x</span></div>
+
+            <div class="subtext">by OrangeXarot</div>
+        </div>
+</div>
+<div class="input">
+    <div class="options" onclick="toggleAdvanced()">></div>
+    <input type="text"  value="x_x" name="placeholder" id="placeholder" oninput="update()">
+    <button onclick="generate()" class="generate">gen</button>
+</div>
+<div class="isuckatnamingstuff">
+    <div class="advanced hidden">
+        <div class="others">TEMPLATES:<br><button onclick="setPH('x_x')">x_x</button><button onclick="setPH('_x')">_x</button><br><button onclick="setPH('x-x')">x-x</button><button onclick="setPH('x:')">x:</button><br><button onclick="setPH('x.')">x.</button><button onclick="setPH(':x')">:x</button><br><button onclick="setPH('xwx')">xwx</button><button onclick="setPH('x.x')">x.x</button><br><button onclick="setPH('xyx')">xyx</button></div>
+        <label><input type="hidden" name="times" id="times" value="20"></label>
+    </div>
+
+    <div class="faces"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

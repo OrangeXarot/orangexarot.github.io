@@ -128,10 +128,10 @@ bin misc profiles
 <a href="#PS3" id="clear">clear</a> <a href="#PS3" id="neofetch">neofetch</a> <a href="#PS3" id="uwufetch">uwufetch</a>
 
 ./misc:
-<a href="#PS3" id="bio">biography.txt</a> <a href="#PS3" id="tboidle">tboidle</a> <a href="#PS3" id="utile">utile.utile</a> <a href="#PS3" id="word">wordfuser</a>
+<a href="#PS3" id="bio">biography.txt</a> <a href="#PS3" id="genfaces">genfaces</a> <a href="#PS3" id="tboidle">tboidle</a> <a href="#PS3" id="utile">utile.utile</a> <a href="#PS3" id="word">wordfuser</a>
 
 ./profiles:
-<a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="reddit">reddit</a> <a href="#PS3" id="youtube">youtube</a>`;
+<a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="youtube">youtube</a>`;
 
   PS3.innerHTML = `[orangexarot@website ~]$ `;
   typend.innerHTML = `_`;
@@ -139,6 +139,7 @@ bin misc profiles
   const BG = document.getElementById("bio");
   const UU = document.getElementById("utile");
   const TD = document.getElementById("tboidle");
+  const GF = document.getElementById("genfaces");
   const WF = document.getElementById("word");
   const CL = document.getElementById("clear");
   const NF = document.getElementById("neofetch");
@@ -196,12 +197,6 @@ bin misc profiles
     preclear();
   };
 
-  RD.onclick = async () => {
-    await type(typend, `./profiles/reddit`, faster, faster);
-
-    window.open("https://www.reddit.com/user/OrangeXarot", "_blank");
-    preclear();
-  };
 
   /*TT.onclick = async () => {
     await type(typend, `./profiles/tiktok`, faster, faster);
@@ -224,10 +219,11 @@ bin misc profiles
     preclear();
   };
 
-  TD.onclick = async () => {
-    await type(typend, `./misc/tboidle`, faster, faster);
 
-    window.open("misc/tboidle", "_blank");
+  GF.onclick = async () => {
+    await type(typend, `./misc/genfaces`, faster, faster);
+
+    window.open("misc/genfaces/index.html", "_blank");
     preclear();
   };
 }
