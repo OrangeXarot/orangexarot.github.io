@@ -134,7 +134,7 @@ bin misc profiles
 <a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="youtube">youtube</a>
 
 ./sites:
-<a href="#PS3" id="fitjkm">fitjkm-repack</a>  <a href="#PS3" id="oxwallzz">oxwallzz</a>
+<a href="#PS3" id="fitjkm">fitjkm-repack</a> <a href="#PS3" id="oxwallzz">oxwallzz</a>
 `;
 
   PS3.innerHTML = `[orangexarot@website ~]$ `;
