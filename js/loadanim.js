@@ -131,7 +131,11 @@ bin misc profiles
 <a href="#PS3" id="bio">biography.txt</a> <a href="#PS3" id="genfaces">genfaces</a> <a href="#PS3" id="tboidle">tboidle</a> <a href="#PS3" id="utile">utile.utile</a> <a href="#PS3" id="word">wordfuser</a>
 
 ./profiles:
-<a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="youtube">youtube</a>`;
+<a href="#PS3" id="github">github</a> <a href="#PS3" id="instagram">instagram</a> <a href="#PS3" id="youtube">youtube</a>
+
+./sites:
+<a href="#PS3" id="fitjkm">fitjkm-repack</a>  <a href="#PS3" id="oxwallzz">oxwallzz</a>
+`;
 
   PS3.innerHTML = `[orangexarot@website ~]$ `;
   typend.innerHTML = `_`;
@@ -150,6 +154,10 @@ bin misc profiles
   const RD = document.getElementById("reddit");
   const TT = document.getElementById("tiktok");
   const YT = document.getElementById("youtube");
+
+  const FJ = document.getElementById("fitjkm");
+  const OW = document.getElementById("oxwallzz");
+
 
   CL.onclick = async () => {
     await type(typend, `clear`, faster, faster);
@@ -226,6 +234,24 @@ bin misc profiles
     window.open("misc/genfaces/index.html", "_blank");
     preclear();
   };
+
+  FJ.onclick = async () => {
+    await type(typend, `./sites/fitjkm-repack`, faster, faster);
+
+    window.open("https://fitjkm-repack.github.io/", "_blank");
+    preclear();
+  };
+
+  OW.onclick = async () => {
+    await type(typend, `./sites/oxwallzz`, faster, faster);
+
+    window.open("https://oxwallzz.github.io/", "_blank");
+    preclear();
+  };
+
+
 }
+
+
 
 neofetch();
