@@ -1,33 +1,31 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>OrangeXarot's Website</title>
-        <link rel="icon" type="image/png" href="src/ico.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
-    <body>
-        <h1>Welcome to OrangeXarot's Website<span id="shh"> ඞ</span></h1>
-        <div id="terminal">
-            <div id="dot1"></div>
-            <div id="dot2"></div>
-            <div id="dot3"></div>
-            <br />
-            <p id="PS1">[orangexarot@website ~]$ <span id="typ1"></span></p>
-            <p id="prompt1"></p>
-            <p><span id="PS2"></span><span id="typ2"></span></p>
-            <p id="prompt2"></p>
-            <p><span id="PS3"></span><span id="typend"></span></p>
-            <p><span id="PS4"></span><span id="typ4"></span></p>
-        </div>
-        <div id="phrase">placeholder test test test</div>
-        <span id="spins"></span>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bowser@2.11.0/es5.min.js"></script>
-    <script src="js/greet.js"></script>
-    <script src="js/loadanim.js"></script>
-    <script src="js/timer.js"></script>
-    <script src="js/easteregg.js"></script>
-    <script src="js/buttons.js"></script>
+<head>
+    <link rel="icon" type="image/png" href="src/ico.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="colors.css" />
+    <meta charset="UTF-8">
+    <title>OrangeXarot's Website</title>
+
+</head>
+<body>
+<h1>Welcome to OrangeXarot's Website<span class="shh"> ඞ</span></h1>
+<div class="terminal">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+    <div class="dot3"></div>
+
+    <div class="shell">_</div>
+
+</div>
+<div class="phrase">placeholder test test test</div>
+<button class="boot" onclick='boot()'><i class="nf nf-iec-power icon"></i>boot</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bowser@2.11.0/es5.min.js"></script>
+<script src="scripts/terminal.js"></script>
+<script src="scripts/buttons.js"></script>
+</body>
 </html>

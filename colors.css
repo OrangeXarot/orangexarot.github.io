@@ -1,0 +1,137 @@
+
+.colors {
+    color: #00000000;
+    background: #000;
+}
+
+.blackfg {
+    color: #000000;
+}
+
+.red2fg {
+    color: #730b16;
+}
+
+.green2fg {
+    color: #009942;
+}
+
+.yellow2fg {
+    color: #cdcd00;
+}
+
+.orange2fg {
+    color: #993000;
+}
+
+.magenta2fg {
+    color: #6b0064;
+}
+
+.cyan2fg {
+    color: #255880;
+}
+
+.white2fg {
+    color: #b6b6b6;
+}
+
+.grayfg {
+    color: #7f7f7f;
+}
+
+.redfg {
+    color: #d91629;
+}
+
+.greenfg {
+    color: #00ff6e;
+}
+
+.yellowfg {
+    color: #ffff00;
+}
+
+.orangecfg {
+    color: #ff4f00;
+}
+
+.magentafg {
+    color: #d100c3;
+}
+
+.cyanfg {
+    color: #4ab1ff;
+}
+
+.whitefg {
+    color: #ffffff;
+}
+
+.blackbg {
+    background: #000000;
+}
+
+.red2bg {
+    background: #730b16;
+}
+
+.green2bg {
+    background: #009942;
+}
+
+.yellow2bg {
+    background: #cdcd00;
+}
+
+.orange2bg {
+    background: #993000;
+}
+
+.magenta2bg {
+    background: #6b0064;
+}
+
+.cyan2bg {
+    background: #255880;
+}
+
+.white2bg {
+    background: #b6b6b6;
+}
+
+.graybg {
+    background: #7f7f7f;
+}
+
+.redbg {
+    background: #d91629;
+}
+
+.greenbg {
+    background: #00ff6e;
+}
+
+.yellowbg {
+    background: #ffff00;
+}
+
+.orangebg {
+    background: #ff4f00;
+}
+
+.magentabg {
+    background: #d100c3;
+}
+
+.cyanbg {
+    background: #4ab1ff;
+}
+
+.whitebg {
+    background: #ffffff;
+}
+
+.shh {
+    color: #00000000;
+}

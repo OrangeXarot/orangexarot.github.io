@@ -1,86 +1,18 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
 body {
     background: #0c0c0c;
     color: #ffffff;
     font-family: "Source Code Pro", monospace;
-    line-height: 24px;
-    font-size: 20px;
+    font-size: 16px;
     height: 100vh;
     margin: 0;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
-
-#terminal::-webkit-scrollbar {
-    display: none;
-}
-
-#terminal {
-    overflow: hidden;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    margin: 10px;
-    background: #000;
-    border-radius: 25px;
-    height: 80vh;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 3px solid;
-    border-color: #ff4f00;
-}
-
-#dot1,
-#dot2,
-#dot3 {
-    background: #ff4f00;
-    width: 20px;
-    height: 20px;
-    position: fixed;
-    top: 90px;
-    border-radius: 25px;
-}
-
-#dot1 {
-    background: #ff4f00;
-    right: 30px;
-}
-
-#dot2 {
-    background: #ffff00;
-    right: 60px;
-}
-
-#dot3 {
-    background: #00ff6e;
-    right: 90px;
-    cursor: pointer;
+    padding: 0;
 }
 
 ::selection {
     color: #fff;
     background: #ff4f00;
-}
-
-h1 {
-    color: #ff4f00;
-    margin-bottom: 20px;
-    padding-top: 25px;
-    padding-left: 10px;
-    width: max-content;
-}
-
-p {
-    font-size: 20px;
-    width: max-content;
-    white-space: pre;
-    margin-bottom: 0;
-    margin-top: 2px;
-    line-height: 24px;
 }
 
 a,
@@ -90,13 +22,54 @@ a:active {
     color: #ff4f00;
 }
 
-#spins {
-    position: fixed;
-    right: 30px;
-    top: 130px;
+h1 {
+    color: #ff4f00;
+    line-height: 20px;
+    text-align: center;
 }
 
-#phrase {
+.dot1,
+.dot2,
+.dot3 {
+    background: #ff4f00;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 85px;
+    border-radius: 25px;
+}
+
+.dot1 {
+    background: #ff4f00;
+    right: 40px;
+}
+
+.dot2 {
+    background: #ffff00;
+    right: 70px;
+}
+
+.dot3 {
+    background: #00ff6e;
+    right: 100px;
+    cursor: pointer;
+}
+
+.terminal {
+    overflow: auto;
+    scrollbar-width: none;
+    margin: 10px;
+    background: #000;
+    border-radius: 25px;
+    height: 75vh;
+    padding: 30px;
+    margin: 0 20px;
+    border: 3px solid;
+    border-color: #ff4f00;
+}
+
+
+.phrase {
     position: fixed;
     z-index: -1;
     top: 0;
@@ -107,88 +80,28 @@ a:active {
     align-items: center;
 }
 
-#tphrase {
+
+.boot {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: 3px solid #ff4f00;
+    background: #0c0c0c;
+    border-radius: 25px;
+    color: #ff4f00;
+    font-size: 30px;
+    padding: 20px 30px;
+    font-weight: bolder;
 
 }
 
-#orange {
+.icon {
+    margin-right: 15px;
+}
+
+.orange {
     color: #ff4f00;
     font-weight: 800;
 }
 
-#green2 {
-    color: #009942;
-}
 
-#colors {
-    color: #00000000;
-    background: #000;
-}
-
-#black {
-    background: #000000;
-}
-
-#red2 {
-    background: #730b16;
-}
-
-#green2c {
-    background: #009942;
-}
-
-#yellow2 {
-    background: #cdcd00;
-}
-
-#orange2 {
-    background: #993000;
-}
-
-#magenta2 {
-    background: #6b0064;
-}
-
-#cyan2 {
-    background: #255880;
-}
-
-#white2 {
-    background: #e5e5e5;
-}
-
-#gray {
-    background: #7f7f7f;
-}
-
-#red {
-    background: #d91629;
-}
-
-#green {
-    background: #00ff6e;
-}
-
-#yellow {
-    background: #ffff00;
-}
-
-#orangec {
-    background: #ff4f00;
-}
-
-#magenta {
-    background: #d100c3;
-}
-
-#cyan {
-    background: #4ab1ff;
-}
-
-#white {
-    background: #ffffff;
-}
-
-#shh {
-    color: #00000000;
-}
