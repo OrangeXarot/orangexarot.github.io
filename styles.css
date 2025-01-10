@@ -117,6 +117,6 @@ h1 {
 
 @media (max-width: 768px) {
     .shell {
-        font-size: 20px; /* Smaller font size for phones */
+        font-size: 20px !important;
     }
 }
