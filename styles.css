@@ -1,5 +1,12 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
+html, body {
+    -webkit-text-size-adjust: none; /* Disable font size adjustments */
+    -ms-text-size-adjust: none;    /* For Internet Explorer Mobile */
+    text-size-adjust: none;        /* General property for modern browsers */
+}
+
+
 body {
     background: #0c0c0c;
     color: #ffffff;
