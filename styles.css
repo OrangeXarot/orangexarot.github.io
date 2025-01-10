@@ -111,4 +111,12 @@ h1 {
     font-weight: 800;
 }
 
+.shell {
+    font-size: 16px;
+}
 
+@media (max-width: 768px) {
+    .shell {
+        font-size: 20px; /* Smaller font size for phones */
+    }
+}
