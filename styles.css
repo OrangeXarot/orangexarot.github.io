@@ -76,6 +76,8 @@ h1 {
 }
 
 
+
+
 .phrase {
     position: fixed;
     z-index: -1;
@@ -99,7 +101,46 @@ h1 {
     font-size: 30px;
     padding: 20px 30px;
     font-weight: bolder;
+}
 
+.boot-info {
+    position: absolute;
+    right: 210px;
+    bottom: 30px;
+    border: 3px solid #ffffff;
+    background: #0c0c0c;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.info-triangle {
+    position: absolute;
+    bottom: 15px;
+    right: -22px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+
+}
+
+.diss {
+    animation: diss 0.4s forwards;
+}
+
+@keyframes diss {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .icon {

@@ -23,6 +23,7 @@ let spintext = "";
 let time = 0;
 let minutes;
 let seconds;
+let booting = false;
 
 const NEOFETCH = `<pre><span class="orange">                      <span class="green2fg">//////</span>     orangexarot</span>@<span class="orange">website</span>
 <span class="orange">                    <span class="green2fg">//    ////</span>   </span>-------------------
@@ -189,7 +190,13 @@ async function command(input, dontWrite) {
 }
 
 async function boot() {
-    document.querySelector(".boot").style.display = "none";
+    if(booting) return;
+    booting = true;
+    let bootbtn = document.querySelector(".boot");
+    bootbtn.style.color = "#fff";
+    bootbtn.style.borderColor = "#fff";
+    bootbtn.style.background = `linear-gradient(to right, #fff 0%, #0c0c0c 0%)`
+    document.querySelector(".boot-info").classList.add("diss");
     
     bootphrasesudev = [ 
         "<span class='white2fg'>:: running early hook [udev]</span>",
@@ -243,25 +250,40 @@ async function boot() {
     
     SHELL.innerHTML = "_";
     
+    let totboot =  bootphrasesudev.length + bootphrasessd.length;
+    let bootcounter = 1;
+    let perc = 0;
     
-    
+    console.log(totboot)
     for (let i = 0; i < bootphrasesudev.length; i++) {
         await sleep(50);
         SHELL.innerHTML = SHELL.innerHTML.slice(0, -1) + bootphrasesudev[i] + "<br />_";
         TERMINAL.scrollTop = TERMINAL.scrollHeight;
+
+        bootcounter++;
+        perc = Math.round(bootcounter/totboot*100);
+        bootbtn.style.background = `linear-gradient(to right, #fff ${perc}%, #0c0c0c ${perc}%)`
     }
     
     await sleep(200);
+    
+    
 
     for (let i = 0; i < bootphrasessd.length; i++) {
         await sleep(20);
         SHELL.innerHTML =  SHELL.innerHTML.slice(0, -1) + bootphrasessd[i] + "<br />_";
         TERMINAL.scrollTop = TERMINAL.scrollHeight;
+
+        bootcounter++;
+        perc = Math.round(bootcounter/totboot*100);
+        bootbtn.style.background = `linear-gradient(to right, #fff ${perc}%, #0c0c0c ${perc}%)`
     }
 
     await sleep(300);
 
     setInterval(updateTimer, 1000);
+
+    bootbtn.classList.add("diss");
 
     SHELL.innerHTML = "CarrotOS 2.0-carrot (tty)<br />website login: _";
 
