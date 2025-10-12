@@ -74,6 +74,12 @@
             color: #000;
             border-color: #fff;
         }
+        .sound-btn.loading {
+            background: #222; /* dimmer */
+            color: #666;      /* grey text */
+            border-color: #444;
+            cursor: not-allowed;
+        }
 
         /* === BOTTOM CONTROLS === */
         #bottom-controls {
@@ -204,18 +210,43 @@
     const sounds = {};
     let timeUpdater = null;
 
-    // Preload all sounds
-    window.addEventListener('DOMContentLoaded', () => {
+    // Add a "loading" class and disable buttons initially
+    buttons.forEach(btn => {
+        btn.disabled = true;
+        btn.classList.add('loading');
+    });
+
+    // Preload all audios
+    window.addEventListener('DOMContentLoaded', async () => {
+        const loadPromises = [];
+
         buttons.forEach(btn => {
             const path = btn.dataset.sound;
             const loop = btn.dataset.loop === "true";
             const audio = new Audio(path);
             audio.loop = loop;
             audio.preload = "auto";
-            audio.load();
+
             sounds[path] = audio;
+
+            // Promise resolves when metadata is loaded
+            const promise = new Promise(resolve => {
+                audio.addEventListener('loadedmetadata', () => {
+                    // Enable button and remove loading style
+                    btn.disabled = false;
+                    btn.classList.remove('loading');
+                    resolve();
+                }, { once: true });
+            });
+            loadPromises.push(promise);
+
+            // Attach click handler
             btn.addEventListener('click', () => handleButtonClick(btn, audio));
         });
+
+        // Wait for all audios to finish loading
+        await Promise.all(loadPromises);
+        console.log("All audio loaded and ready!");
     });
 
     function handleButtonClick(btn, audio) {
